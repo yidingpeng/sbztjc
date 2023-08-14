@@ -1,0 +1,16 @@
+2023-07-28 10:19:16.904 (System.Net.Http.HttpClient.Default.LogicalHandler) [INF] Start processing HTTP request "POST" http://www.webxml.com.cn/WebServices/WeatherWebService.asmx/getSupportCity
+2023-07-28 10:19:16.911 (System.Net.Http.HttpClient.Default.ClientHandler) [INF] Sending HTTP request "POST" http://www.webxml.com.cn/WebServices/WeatherWebService.asmx/getSupportCity
+2023-07-28 10:19:17.170 (System.Net.Http.HttpClient.Default.ClientHandler) [INF] Received HTTP response headers after 254.9042ms - 500
+2023-07-28 10:19:17.172 (System.Net.Http.HttpClient.Default.LogicalHandler) [INF] End processing HTTP request after 277.8651ms - 500
+2023-07-28 10:42:21.265 (System.Net.Http.HttpClient.Default.LogicalHandler) [INF] Start processing HTTP request "POST" http://www.webxml.com.cn/WebServices/WeatherWebService.asmx/getSupportCity
+2023-07-28 10:42:21.271 (System.Net.Http.HttpClient.Default.ClientHandler) [INF] Sending HTTP request "POST" http://www.webxml.com.cn/WebServices/WeatherWebService.asmx/getSupportCity
+2023-07-28 10:42:21.461 (System.Net.Http.HttpClient.Default.ClientHandler) [INF] Received HTTP response headers after 185.8872ms - 500
+2023-07-28 10:42:21.462 (System.Net.Http.HttpClient.Default.LogicalHandler) [INF] End processing HTTP request after 208.2453ms - 500
+2023-07-28 11:12:08.330 (System.Net.Http.HttpClient.Default.LogicalHandler) [INF] Start processing HTTP request "POST" http://www.webxml.com.cn/WebServices/WeatherWebService.asmx/getSupportCity
+2023-07-28 11:12:08.330 (System.Net.Http.HttpClient.Default.ClientHandler) [INF] Sending HTTP request "POST" http://www.webxml.com.cn/WebServices/WeatherWebService.asmx/getSupportCity
+2023-07-28 11:12:08.472 (System.Net.Http.HttpClient.Default.ClientHandler) [INF] Received HTTP response headers after 141.9294ms - 500
+2023-07-28 11:12:08.472 (System.Net.Http.HttpClient.Default.LogicalHandler) [INF] End processing HTTP request after 142.1469ms - 500
+2023-07-28 11:14:24.276 (System.Net.Http.HttpClient.Default.LogicalHandler) [INF] Start processing HTTP request "POST" http://www.webxml.com.cn/WebServices/WeatherWebService.asmx/getSupportCity
+2023-07-28 11:14:24.282 (System.Net.Http.HttpClient.Default.ClientHandler) [INF] Sending HTTP request "POST" http://www.webxml.com.cn/WebServices/WeatherWebService.asmx/getSupportCity
+2023-07-28 11:14:24.452 (System.Net.Http.HttpClient.Default.ClientHandler) [INF] Received HTTP response headers after 166.939ms - 500
+2023-07-28 11:14:24.453 (System.Net.Http.HttpClient.Default.LogicalHandler) [INF] End processing HTTP request after 189.4088ms - 500

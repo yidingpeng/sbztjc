@@ -1,0 +1,36 @@
+2023-07-11 21:54:19.606 (Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware) [ERR] An unhandled exception has occurred while executing the request.
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at Castle.DynamicProxy.Internal.InvocationHelper.ObtainMethod(MethodInfo proxiedMethod, Type type)
+   at Castle.Core.Internal.SynchronizedDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Castle.DynamicProxy.Internal.InvocationHelper.GetMethodOnType(Type type, MethodInfo proxiedMethod)
+   at RW.PMS.CrossCutting.AOP.Interceptors.DatabaseTransactionAsync.TryBegin(IInvocation invocation) in D:\Project\设备状态监测系统\web\src\service\RW.PMS.CrossCutting\AOP\Interceptors\DatabaseTransactionAsync.cs:line 118
+   at RW.PMS.CrossCutting.AOP.Interceptors.DatabaseTransactionAsync.InterceptSynchronous(IInvocation invocation) in D:\Project\设备状态监测系统\web\src\service\RW.PMS.CrossCutting\AOP\Interceptors\DatabaseTransactionAsync.cs:line 26
+   at RW.PMS.CrossCutting.AOP.Interceptors.DatabaseTransaction.Intercept(IInvocation invocation) in D:\Project\设备状态监测系统\web\src\service\RW.PMS.CrossCutting\AOP\Interceptors\DatabaseTransaction.cs:line 16
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.IApplicationServiceProxy_1.AddLog(LogInputDto input)
+   at RW.PMS.API.Middleware.ExceptionMiddleWare.HandleCommonException(HttpContext context, Exception e) in D:\Project\设备状态监测系统\web\src\service\RW.PMS.API\Middleware\ExceptionMiddleWare.cs:line 63
+   at RW.PMS.API.Middleware.ExceptionMiddleWare.InvokeAsync(HttpContext context, RequestDelegate next) in D:\Project\设备状态监测系统\web\src\service\RW.PMS.API\Middleware\ExceptionMiddleWare.cs:line 31
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.<>c__DisplayClass6_1.<<UseMiddlewareInterface>b__1>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-07-11 21:54:33.087 (Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware) [ERR] An unhandled exception has occurred while executing the request.
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at Castle.DynamicProxy.Internal.InvocationHelper.ObtainMethod(MethodInfo proxiedMethod, Type type)
+   at Castle.Core.Internal.SynchronizedDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Castle.DynamicProxy.Internal.InvocationHelper.GetMethodOnType(Type type, MethodInfo proxiedMethod)
+   at RW.PMS.CrossCutting.AOP.Interceptors.DatabaseTransactionAsync.TryBegin(IInvocation invocation) in D:\Project\设备状态监测系统\web\src\service\RW.PMS.CrossCutting\AOP\Interceptors\DatabaseTransactionAsync.cs:line 118
+   at RW.PMS.CrossCutting.AOP.Interceptors.DatabaseTransactionAsync.InterceptSynchronous(IInvocation invocation) in D:\Project\设备状态监测系统\web\src\service\RW.PMS.CrossCutting\AOP\Interceptors\DatabaseTransactionAsync.cs:line 26
+   at RW.PMS.CrossCutting.AOP.Interceptors.DatabaseTransaction.Intercept(IInvocation invocation) in D:\Project\设备状态监测系统\web\src\service\RW.PMS.CrossCutting\AOP\Interceptors\DatabaseTransaction.cs:line 16
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.IApplicationServiceProxy_1.AddLog(LogInputDto input)
+   at RW.PMS.API.Middleware.ExceptionMiddleWare.HandleCommonException(HttpContext context, Exception e) in D:\Project\设备状态监测系统\web\src\service\RW.PMS.API\Middleware\ExceptionMiddleWare.cs:line 63
+   at RW.PMS.API.Middleware.ExceptionMiddleWare.InvokeAsync(HttpContext context, RequestDelegate next) in D:\Project\设备状态监测系统\web\src\service\RW.PMS.API\Middleware\ExceptionMiddleWare.cs:line 31
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.<>c__DisplayClass6_1.<<UseMiddlewareInterface>b__1>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)

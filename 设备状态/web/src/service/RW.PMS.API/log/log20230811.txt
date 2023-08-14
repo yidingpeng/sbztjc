@@ -1,0 +1,404 @@
+2023-08-11 09:05:17.962 (Quartz.Impl.StdSchedulerFactory) [INF] Default Quartz.NET properties loaded from embedded resource file
+2023-08-11 09:05:18.040 (Quartz.Simpl.TaskSchedulingThreadPool) [DBG] TaskSchedulingThreadPool configured with max concurrency of 10 and TaskScheduler ThreadPoolTaskScheduler.
+2023-08-11 09:05:18.062 (Quartz.Core.SchedulerSignalerImpl) [INF] Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2023-08-11 09:05:18.062 (Quartz.Core.QuartzScheduler) [INF] Quartz Scheduler created
+2023-08-11 09:05:18.063 (Quartz.Core.QuartzScheduler) [INF] JobFactory set to: Autofac.Extras.Quartz.AutofacJobFactory
+2023-08-11 09:05:18.064 (Quartz.Simpl.RAMJobStore) [INF] RAMJobStore initialized.
+2023-08-11 09:05:18.064 (Quartz.Impl.StdSchedulerFactory) [INF] Quartz Scheduler 3.6.3.0 - 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED' initialized
+2023-08-11 09:05:18.065 (Quartz.Impl.StdSchedulerFactory) [INF] Using thread pool 'Quartz.Simpl.DefaultThreadPool', size: 10
+2023-08-11 09:05:18.065 (Quartz.Impl.StdSchedulerFactory) [INF] Using job store 'Quartz.Simpl.RAMJobStore', supports persistence: False, clustered: False
+2023-08-11 09:05:18.084 (Quartz.Core.QuartzScheduler) [INF] Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2023-08-11 09:05:18.091 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 09:05:18.175 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 09:05:18.175 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 09:05:18.175 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 09:05:45.589 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 09:06:12.023 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 09:06:36.914 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 09:07:04.901 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 09:07:32.179 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 09:07:59.129 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 09:08:28.769 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 09:08:56.794 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 09:09:26.342 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 09:09:52.200 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 09:10:20.457 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 09:10:46.840 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 09:11:13.937 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 09:11:42.955 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 09:12:11.150 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 09:12:40.003 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 09:13:07.668 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 09:13:31.066 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 09:14:00.495 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 09:14:28.090 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 09:14:57.680 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 09:15:23.938 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 09:15:52.628 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 09:16:18.088 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 09:16:41.908 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 09:17:10.832 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 09:17:38.436 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 09:18:02.154 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 09:18:29.579 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 09:18:54.719 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 09:19:21.729 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 09:19:46.626 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 09:20:14.331 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 09:20:39.409 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 09:21:07.408 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 09:21:33.030 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 09:21:59.551 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 09:22:24.379 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 09:22:50.419 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 09:23:13.681 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 09:23:42.948 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 09:24:07.837 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 09:24:31.126 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 09:24:58.518 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 09:25:24.636 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 09:25:48.068 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 09:26:16.527 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 09:26:44.810 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 09:27:14.471 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 09:30:11.742 (Quartz.Impl.StdSchedulerFactory) [INF] Default Quartz.NET properties loaded from embedded resource file
+2023-08-11 09:30:11.803 (Quartz.Simpl.TaskSchedulingThreadPool) [DBG] TaskSchedulingThreadPool configured with max concurrency of 10 and TaskScheduler ThreadPoolTaskScheduler.
+2023-08-11 09:30:11.819 (Quartz.Core.SchedulerSignalerImpl) [INF] Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2023-08-11 09:30:11.819 (Quartz.Core.QuartzScheduler) [INF] Quartz Scheduler created
+2023-08-11 09:30:11.820 (Quartz.Core.QuartzScheduler) [INF] JobFactory set to: Autofac.Extras.Quartz.AutofacJobFactory
+2023-08-11 09:30:11.820 (Quartz.Simpl.RAMJobStore) [INF] RAMJobStore initialized.
+2023-08-11 09:30:11.821 (Quartz.Impl.StdSchedulerFactory) [INF] Quartz Scheduler 3.6.3.0 - 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED' initialized
+2023-08-11 09:30:11.821 (Quartz.Impl.StdSchedulerFactory) [INF] Using thread pool 'Quartz.Simpl.DefaultThreadPool', size: 10
+2023-08-11 09:30:11.821 (Quartz.Impl.StdSchedulerFactory) [INF] Using job store 'Quartz.Simpl.RAMJobStore', supports persistence: False, clustered: False
+2023-08-11 09:30:11.835 (Quartz.Core.QuartzScheduler) [INF] Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2023-08-11 09:30:11.840 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 09:30:11.900 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 09:30:11.900 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 09:30:11.900 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 09:30:38.533 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 09:36:05.173 (Quartz.Impl.StdSchedulerFactory) [INF] Default Quartz.NET properties loaded from embedded resource file
+2023-08-11 09:36:05.233 (Quartz.Simpl.TaskSchedulingThreadPool) [DBG] TaskSchedulingThreadPool configured with max concurrency of 10 and TaskScheduler ThreadPoolTaskScheduler.
+2023-08-11 09:36:05.247 (Quartz.Core.SchedulerSignalerImpl) [INF] Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2023-08-11 09:36:05.247 (Quartz.Core.QuartzScheduler) [INF] Quartz Scheduler created
+2023-08-11 09:36:05.248 (Quartz.Core.QuartzScheduler) [INF] JobFactory set to: Autofac.Extras.Quartz.AutofacJobFactory
+2023-08-11 09:36:05.248 (Quartz.Simpl.RAMJobStore) [INF] RAMJobStore initialized.
+2023-08-11 09:36:05.249 (Quartz.Impl.StdSchedulerFactory) [INF] Quartz Scheduler 3.6.3.0 - 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED' initialized
+2023-08-11 09:36:05.249 (Quartz.Impl.StdSchedulerFactory) [INF] Using thread pool 'Quartz.Simpl.DefaultThreadPool', size: 10
+2023-08-11 09:36:05.249 (Quartz.Impl.StdSchedulerFactory) [INF] Using job store 'Quartz.Simpl.RAMJobStore', supports persistence: False, clustered: False
+2023-08-11 09:36:05.259 (Quartz.Core.QuartzScheduler) [INF] Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2023-08-11 09:36:05.265 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 09:36:05.314 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 09:36:05.314 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 09:36:05.314 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 09:36:34.251 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 09:36:59.368 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 09:37:23.592 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 09:37:50.139 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 09:38:17.464 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 09:40:55.579 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 09:41:19.639 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 09:41:44.044 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 09:42:12.843 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 09:42:36.851 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 09:43:06.796 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 09:43:33.651 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 09:44:02.315 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 09:44:27.166 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 09:49:35.670 (Quartz.Impl.StdSchedulerFactory) [INF] Default Quartz.NET properties loaded from embedded resource file
+2023-08-11 09:49:35.721 (Quartz.Simpl.TaskSchedulingThreadPool) [DBG] TaskSchedulingThreadPool configured with max concurrency of 10 and TaskScheduler ThreadPoolTaskScheduler.
+2023-08-11 09:49:35.734 (Quartz.Core.SchedulerSignalerImpl) [INF] Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2023-08-11 09:49:35.734 (Quartz.Core.QuartzScheduler) [INF] Quartz Scheduler created
+2023-08-11 09:49:35.734 (Quartz.Core.QuartzScheduler) [INF] JobFactory set to: Autofac.Extras.Quartz.AutofacJobFactory
+2023-08-11 09:49:35.735 (Quartz.Simpl.RAMJobStore) [INF] RAMJobStore initialized.
+2023-08-11 09:49:35.736 (Quartz.Impl.StdSchedulerFactory) [INF] Quartz Scheduler 3.6.3.0 - 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED' initialized
+2023-08-11 09:49:35.736 (Quartz.Impl.StdSchedulerFactory) [INF] Using thread pool 'Quartz.Simpl.DefaultThreadPool', size: 10
+2023-08-11 09:49:35.736 (Quartz.Impl.StdSchedulerFactory) [INF] Using job store 'Quartz.Simpl.RAMJobStore', supports persistence: False, clustered: False
+2023-08-11 09:49:35.746 (Quartz.Core.QuartzScheduler) [INF] Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2023-08-11 09:49:35.752 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 09:49:35.802 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 09:49:35.802 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 09:49:35.802 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 09:50:04.016 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 09:50:36.497 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 09:51:39.531 (Quartz.Impl.StdSchedulerFactory) [INF] Default Quartz.NET properties loaded from embedded resource file
+2023-08-11 09:51:39.592 (Quartz.Simpl.TaskSchedulingThreadPool) [DBG] TaskSchedulingThreadPool configured with max concurrency of 10 and TaskScheduler ThreadPoolTaskScheduler.
+2023-08-11 09:51:39.606 (Quartz.Core.SchedulerSignalerImpl) [INF] Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2023-08-11 09:51:39.606 (Quartz.Core.QuartzScheduler) [INF] Quartz Scheduler created
+2023-08-11 09:51:39.606 (Quartz.Core.QuartzScheduler) [INF] JobFactory set to: Autofac.Extras.Quartz.AutofacJobFactory
+2023-08-11 09:51:39.607 (Quartz.Simpl.RAMJobStore) [INF] RAMJobStore initialized.
+2023-08-11 09:51:39.607 (Quartz.Impl.StdSchedulerFactory) [INF] Quartz Scheduler 3.6.3.0 - 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED' initialized
+2023-08-11 09:51:39.608 (Quartz.Impl.StdSchedulerFactory) [INF] Using thread pool 'Quartz.Simpl.DefaultThreadPool', size: 10
+2023-08-11 09:51:39.608 (Quartz.Impl.StdSchedulerFactory) [INF] Using job store 'Quartz.Simpl.RAMJobStore', supports persistence: False, clustered: False
+2023-08-11 09:51:39.618 (Quartz.Core.QuartzScheduler) [INF] Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2023-08-11 09:51:39.623 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 09:51:39.675 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 09:51:39.675 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 09:51:39.675 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 09:52:04.054 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 09:52:31.962 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 09:53:28.204 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 10:07:59.300 (Quartz.Impl.StdSchedulerFactory) [INF] Default Quartz.NET properties loaded from embedded resource file
+2023-08-11 10:07:59.383 (Quartz.Simpl.TaskSchedulingThreadPool) [DBG] TaskSchedulingThreadPool configured with max concurrency of 10 and TaskScheduler ThreadPoolTaskScheduler.
+2023-08-11 10:07:59.403 (Quartz.Core.SchedulerSignalerImpl) [INF] Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2023-08-11 10:07:59.403 (Quartz.Core.QuartzScheduler) [INF] Quartz Scheduler created
+2023-08-11 10:07:59.404 (Quartz.Core.QuartzScheduler) [INF] JobFactory set to: Autofac.Extras.Quartz.AutofacJobFactory
+2023-08-11 10:07:59.405 (Quartz.Simpl.RAMJobStore) [INF] RAMJobStore initialized.
+2023-08-11 10:07:59.405 (Quartz.Impl.StdSchedulerFactory) [INF] Quartz Scheduler 3.6.3.0 - 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED' initialized
+2023-08-11 10:07:59.406 (Quartz.Impl.StdSchedulerFactory) [INF] Using thread pool 'Quartz.Simpl.DefaultThreadPool', size: 10
+2023-08-11 10:07:59.406 (Quartz.Impl.StdSchedulerFactory) [INF] Using job store 'Quartz.Simpl.RAMJobStore', supports persistence: False, clustered: False
+2023-08-11 10:07:59.422 (Quartz.Core.QuartzScheduler) [INF] Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2023-08-11 10:07:59.437 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 10:07:59.528 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 10:07:59.529 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 10:07:59.529 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 10:08:25.259 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 10:08:54.005 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 10:10:01.259 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 10:30:01.500 (Quartz.Impl.StdSchedulerFactory) [INF] Default Quartz.NET properties loaded from embedded resource file
+2023-08-11 10:30:01.600 (Quartz.Simpl.TaskSchedulingThreadPool) [DBG] TaskSchedulingThreadPool configured with max concurrency of 10 and TaskScheduler ThreadPoolTaskScheduler.
+2023-08-11 10:30:01.621 (Quartz.Core.SchedulerSignalerImpl) [INF] Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2023-08-11 10:30:01.621 (Quartz.Core.QuartzScheduler) [INF] Quartz Scheduler created
+2023-08-11 10:30:01.622 (Quartz.Core.QuartzScheduler) [INF] JobFactory set to: Autofac.Extras.Quartz.AutofacJobFactory
+2023-08-11 10:30:01.623 (Quartz.Simpl.RAMJobStore) [INF] RAMJobStore initialized.
+2023-08-11 10:30:01.624 (Quartz.Impl.StdSchedulerFactory) [INF] Quartz Scheduler 3.6.3.0 - 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED' initialized
+2023-08-11 10:30:01.624 (Quartz.Impl.StdSchedulerFactory) [INF] Using thread pool 'Quartz.Simpl.DefaultThreadPool', size: 10
+2023-08-11 10:30:01.625 (Quartz.Impl.StdSchedulerFactory) [INF] Using job store 'Quartz.Simpl.RAMJobStore', supports persistence: False, clustered: False
+2023-08-11 10:30:01.641 (Quartz.Core.QuartzScheduler) [INF] Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2023-08-11 10:30:01.657 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 10:30:01.750 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 10:30:01.750 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 10:30:01.750 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 10:31:03.565 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 10:31:32.809 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 10:32:00.963 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 10:32:27.979 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 10:32:51.395 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 10:33:21.267 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 10:33:46.655 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 10:34:13.257 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 10:34:39.448 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 10:35:04.818 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 10:35:33.615 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 10:36:00.442 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 10:36:27.436 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 10:36:55.262 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 10:37:18.874 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 10:37:43.302 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 10:38:07.352 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 10:38:33.633 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 10:38:58.317 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 10:39:23.942 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 10:39:51.584 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 10:40:16.440 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 10:40:40.955 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 10:41:05.949 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 10:41:30.516 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 10:41:55.574 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 10:42:18.606 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 10:42:44.614 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 10:43:08.605 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 10:43:34.138 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 10:43:59.939 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 10:44:25.117 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 10:44:53.239 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 10:45:19.728 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 10:45:43.507 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 10:46:10.245 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 10:46:38.908 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 10:47:01.960 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 10:47:26.130 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 10:47:54.577 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 10:48:22.256 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 10:48:48.508 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 10:49:17.554 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 10:49:41.560 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 10:50:10.023 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 10:50:38.087 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 10:51:02.988 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 10:51:30.272 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 10:51:55.406 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 10:52:25.232 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 10:52:48.909 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 10:53:11.978 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 10:53:37.036 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 10:54:03.256 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 10:54:31.902 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 10:55:01.706 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 10:55:28.415 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 10:55:55.118 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 10:56:24.970 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 10:56:48.251 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 10:57:13.310 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 10:57:42.290 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 10:58:12.271 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 10:58:40.452 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 10:59:07.696 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 10:59:32.977 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 11:00:00.227 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 11:00:27.018 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 11:00:52.256 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 11:01:18.809 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 11:01:47.559 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 11:02:15.416 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 11:02:43.304 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 11:03:06.975 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 11:03:34.343 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 11:03:59.322 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 11:04:28.327 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 11:04:53.923 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 11:05:21.137 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 11:05:49.880 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 11:06:13.781 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 11:06:43.501 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 11:07:07.491 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 11:07:31.448 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 11:07:58.035 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 11:08:24.540 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 11:08:51.255 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 11:09:21.141 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 11:09:48.625 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 11:10:12.392 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 11:10:41.104 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 11:11:09.267 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 11:11:39.129 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 11:12:08.436 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 11:12:36.798 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 11:13:01.616 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 11:13:26.901 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 11:13:51.171 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 11:14:16.487 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 11:14:44.317 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 11:15:12.513 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 11:15:35.838 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 11:16:05.416 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 11:16:33.488 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 11:17:00.526 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 11:17:28.017 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 11:17:55.364 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 11:55:39.651 (Quartz.Impl.StdSchedulerFactory) [INF] Default Quartz.NET properties loaded from embedded resource file
+2023-08-11 11:55:39.734 (Quartz.Simpl.TaskSchedulingThreadPool) [DBG] TaskSchedulingThreadPool configured with max concurrency of 10 and TaskScheduler ThreadPoolTaskScheduler.
+2023-08-11 11:55:39.752 (Quartz.Core.SchedulerSignalerImpl) [INF] Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2023-08-11 11:55:39.752 (Quartz.Core.QuartzScheduler) [INF] Quartz Scheduler created
+2023-08-11 11:55:39.752 (Quartz.Core.QuartzScheduler) [INF] JobFactory set to: Autofac.Extras.Quartz.AutofacJobFactory
+2023-08-11 11:55:39.753 (Quartz.Simpl.RAMJobStore) [INF] RAMJobStore initialized.
+2023-08-11 11:55:39.754 (Quartz.Impl.StdSchedulerFactory) [INF] Quartz Scheduler 3.6.3.0 - 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED' initialized
+2023-08-11 11:55:39.754 (Quartz.Impl.StdSchedulerFactory) [INF] Using thread pool 'Quartz.Simpl.DefaultThreadPool', size: 10
+2023-08-11 11:55:39.754 (Quartz.Impl.StdSchedulerFactory) [INF] Using job store 'Quartz.Simpl.RAMJobStore', supports persistence: False, clustered: False
+2023-08-11 11:55:39.769 (Quartz.Core.QuartzScheduler) [INF] Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2023-08-11 11:55:39.777 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 11:55:39.855 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 11:55:39.855 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 11:55:39.855 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 11:56:06.068 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 11:56:36.040 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 11:57:02.671 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 11:57:29.114 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 11:57:58.649 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 11:58:21.845 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 12:00:07.540 (Quartz.Impl.StdSchedulerFactory) [INF] Default Quartz.NET properties loaded from embedded resource file
+2023-08-11 12:00:07.621 (Quartz.Simpl.TaskSchedulingThreadPool) [DBG] TaskSchedulingThreadPool configured with max concurrency of 10 and TaskScheduler ThreadPoolTaskScheduler.
+2023-08-11 12:00:07.642 (Quartz.Core.SchedulerSignalerImpl) [INF] Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2023-08-11 12:00:07.642 (Quartz.Core.QuartzScheduler) [INF] Quartz Scheduler created
+2023-08-11 12:00:07.643 (Quartz.Core.QuartzScheduler) [INF] JobFactory set to: Autofac.Extras.Quartz.AutofacJobFactory
+2023-08-11 12:00:07.644 (Quartz.Simpl.RAMJobStore) [INF] RAMJobStore initialized.
+2023-08-11 12:00:07.645 (Quartz.Impl.StdSchedulerFactory) [INF] Quartz Scheduler 3.6.3.0 - 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED' initialized
+2023-08-11 12:00:07.645 (Quartz.Impl.StdSchedulerFactory) [INF] Using thread pool 'Quartz.Simpl.DefaultThreadPool', size: 10
+2023-08-11 12:00:07.646 (Quartz.Impl.StdSchedulerFactory) [INF] Using job store 'Quartz.Simpl.RAMJobStore', supports persistence: False, clustered: False
+2023-08-11 12:00:07.664 (Quartz.Core.QuartzScheduler) [INF] Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2023-08-11 12:00:07.678 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 12:00:07.771 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 12:00:07.771 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 12:00:07.772 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 12:00:32.521 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 12:01:01.307 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 12:01:27.227 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 14:06:56.107 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 14:07:20.071 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 14:07:46.858 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 14:08:10.709 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 14:08:36.970 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 14:09:01.282 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 14:09:30.251 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 14:09:53.324 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 14:10:22.763 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 14:10:47.239 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 14:11:12.868 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 14:11:39.870 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 14:12:07.661 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 14:12:30.746 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 14:12:54.341 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 14:13:19.754 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 14:13:45.294 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 14:14:15.106 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 14:14:45.051 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 14:15:14.264 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 14:15:41.241 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 14:16:07.754 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 14:16:32.703 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 14:17:00.877 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 14:17:24.459 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 14:17:51.431 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 14:18:15.138 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 14:18:44.550 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 14:19:13.963 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 14:19:40.857 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 14:20:04.360 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 14:20:27.464 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 14:20:55.070 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 14:21:21.367 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 14:21:44.801 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 14:22:14.015 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 14:22:42.494 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 14:23:11.091 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 14:23:38.230 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 14:33:47.562 (Quartz.Impl.StdSchedulerFactory) [INF] Default Quartz.NET properties loaded from embedded resource file
+2023-08-11 14:33:47.625 (Quartz.Simpl.TaskSchedulingThreadPool) [DBG] TaskSchedulingThreadPool configured with max concurrency of 10 and TaskScheduler ThreadPoolTaskScheduler.
+2023-08-11 14:33:47.643 (Quartz.Core.SchedulerSignalerImpl) [INF] Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2023-08-11 14:33:47.643 (Quartz.Core.QuartzScheduler) [INF] Quartz Scheduler created
+2023-08-11 14:33:47.643 (Quartz.Core.QuartzScheduler) [INF] JobFactory set to: Autofac.Extras.Quartz.AutofacJobFactory
+2023-08-11 14:33:47.644 (Quartz.Simpl.RAMJobStore) [INF] RAMJobStore initialized.
+2023-08-11 14:33:47.645 (Quartz.Impl.StdSchedulerFactory) [INF] Quartz Scheduler 3.6.3.0 - 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED' initialized
+2023-08-11 14:33:47.645 (Quartz.Impl.StdSchedulerFactory) [INF] Using thread pool 'Quartz.Simpl.DefaultThreadPool', size: 10
+2023-08-11 14:33:47.645 (Quartz.Impl.StdSchedulerFactory) [INF] Using job store 'Quartz.Simpl.RAMJobStore', supports persistence: False, clustered: False
+2023-08-11 14:33:47.658 (Quartz.Core.QuartzScheduler) [INF] Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2023-08-11 14:33:47.664 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 14:33:47.724 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 14:33:47.724 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 14:33:47.724 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 14:34:15.419 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 14:34:39.315 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 14:35:07.448 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 14:35:31.192 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 14:35:54.214 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 14:36:18.572 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 14:36:41.944 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 14:37:07.842 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 14:37:34.718 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 14:38:02.253 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 15:00:25.673 (Quartz.Impl.StdSchedulerFactory) [INF] Default Quartz.NET properties loaded from embedded resource file
+2023-08-11 15:00:25.745 (Quartz.Simpl.TaskSchedulingThreadPool) [DBG] TaskSchedulingThreadPool configured with max concurrency of 10 and TaskScheduler ThreadPoolTaskScheduler.
+2023-08-11 15:00:25.764 (Quartz.Core.SchedulerSignalerImpl) [INF] Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2023-08-11 15:00:25.764 (Quartz.Core.QuartzScheduler) [INF] Quartz Scheduler created
+2023-08-11 15:00:25.765 (Quartz.Core.QuartzScheduler) [INF] JobFactory set to: Autofac.Extras.Quartz.AutofacJobFactory
+2023-08-11 15:00:25.765 (Quartz.Simpl.RAMJobStore) [INF] RAMJobStore initialized.
+2023-08-11 15:00:25.766 (Quartz.Impl.StdSchedulerFactory) [INF] Quartz Scheduler 3.6.3.0 - 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED' initialized
+2023-08-11 15:00:25.766 (Quartz.Impl.StdSchedulerFactory) [INF] Using thread pool 'Quartz.Simpl.DefaultThreadPool', size: 10
+2023-08-11 15:00:25.766 (Quartz.Impl.StdSchedulerFactory) [INF] Using job store 'Quartz.Simpl.RAMJobStore', supports persistence: False, clustered: False
+2023-08-11 15:00:25.780 (Quartz.Core.QuartzScheduler) [INF] Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2023-08-11 15:00:25.788 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 15:00:25.851 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 15:00:25.851 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 15:00:25.851 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 15:00:53.477 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 15:01:21.173 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 15:01:45.961 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 15:02:12.343 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 15:02:36.946 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 15:03:01.272 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 15:03:24.835 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 15:03:51.459 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 15:04:18.084 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 15:04:43.827 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 15:05:08.338 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 15:05:33.051 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-11 15:05:58.076 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers

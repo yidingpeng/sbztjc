@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DocumentationFile></DocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Entities\ProjectTemplate\**" />
+    <EmbeddedResource Remove="Entities\ProjectTemplate\**" />
+    <None Remove="Entities\ProjectTemplate\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\RW.PMS.CrossCutting\RW.PMS.CrossCutting.csproj" />
+  </ItemGroup>
+
+</Project>

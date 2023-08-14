@@ -1,0 +1,320 @@
+2023-08-10 17:40:31.887 (Quartz.Impl.StdSchedulerFactory) [INF] Default Quartz.NET properties loaded from embedded resource file
+2023-08-10 17:40:31.967 (Quartz.Simpl.TaskSchedulingThreadPool) [DBG] TaskSchedulingThreadPool configured with max concurrency of 10 and TaskScheduler ThreadPoolTaskScheduler.
+2023-08-10 17:40:31.994 (Quartz.Core.SchedulerSignalerImpl) [INF] Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2023-08-10 17:40:31.994 (Quartz.Core.QuartzScheduler) [INF] Quartz Scheduler created
+2023-08-10 17:40:31.995 (Quartz.Core.QuartzScheduler) [INF] JobFactory set to: Autofac.Extras.Quartz.AutofacJobFactory
+2023-08-10 17:40:31.995 (Quartz.Simpl.RAMJobStore) [INF] RAMJobStore initialized.
+2023-08-10 17:40:31.996 (Quartz.Impl.StdSchedulerFactory) [INF] Quartz Scheduler 3.6.3.0 - 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED' initialized
+2023-08-10 17:40:31.996 (Quartz.Impl.StdSchedulerFactory) [INF] Using thread pool 'Quartz.Simpl.DefaultThreadPool', size: 10
+2023-08-10 17:40:31.997 (Quartz.Impl.StdSchedulerFactory) [INF] Using job store 'Quartz.Simpl.RAMJobStore', supports persistence: False, clustered: False
+2023-08-10 17:40:32.014 (Quartz.Core.QuartzScheduler) [INF] Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2023-08-10 17:40:32.026 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-10 17:40:32.088 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-10 17:40:32.088 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-10 17:40:55.320 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-10 17:41:24.576 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-10 17:41:49.409 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-10 17:42:12.669 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-10 17:42:35.782 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-10 17:43:01.016 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-10 17:43:29.042 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-10 17:43:57.247 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-10 17:44:21.148 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-10 17:44:48.982 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-10 17:45:13.896 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-10 17:45:36.976 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-10 17:46:02.172 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-10 17:46:31.635 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-10 17:46:58.709 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-10 17:47:28.659 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-10 17:47:53.372 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-10 17:48:18.459 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-10 17:48:44.391 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-10 17:49:12.689 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-10 17:49:38.074 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-10 17:50:07.197 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-10 17:50:34.192 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-10 17:51:00.711 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-10 17:51:30.575 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-10 17:51:54.646 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-10 17:52:20.003 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-10 17:52:44.503 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-10 17:53:13.182 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-10 17:53:38.064 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-10 17:54:01.828 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-10 17:54:29.907 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-10 17:54:53.894 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-10 17:55:19.015 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-10 17:55:44.810 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-10 17:56:09.692 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-10 17:56:33.529 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-10 17:57:02.434 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-10 17:57:29.811 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-10 17:57:58.135 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-10 17:58:24.173 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-10 17:58:51.082 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-10 17:59:17.244 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-10 17:59:44.761 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-10 18:00:13.559 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-10 18:00:38.398 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-10 18:01:06.429 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-10 18:01:31.789 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-10 18:01:58.983 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-10 18:02:26.078 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-10 18:02:52.355 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-10 18:03:16.494 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-10 18:03:40.610 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-10 18:04:07.161 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-10 18:04:33.930 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-10 18:05:01.976 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-10 18:05:26.666 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-10 18:05:52.490 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-10 18:06:20.617 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-10 18:06:50.115 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-10 18:07:16.274 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-10 18:07:44.481 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-10 18:08:08.881 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-10 18:08:35.374 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-10 18:09:04.686 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-10 18:09:29.255 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-10 18:09:55.509 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-10 18:10:21.276 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-10 18:10:48.031 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-10 18:11:15.195 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-10 18:11:44.362 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-10 18:12:13.759 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-10 18:12:43.659 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-10 18:13:10.823 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-10 18:13:35.117 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-10 18:13:59.712 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-10 18:14:25.201 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-10 18:14:55.160 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-10 18:15:23.637 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-10 18:16:16.754 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-10 18:16:41.400 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-10 18:17:04.928 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-10 18:17:34.532 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-10 18:18:02.486 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-10 18:18:28.903 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-10 18:18:52.581 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-10 18:19:16.073 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-10 18:19:43.291 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-10 18:20:13.230 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-10 18:20:37.434 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-10 18:21:07.391 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-10 18:21:31.324 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-10 18:22:00.188 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-10 18:22:28.909 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-10 18:22:55.095 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-10 18:23:19.511 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-10 18:23:47.857 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-10 18:24:11.906 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-10 18:24:39.474 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-10 18:25:05.513 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-10 18:25:30.654 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-10 18:25:59.618 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-10 18:26:23.714 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-10 18:26:47.750 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-10 18:27:13.142 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-10 18:27:38.787 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-10 18:28:07.067 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-10 18:28:35.167 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-10 18:29:02.074 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-10 18:29:26.475 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-10 18:29:49.695 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-10 18:30:14.265 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-10 18:30:42.191 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-10 18:31:06.973 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-10 20:42:46.088 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-10 20:43:13.149 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-10 20:43:38.327 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-10 20:44:02.443 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-10 20:44:32.088 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-10 20:44:56.333 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-10 20:45:22.511 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-10 20:45:51.582 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-10 20:46:15.218 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-10 20:46:41.208 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-10 20:47:05.625 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-10 20:47:32.703 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-10 20:47:57.032 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-10 20:48:20.083 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-10 20:48:47.979 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-10 20:49:13.159 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-10 20:49:36.625 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-10 20:50:01.618 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-10 20:50:27.531 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-10 20:50:56.160 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-10 20:51:25.293 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-10 20:51:48.888 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-10 20:52:17.767 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-10 20:52:44.235 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-10 20:53:11.823 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-10 20:53:36.847 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-10 20:54:04.755 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-10 20:54:32.783 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-10 20:54:59.965 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-10 20:55:26.491 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-10 20:55:50.725 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-10 20:56:18.919 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-10 20:56:44.786 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-10 20:57:13.773 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-10 20:57:37.126 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-10 20:58:02.077 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-10 20:58:31.246 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-10 20:59:00.247 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-10 20:59:23.772 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-10 20:59:51.597 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-10 21:00:16.885 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-10 21:00:45.000 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-10 21:01:13.477 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-10 21:01:43.430 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-10 21:02:08.999 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-10 21:02:34.872 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-10 21:03:03.225 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-10 21:03:32.820 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-10 21:03:56.680 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-10 21:04:24.222 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-10 21:04:49.184 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-10 21:05:14.982 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-10 21:05:44.538 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-10 21:06:11.348 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-10 21:06:37.594 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-10 21:07:04.920 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-10 21:07:30.462 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-10 21:07:55.419 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-10 21:08:22.474 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-10 21:08:48.259 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-10 21:09:12.933 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-10 21:09:39.156 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-10 21:10:05.961 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-10 21:10:33.847 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-10 21:10:57.050 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-10 21:11:23.097 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-10 21:11:51.913 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-10 21:12:21.135 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-10 21:12:44.875 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-10 21:13:12.186 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-10 21:13:35.407 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-10 21:14:01.565 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-10 21:14:27.661 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-10 21:14:52.418 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-10 21:15:19.681 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-10 21:15:42.887 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-10 21:16:10.694 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-10 21:16:34.380 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-10 21:17:03.423 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-10 21:17:28.101 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-10 21:17:56.050 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-10 21:18:24.418 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-10 21:18:53.376 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-10 21:19:20.409 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-10 21:19:50.088 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-10 21:20:15.870 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-10 21:20:56.984 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-10 21:20:57.506 (Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware) [ERR] An unhandled exception has occurred while executing the request.
+System.Exception: 【主库】状态不可用，等待后台检查程序恢复方可使用。Timeout expired.  The timeout period elapsed prior to completion of the operation or the server is not responding.
+ ---> System.Exception: 【主库】状态不可用，等待后台检查程序恢复方可使用。Timeout expired.  The timeout period elapsed prior to completion of the operation or the server is not responding.
+ ---> System.TimeoutException: Timeout expired.  The timeout period elapsed prior to completion of the operation or the server is not responding.
+   at MySql.Data.Common.StreamCreator.GetTcpStream(MySqlConnectionStringBuilder settings, MyNetworkStream& networkStream)
+   at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at FreeSql.MySql.MySqlConnectionPoolPolicy.OnGet(Object`1 obj)
+   --- End of inner exception stack trace ---
+   at FreeSql.Internal.ObjectPool.ObjectPool`1.GetFree(Boolean checkAvailable)
+   at FreeSql.Internal.ObjectPool.ObjectPool`1.Get(Nullable`1 timeout)
+   at FreeSql.Internal.CommonProvider.AdoProvider.ExecuteScalar(DbConnection connection, DbTransaction transaction, CommandType cmdType, String cmdText, Int32 cmdTimeout, DbParameter[] cmdParms)
+   --- End of inner exception stack trace ---
+   at FreeSql.Internal.CommonProvider.AdoProvider.LoggerException(IObjectPool`1 pool, PrepareCommandResult pc, Exception ex, DateTime dt, StringBuilder logtxt, Boolean isThrowException)
+   at FreeSql.Internal.CommonProvider.AdoProvider.ExecuteScalar(DbConnection connection, DbTransaction transaction, CommandType cmdType, String cmdText, Int32 cmdTimeout, DbParameter[] cmdParms)
+   at FreeSql.MySql.Curd.MySqlInsert`1.RawExecuteIdentity()
+   at FreeSql.Internal.CommonProvider.InsertProvider`1.SplitExecuteIdentity(Int32 valuesLimit, Int32 parameterLimit)
+   at FreeSql.MySql.Curd.MySqlInsert`1.ExecuteIdentity()
+   at FreeSql.DbSet`1.AddPriv(TEntity data, Boolean isCheck)
+   at FreeSql.DbSet`1.Add(TEntity data)
+   at FreeSql.BaseRepository`1.Insert(TEntity entity)
+   at RW.PMS.Infrastructure.Repositories.Repository`2.Insert(TEntity entity) in D:\.net\XCY23014_设备状态监测系统\文件管理\service\RW.PMS.Infrastructure\Repositories\Repository.cs:line 40
+   at RW.PMS.Application.CrudApplicationService`3.Insert[TInput](TInput input) in D:\.net\XCY23014_设备状态监测系统\文件管理\service\RW.PMS.Application\CrudApplicationService.cs:line 47
+   at RW.PMS.Application.System.LogService.AddLog(LogInputDto input) in D:\.net\XCY23014_设备状态监测系统\文件管理\service\RW.PMS.Application\System\LogService.cs:line 46
+   at Castle.Proxies.Invocations.ILogService_AddLog.InvokeMethodOnTarget()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at RW.PMS.CrossCutting.AOP.Interceptors.DatabaseTransactionAsync.InterceptSynchronous(IInvocation invocation) in D:\.net\XCY23014_设备状态监测系统\文件管理\service\RW.PMS.CrossCutting\AOP\Interceptors\DatabaseTransactionAsync.cs:line 42
+   at RW.PMS.CrossCutting.AOP.Interceptors.DatabaseTransaction.Intercept(IInvocation invocation) in D:\.net\XCY23014_设备状态监测系统\文件管理\service\RW.PMS.CrossCutting\AOP\Interceptors\DatabaseTransaction.cs:line 16
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.IApplicationServiceProxy_1.AddLog(LogInputDto input)
+   at RW.PMS.API.Middleware.ExceptionMiddleWare.HandleCommonException(HttpContext context, Exception e) in D:\.net\XCY23014_设备状态监测系统\文件管理\service\RW.PMS.API\Middleware\ExceptionMiddleWare.cs:line 63
+   at RW.PMS.API.Middleware.ExceptionMiddleWare.InvokeAsync(HttpContext context, RequestDelegate next) in D:\.net\XCY23014_设备状态监测系统\文件管理\service\RW.PMS.API\Middleware\ExceptionMiddleWare.cs:line 31
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.<>c__DisplayClass6_1.<<UseMiddlewareInterface>b__1>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-08-10 21:21:09.053 (Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware) [ERR] An unhandled exception has occurred while executing the request.
+System.Exception: 【主库】状态不可用，等待后台检查程序恢复方可使用。Timeout expired.  The timeout period elapsed prior to completion of the operation or the server is not responding.
+ ---> System.Exception: 【主库】状态不可用，等待后台检查程序恢复方可使用。Timeout expired.  The timeout period elapsed prior to completion of the operation or the server is not responding.
+ ---> System.TimeoutException: Timeout expired.  The timeout period elapsed prior to completion of the operation or the server is not responding.
+   at MySql.Data.Common.StreamCreator.GetTcpStream(MySqlConnectionStringBuilder settings, MyNetworkStream& networkStream)
+   at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at FreeSql.MySql.MySqlConnectionPoolPolicy.OnGet(Object`1 obj)
+   --- End of inner exception stack trace ---
+   at FreeSql.Internal.ObjectPool.ObjectPool`1.GetFree(Boolean checkAvailable)
+   at FreeSql.Internal.ObjectPool.ObjectPool`1.Get(Nullable`1 timeout)
+   at FreeSql.Internal.CommonProvider.AdoProvider.ExecuteScalar(DbConnection connection, DbTransaction transaction, CommandType cmdType, String cmdText, Int32 cmdTimeout, DbParameter[] cmdParms)
+   --- End of inner exception stack trace ---
+   at FreeSql.Internal.CommonProvider.AdoProvider.LoggerException(IObjectPool`1 pool, PrepareCommandResult pc, Exception ex, DateTime dt, StringBuilder logtxt, Boolean isThrowException)
+   at FreeSql.Internal.CommonProvider.AdoProvider.ExecuteScalar(DbConnection connection, DbTransaction transaction, CommandType cmdType, String cmdText, Int32 cmdTimeout, DbParameter[] cmdParms)
+   at FreeSql.MySql.Curd.MySqlInsert`1.RawExecuteIdentity()
+   at FreeSql.Internal.CommonProvider.InsertProvider`1.SplitExecuteIdentity(Int32 valuesLimit, Int32 parameterLimit)
+   at FreeSql.MySql.Curd.MySqlInsert`1.ExecuteIdentity()
+   at FreeSql.DbSet`1.AddPriv(TEntity data, Boolean isCheck)
+   at FreeSql.DbSet`1.Add(TEntity data)
+   at FreeSql.BaseRepository`1.Insert(TEntity entity)
+   at RW.PMS.Infrastructure.Repositories.Repository`2.Insert(TEntity entity) in D:\.net\XCY23014_设备状态监测系统\文件管理\service\RW.PMS.Infrastructure\Repositories\Repository.cs:line 40
+   at RW.PMS.Application.CrudApplicationService`3.Insert[TInput](TInput input) in D:\.net\XCY23014_设备状态监测系统\文件管理\service\RW.PMS.Application\CrudApplicationService.cs:line 47
+   at RW.PMS.Application.System.LogService.AddLog(LogInputDto input) in D:\.net\XCY23014_设备状态监测系统\文件管理\service\RW.PMS.Application\System\LogService.cs:line 46
+   at Castle.Proxies.Invocations.ILogService_AddLog.InvokeMethodOnTarget()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at RW.PMS.CrossCutting.AOP.Interceptors.DatabaseTransactionAsync.InterceptSynchronous(IInvocation invocation) in D:\.net\XCY23014_设备状态监测系统\文件管理\service\RW.PMS.CrossCutting\AOP\Interceptors\DatabaseTransactionAsync.cs:line 42
+   at RW.PMS.CrossCutting.AOP.Interceptors.DatabaseTransaction.Intercept(IInvocation invocation) in D:\.net\XCY23014_设备状态监测系统\文件管理\service\RW.PMS.CrossCutting\AOP\Interceptors\DatabaseTransaction.cs:line 16
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.IApplicationServiceProxy_1.AddLog(LogInputDto input)
+   at RW.PMS.API.Middleware.ExceptionMiddleWare.HandleCommonException(HttpContext context, Exception e) in D:\.net\XCY23014_设备状态监测系统\文件管理\service\RW.PMS.API\Middleware\ExceptionMiddleWare.cs:line 63
+   at RW.PMS.API.Middleware.ExceptionMiddleWare.InvokeAsync(HttpContext context, RequestDelegate next) in D:\.net\XCY23014_设备状态监测系统\文件管理\service\RW.PMS.API\Middleware\ExceptionMiddleWare.cs:line 31
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.<>c__DisplayClass6_1.<<UseMiddlewareInterface>b__1>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-08-10 21:21:25.584 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-10 21:21:50.042 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-10 21:22:17.444 (Quartz.Impl.StdSchedulerFactory) [INF] Default Quartz.NET properties loaded from embedded resource file
+2023-08-10 21:22:17.511 (Quartz.Simpl.TaskSchedulingThreadPool) [DBG] TaskSchedulingThreadPool configured with max concurrency of 10 and TaskScheduler ThreadPoolTaskScheduler.
+2023-08-10 21:22:17.530 (Quartz.Core.SchedulerSignalerImpl) [INF] Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2023-08-10 21:22:17.530 (Quartz.Core.QuartzScheduler) [INF] Quartz Scheduler created
+2023-08-10 21:22:17.531 (Quartz.Core.QuartzScheduler) [INF] JobFactory set to: Autofac.Extras.Quartz.AutofacJobFactory
+2023-08-10 21:22:17.531 (Quartz.Simpl.RAMJobStore) [INF] RAMJobStore initialized.
+2023-08-10 21:22:17.532 (Quartz.Impl.StdSchedulerFactory) [INF] Quartz Scheduler 3.6.3.0 - 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED' initialized
+2023-08-10 21:22:17.532 (Quartz.Impl.StdSchedulerFactory) [INF] Using thread pool 'Quartz.Simpl.DefaultThreadPool', size: 10
+2023-08-10 21:22:17.532 (Quartz.Impl.StdSchedulerFactory) [INF] Using job store 'Quartz.Simpl.RAMJobStore', supports persistence: False, clustered: False
+2023-08-10 21:22:17.544 (Quartz.Core.QuartzScheduler) [INF] Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2023-08-10 21:22:17.555 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-10 21:22:17.609 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-10 21:22:17.609 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-10 21:22:46.643 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-10 21:23:13.537 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-08-10 21:23:41.132 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers

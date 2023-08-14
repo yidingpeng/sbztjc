@@ -1,0 +1,986 @@
+﻿{
+	"project": {
+		"common.ALLTYPES_DESCRIPTION": "",
+		"servermain.PROJECT_TITLE": "",
+		"servermain.PROJECT_ENCRYPTION_ENABLE": true,
+		"servermain.PROJECT_ENCRYPTION_PASSWORD": "",
+		"channels": [
+			{
+				"common.ALLTYPES_NAME": "SBJC",
+				"servermain.MULTIPLE_TYPES_DEVICE_DRIVER": "Siemens TCP/IP Ethernet",
+				"servermain.CHANNEL_DIAGNOSTICS_CAPTURE": false,
+				"servermain.CHANNEL_UNIQUE_ID": 1419139201,
+				"servermain.CHANNEL_ETHERNET_COMMUNICATIONS_NETWORK_ADAPTER_STRING": "",
+				"servermain.CHANNEL_WRITE_OPTIMIZATIONS_METHOD": 2,
+				"servermain.CHANNEL_WRITE_OPTIMIZATIONS_DUTY_CYCLE": 10,
+				"servermain.CHANNEL_NON_NORMALIZED_FLOATING_POINT_HANDLING": 0,
+				"devices": [
+					{
+						"common.ALLTYPES_NAME": "PLC1",
+						"servermain.MULTIPLE_TYPES_DEVICE_DRIVER": "Siemens TCP/IP Ethernet",
+						"servermain.DEVICE_MODEL": 0,
+						"servermain.DEVICE_UNIQUE_ID": 2610075810,
+						"servermain.DEVICE_ID_FORMAT": 0,
+						"servermain.DEVICE_ID_STRING": "192.168.0.111",
+						"servermain.DEVICE_ID_HEXADECIMAL": 0,
+						"servermain.DEVICE_ID_DECIMAL": 0,
+						"servermain.DEVICE_ID_OCTAL": 0,
+						"servermain.DEVICE_DATA_COLLECTION": true,
+						"servermain.DEVICE_SIMULATED": true,
+						"servermain.DEVICE_SCAN_MODE": 0,
+						"servermain.DEVICE_SCAN_MODE_RATE_MS": 1000,
+						"servermain.DEVICE_SCAN_MODE_PROVIDE_INITIAL_UPDATES_FROM_CACHE": false,
+						"servermain.DEVICE_CONNECTION_TIMEOUT_SECONDS": 3,
+						"servermain.DEVICE_REQUEST_TIMEOUT_MILLISECONDS": 2000,
+						"servermain.DEVICE_RETRY_ATTEMPTS": 2,
+						"servermain.DEVICE_INTER_REQUEST_DELAY_MILLISECONDS": 0,
+						"servermain.DEVICE_AUTO_DEMOTION_ENABLE_ON_COMMUNICATIONS_FAILURES": false,
+						"servermain.DEVICE_AUTO_DEMOTION_DEMOTE_AFTER_SUCCESSIVE_TIMEOUTS": 3,
+						"servermain.DEVICE_AUTO_DEMOTION_PERIOD_MS": 10000,
+						"servermain.DEVICE_AUTO_DEMOTION_DISCARD_WRITES": false,
+						"servermain.DEVICE_TAG_GENERATION_ON_STARTUP": 0,
+						"servermain.DEVICE_TAG_GENERATION_DUPLICATE_HANDLING": 0,
+						"servermain.DEVICE_TAG_GENERATION_GROUP": "",
+						"servermain.DEVICE_TAG_GENERATION_ALLOW_SUB_GROUPS": true,
+						"siemens_tcpip_ethernet.DEVICE_COMMUNICATIONS_PORT_NUMBER": 102,
+						"siemens_tcpip_ethernet.DEVICE_COMMUNICATIONS_MPI_ID": 0,
+						"siemens_tcpip_ethernet.DEVICE_S7_COMMUNICATIONS_MAX_PDU": 960,
+						"siemens_tcpip_ethernet.DEVICE_S7_COMMUNICATIONS_200_LOCAL_TSAP": 19799,
+						"siemens_tcpip_ethernet.DEVICE_S7_COMMUNICATIONS_200_REMOTE_TSAP": 19799,
+						"siemens_tcpip_ethernet.DEVICE_S7_COMMUNICATIONS_300_400_1200_1500_LINK_TYPE": 3,
+						"siemens_tcpip_ethernet.DEVICE_S7_COMMUNICATIONS_CPU_RACK": 0,
+						"siemens_tcpip_ethernet.DEVICE_S7_COMMUNICATIONS_CPU_SLOT": 1,
+						"siemens_tcpip_ethernet.DEVICE_ADDRESSING_BYTE_ORDER": 0,
+						"siemens_tcpip_ethernet.DEVICE_TAG_IMPORT_TYPE": 0,
+						"siemens_tcpip_ethernet.DEVICE_TAG_IMPORT_CODE_PAGE": 4294967295,
+						"siemens_tcpip_ethernet.DEVICE_TAG_IMPORT_STEP_7_PROJECT_FILE": "",
+						"siemens_tcpip_ethernet.DEVICE_TAG_IMPORT_PROGRAM_PATH": "",
+						"siemens_tcpip_ethernet.DEVICE_TAG_IMPORT_TIA_EXPORT_FILE": "",
+						"redundancy.DEVICE_SECONDARY_PATH": "",
+						"redundancy.DEVICE_OPERATING_MODE": 0,
+						"redundancy.DEVICE_MONITOR_ITEM": "",
+						"redundancy.DEVICE_MONITOR_ITEM_POLL_INTERVAL": 300,
+						"redundancy.DEVICE_FAVOR_PRIMARY": true,
+						"redundancy.DEVICE_TRIGGER_ITEM": "",
+						"redundancy.DEVICE_TRIGGER_ITEM_SCAN_RATE": 1000,
+						"redundancy.DEVICE_TRIGGER_TYPE": 0,
+						"redundancy.DEVICE_TRIGGER_OPERATOR": 0,
+						"redundancy.DEVICE_TRIGGER_VALUE": "",
+						"redundancy.DEVICE_TRIGGER_TIMEOUT": 10000,
+						"tag_groups": [
+							{
+								"common.ALLTYPES_NAME": "DI",
+								"tag_groups": [
+									{
+										"common.ALLTYPES_NAME": "room101",
+										"tags": [
+											{
+												"common.ALLTYPES_NAME": "故障停机",
+												"servermain.TAG_ADDRESS": "V0.1",
+												"servermain.TAG_DATA_TYPE": 1,
+												"servermain.TAG_READ_WRITE_ACCESS": 1,
+												"servermain.TAG_SCAN_RATE_MILLISECONDS": 100,
+												"servermain.TAG_SCALING_TYPE": 0
+											},
+											{
+												"common.ALLTYPES_NAME": "试验占用",
+												"servermain.TAG_ADDRESS": "V0.0",
+												"servermain.TAG_DATA_TYPE": 1,
+												"servermain.TAG_READ_WRITE_ACCESS": 1,
+												"servermain.TAG_SCAN_RATE_MILLISECONDS": 100,
+												"servermain.TAG_SCALING_TYPE": 0
+											},
+											{
+												"common.ALLTYPES_NAME": "预留设备1",
+												"servermain.TAG_ADDRESS": "V0.2",
+												"servermain.TAG_DATA_TYPE": 1,
+												"servermain.TAG_READ_WRITE_ACCESS": 1,
+												"servermain.TAG_SCAN_RATE_MILLISECONDS": 100,
+												"servermain.TAG_SCALING_TYPE": 0
+											},
+											{
+												"common.ALLTYPES_NAME": "预留设备2",
+												"servermain.TAG_ADDRESS": "V0.3",
+												"servermain.TAG_DATA_TYPE": 1,
+												"servermain.TAG_READ_WRITE_ACCESS": 1,
+												"servermain.TAG_SCAN_RATE_MILLISECONDS": 100,
+												"servermain.TAG_SCALING_TYPE": 0
+											}
+										]
+									},
+									{
+										"common.ALLTYPES_NAME": "room102",
+										"tags": [
+											{
+												"common.ALLTYPES_NAME": "对托台设备",
+												"servermain.TAG_ADDRESS": "V0.6",
+												"servermain.TAG_DATA_TYPE": 1,
+												"servermain.TAG_READ_WRITE_ACCESS": 1,
+												"servermain.TAG_SCAN_RATE_MILLISECONDS": 100,
+												"servermain.TAG_SCALING_TYPE": 0
+											},
+											{
+												"common.ALLTYPES_NAME": "故障停机",
+												"servermain.TAG_ADDRESS": "V0.5",
+												"servermain.TAG_DATA_TYPE": 1,
+												"servermain.TAG_READ_WRITE_ACCESS": 1,
+												"servermain.TAG_SCAN_RATE_MILLISECONDS": 100,
+												"servermain.TAG_SCALING_TYPE": 0
+											},
+											{
+												"common.ALLTYPES_NAME": "试验占用",
+												"servermain.TAG_ADDRESS": "V0.4",
+												"servermain.TAG_DATA_TYPE": 1,
+												"servermain.TAG_READ_WRITE_ACCESS": 1,
+												"servermain.TAG_SCAN_RATE_MILLISECONDS": 100,
+												"servermain.TAG_SCALING_TYPE": 0
+											},
+											{
+												"common.ALLTYPES_NAME": "水冷机组设备",
+												"servermain.TAG_ADDRESS": "V0.7",
+												"servermain.TAG_DATA_TYPE": 1,
+												"servermain.TAG_READ_WRITE_ACCESS": 1,
+												"servermain.TAG_SCAN_RATE_MILLISECONDS": 100,
+												"servermain.TAG_SCALING_TYPE": 0
+											}
+										]
+									},
+									{
+										"common.ALLTYPES_NAME": "room103",
+										"tags": [
+											{
+												"common.ALLTYPES_NAME": "故障停机",
+												"servermain.TAG_ADDRESS": "V1.1",
+												"servermain.TAG_DATA_TYPE": 1,
+												"servermain.TAG_READ_WRITE_ACCESS": 1,
+												"servermain.TAG_SCAN_RATE_MILLISECONDS": 100,
+												"servermain.TAG_SCALING_TYPE": 0
+											},
+											{
+												"common.ALLTYPES_NAME": "环境仓设备",
+												"servermain.TAG_ADDRESS": "V1.3",
+												"servermain.TAG_DATA_TYPE": 1,
+												"servermain.TAG_READ_WRITE_ACCESS": 1,
+												"servermain.TAG_SCAN_RATE_MILLISECONDS": 100,
+												"servermain.TAG_SCALING_TYPE": 0
+											},
+											{
+												"common.ALLTYPES_NAME": "试验占用",
+												"servermain.TAG_ADDRESS": "V1.0",
+												"servermain.TAG_DATA_TYPE": 1,
+												"servermain.TAG_READ_WRITE_ACCESS": 1,
+												"servermain.TAG_SCAN_RATE_MILLISECONDS": 100,
+												"servermain.TAG_SCALING_TYPE": 0
+											},
+											{
+												"common.ALLTYPES_NAME": "水冷机组设备",
+												"servermain.TAG_ADDRESS": "V1.2",
+												"servermain.TAG_DATA_TYPE": 1,
+												"servermain.TAG_READ_WRITE_ACCESS": 1,
+												"servermain.TAG_SCAN_RATE_MILLISECONDS": 100,
+												"servermain.TAG_SCALING_TYPE": 0
+											}
+										]
+									},
+									{
+										"common.ALLTYPES_NAME": "room105",
+										"tags": [
+											{
+												"common.ALLTYPES_NAME": "对托台设备",
+												"servermain.TAG_ADDRESS": "V3.2",
+												"servermain.TAG_DATA_TYPE": 1,
+												"servermain.TAG_READ_WRITE_ACCESS": 1,
+												"servermain.TAG_SCAN_RATE_MILLISECONDS": 100,
+												"servermain.TAG_SCALING_TYPE": 0
+											},
+											{
+												"common.ALLTYPES_NAME": "故障停机",
+												"servermain.TAG_ADDRESS": "V3.1",
+												"servermain.TAG_DATA_TYPE": 1,
+												"servermain.TAG_READ_WRITE_ACCESS": 1,
+												"servermain.TAG_SCAN_RATE_MILLISECONDS": 100,
+												"servermain.TAG_SCALING_TYPE": 0
+											},
+											{
+												"common.ALLTYPES_NAME": "试验占用",
+												"servermain.TAG_ADDRESS": "V3.0",
+												"servermain.TAG_DATA_TYPE": 1,
+												"servermain.TAG_READ_WRITE_ACCESS": 1,
+												"servermain.TAG_SCAN_RATE_MILLISECONDS": 100,
+												"servermain.TAG_SCALING_TYPE": 0
+											},
+											{
+												"common.ALLTYPES_NAME": "水冷机组设备",
+												"servermain.TAG_ADDRESS": "V3.3",
+												"servermain.TAG_DATA_TYPE": 1,
+												"servermain.TAG_READ_WRITE_ACCESS": 1,
+												"servermain.TAG_SCAN_RATE_MILLISECONDS": 100,
+												"servermain.TAG_SCALING_TYPE": 0
+											}
+										]
+									},
+									{
+										"common.ALLTYPES_NAME": "room106",
+										"tags": [
+											{
+												"common.ALLTYPES_NAME": "对托台设备",
+												"servermain.TAG_ADDRESS": "V3.6",
+												"servermain.TAG_DATA_TYPE": 1,
+												"servermain.TAG_READ_WRITE_ACCESS": 1,
+												"servermain.TAG_SCAN_RATE_MILLISECONDS": 100,
+												"servermain.TAG_SCALING_TYPE": 0
+											},
+											{
+												"common.ALLTYPES_NAME": "故障停机",
+												"servermain.TAG_ADDRESS": "V3.5",
+												"servermain.TAG_DATA_TYPE": 1,
+												"servermain.TAG_READ_WRITE_ACCESS": 1,
+												"servermain.TAG_SCAN_RATE_MILLISECONDS": 100,
+												"servermain.TAG_SCALING_TYPE": 0
+											},
+											{
+												"common.ALLTYPES_NAME": "试验占用",
+												"servermain.TAG_ADDRESS": "V3.4",
+												"servermain.TAG_DATA_TYPE": 1,
+												"servermain.TAG_READ_WRITE_ACCESS": 1,
+												"servermain.TAG_SCAN_RATE_MILLISECONDS": 100,
+												"servermain.TAG_SCALING_TYPE": 0
+											},
+											{
+												"common.ALLTYPES_NAME": "水冷机组设备",
+												"servermain.TAG_ADDRESS": "V3.7",
+												"servermain.TAG_DATA_TYPE": 1,
+												"servermain.TAG_READ_WRITE_ACCESS": 1,
+												"servermain.TAG_SCAN_RATE_MILLISECONDS": 100,
+												"servermain.TAG_SCALING_TYPE": 0
+											}
+										]
+									},
+									{
+										"common.ALLTYPES_NAME": "room107",
+										"tags": [
+											{
+												"common.ALLTYPES_NAME": "对托台设备",
+												"servermain.TAG_ADDRESS": "V4.2",
+												"servermain.TAG_DATA_TYPE": 1,
+												"servermain.TAG_READ_WRITE_ACCESS": 1,
+												"servermain.TAG_SCAN_RATE_MILLISECONDS": 100,
+												"servermain.TAG_SCALING_TYPE": 0
+											},
+											{
+												"common.ALLTYPES_NAME": "故障停机",
+												"servermain.TAG_ADDRESS": "V4.1",
+												"servermain.TAG_DATA_TYPE": 1,
+												"servermain.TAG_READ_WRITE_ACCESS": 1,
+												"servermain.TAG_SCAN_RATE_MILLISECONDS": 100,
+												"servermain.TAG_SCALING_TYPE": 0
+											},
+											{
+												"common.ALLTYPES_NAME": "环境仓设备",
+												"servermain.TAG_ADDRESS": "V4.4",
+												"servermain.TAG_DATA_TYPE": 1,
+												"servermain.TAG_READ_WRITE_ACCESS": 1,
+												"servermain.TAG_SCAN_RATE_MILLISECONDS": 100,
+												"servermain.TAG_SCALING_TYPE": 0
+											},
+											{
+												"common.ALLTYPES_NAME": "试验占用",
+												"servermain.TAG_ADDRESS": "V4.0",
+												"servermain.TAG_DATA_TYPE": 1,
+												"servermain.TAG_READ_WRITE_ACCESS": 1,
+												"servermain.TAG_SCAN_RATE_MILLISECONDS": 100,
+												"servermain.TAG_SCALING_TYPE": 0
+											},
+											{
+												"common.ALLTYPES_NAME": "水冷机组设备",
+												"servermain.TAG_ADDRESS": "V4.3",
+												"servermain.TAG_DATA_TYPE": 1,
+												"servermain.TAG_READ_WRITE_ACCESS": 1,
+												"servermain.TAG_SCAN_RATE_MILLISECONDS": 100,
+												"servermain.TAG_SCALING_TYPE": 0
+											}
+										]
+									},
+									{
+										"common.ALLTYPES_NAME": "room108",
+										"tags": [
+											{
+												"common.ALLTYPES_NAME": "对托台设备",
+												"servermain.TAG_ADDRESS": "V4.7",
+												"servermain.TAG_DATA_TYPE": 1,
+												"servermain.TAG_READ_WRITE_ACCESS": 1,
+												"servermain.TAG_SCAN_RATE_MILLISECONDS": 100,
+												"servermain.TAG_SCALING_TYPE": 0
+											},
+											{
+												"common.ALLTYPES_NAME": "故障停机",
+												"servermain.TAG_ADDRESS": "V4.6",
+												"servermain.TAG_DATA_TYPE": 1,
+												"servermain.TAG_READ_WRITE_ACCESS": 1,
+												"servermain.TAG_SCAN_RATE_MILLISECONDS": 100,
+												"servermain.TAG_SCALING_TYPE": 0
+											},
+											{
+												"common.ALLTYPES_NAME": "环境仓设备",
+												"servermain.TAG_ADDRESS": "V5.1",
+												"servermain.TAG_DATA_TYPE": 1,
+												"servermain.TAG_READ_WRITE_ACCESS": 1,
+												"servermain.TAG_SCAN_RATE_MILLISECONDS": 100,
+												"servermain.TAG_SCALING_TYPE": 0
+											},
+											{
+												"common.ALLTYPES_NAME": "试验占用",
+												"servermain.TAG_ADDRESS": "V4.5",
+												"servermain.TAG_DATA_TYPE": 1,
+												"servermain.TAG_READ_WRITE_ACCESS": 1,
+												"servermain.TAG_SCAN_RATE_MILLISECONDS": 100,
+												"servermain.TAG_SCALING_TYPE": 0
+											},
+											{
+												"common.ALLTYPES_NAME": "水冷机组设备",
+												"servermain.TAG_ADDRESS": "V5.0",
+												"servermain.TAG_DATA_TYPE": 1,
+												"servermain.TAG_READ_WRITE_ACCESS": 1,
+												"servermain.TAG_SCAN_RATE_MILLISECONDS": 100,
+												"servermain.TAG_SCALING_TYPE": 0
+											}
+										]
+									},
+									{
+										"common.ALLTYPES_NAME": "room109",
+										"tags": [
+											{
+												"common.ALLTYPES_NAME": "对托台设备",
+												"servermain.TAG_ADDRESS": "V5.4",
+												"servermain.TAG_DATA_TYPE": 1,
+												"servermain.TAG_READ_WRITE_ACCESS": 1,
+												"servermain.TAG_SCAN_RATE_MILLISECONDS": 100,
+												"servermain.TAG_SCALING_TYPE": 0
+											},
+											{
+												"common.ALLTYPES_NAME": "故障停机",
+												"servermain.TAG_ADDRESS": "V5.3",
+												"servermain.TAG_DATA_TYPE": 1,
+												"servermain.TAG_READ_WRITE_ACCESS": 1,
+												"servermain.TAG_SCAN_RATE_MILLISECONDS": 100,
+												"servermain.TAG_SCALING_TYPE": 0
+											},
+											{
+												"common.ALLTYPES_NAME": "环境仓1设备",
+												"servermain.TAG_ADDRESS": "V5.6",
+												"servermain.TAG_DATA_TYPE": 1,
+												"servermain.TAG_READ_WRITE_ACCESS": 1,
+												"servermain.TAG_SCAN_RATE_MILLISECONDS": 100,
+												"servermain.TAG_SCALING_TYPE": 0
+											},
+											{
+												"common.ALLTYPES_NAME": "环境仓2设备",
+												"servermain.TAG_ADDRESS": "V5.7",
+												"servermain.TAG_DATA_TYPE": 1,
+												"servermain.TAG_READ_WRITE_ACCESS": 1,
+												"servermain.TAG_SCAN_RATE_MILLISECONDS": 100,
+												"servermain.TAG_SCALING_TYPE": 0
+											},
+											{
+												"common.ALLTYPES_NAME": "试验占用",
+												"servermain.TAG_ADDRESS": "V5.2",
+												"servermain.TAG_DATA_TYPE": 1,
+												"servermain.TAG_READ_WRITE_ACCESS": 1,
+												"servermain.TAG_SCAN_RATE_MILLISECONDS": 100,
+												"servermain.TAG_SCALING_TYPE": 0
+											},
+											{
+												"common.ALLTYPES_NAME": "水冷机组设备",
+												"servermain.TAG_ADDRESS": "V5.5",
+												"servermain.TAG_DATA_TYPE": 1,
+												"servermain.TAG_READ_WRITE_ACCESS": 1,
+												"servermain.TAG_SCAN_RATE_MILLISECONDS": 100,
+												"servermain.TAG_SCALING_TYPE": 0
+											}
+										]
+									},
+									{
+										"common.ALLTYPES_NAME": "room110",
+										"tags": [
+											{
+												"common.ALLTYPES_NAME": "对托台设备",
+												"servermain.TAG_ADDRESS": "V6.2",
+												"servermain.TAG_DATA_TYPE": 1,
+												"servermain.TAG_READ_WRITE_ACCESS": 1,
+												"servermain.TAG_SCAN_RATE_MILLISECONDS": 100,
+												"servermain.TAG_SCALING_TYPE": 0
+											},
+											{
+												"common.ALLTYPES_NAME": "故障停机",
+												"servermain.TAG_ADDRESS": "V6.1",
+												"servermain.TAG_DATA_TYPE": 1,
+												"servermain.TAG_READ_WRITE_ACCESS": 1,
+												"servermain.TAG_SCAN_RATE_MILLISECONDS": 100,
+												"servermain.TAG_SCALING_TYPE": 0
+											},
+											{
+												"common.ALLTYPES_NAME": "环境仓1设备",
+												"servermain.TAG_ADDRESS": "V6.4",
+												"servermain.TAG_DATA_TYPE": 1,
+												"servermain.TAG_READ_WRITE_ACCESS": 1,
+												"servermain.TAG_SCAN_RATE_MILLISECONDS": 100,
+												"servermain.TAG_SCALING_TYPE": 0
+											},
+											{
+												"common.ALLTYPES_NAME": "环境仓2设备",
+												"servermain.TAG_ADDRESS": "V6.5",
+												"servermain.TAG_DATA_TYPE": 1,
+												"servermain.TAG_READ_WRITE_ACCESS": 1,
+												"servermain.TAG_SCAN_RATE_MILLISECONDS": 100,
+												"servermain.TAG_SCALING_TYPE": 0
+											},
+											{
+												"common.ALLTYPES_NAME": "试验占用",
+												"servermain.TAG_ADDRESS": "V6.0",
+												"servermain.TAG_DATA_TYPE": 1,
+												"servermain.TAG_READ_WRITE_ACCESS": 1,
+												"servermain.TAG_SCAN_RATE_MILLISECONDS": 100,
+												"servermain.TAG_SCALING_TYPE": 0
+											},
+											{
+												"common.ALLTYPES_NAME": "水冷机组设备",
+												"servermain.TAG_ADDRESS": "V6.3",
+												"servermain.TAG_DATA_TYPE": 1,
+												"servermain.TAG_READ_WRITE_ACCESS": 1,
+												"servermain.TAG_SCAN_RATE_MILLISECONDS": 100,
+												"servermain.TAG_SCALING_TYPE": 0
+											}
+										]
+									},
+									{
+										"common.ALLTYPES_NAME": "room111",
+										"tags": [
+											{
+												"common.ALLTYPES_NAME": "对托台设备",
+												"servermain.TAG_ADDRESS": "V7.0",
+												"servermain.TAG_DATA_TYPE": 1,
+												"servermain.TAG_READ_WRITE_ACCESS": 1,
+												"servermain.TAG_SCAN_RATE_MILLISECONDS": 100,
+												"servermain.TAG_SCALING_TYPE": 0
+											},
+											{
+												"common.ALLTYPES_NAME": "故障停机",
+												"servermain.TAG_ADDRESS": "V6.7",
+												"servermain.TAG_DATA_TYPE": 1,
+												"servermain.TAG_READ_WRITE_ACCESS": 1,
+												"servermain.TAG_SCAN_RATE_MILLISECONDS": 100,
+												"servermain.TAG_SCALING_TYPE": 0
+											},
+											{
+												"common.ALLTYPES_NAME": "环境仓设备",
+												"servermain.TAG_ADDRESS": "V7.2",
+												"servermain.TAG_DATA_TYPE": 1,
+												"servermain.TAG_READ_WRITE_ACCESS": 1,
+												"servermain.TAG_SCAN_RATE_MILLISECONDS": 100,
+												"servermain.TAG_SCALING_TYPE": 0
+											},
+											{
+												"common.ALLTYPES_NAME": "试验占用",
+												"servermain.TAG_ADDRESS": "V6.6",
+												"servermain.TAG_DATA_TYPE": 1,
+												"servermain.TAG_READ_WRITE_ACCESS": 1,
+												"servermain.TAG_SCAN_RATE_MILLISECONDS": 100,
+												"servermain.TAG_SCALING_TYPE": 0
+											},
+											{
+												"common.ALLTYPES_NAME": "水冷机组设备",
+												"servermain.TAG_ADDRESS": "V7.1",
+												"servermain.TAG_DATA_TYPE": 1,
+												"servermain.TAG_READ_WRITE_ACCESS": 1,
+												"servermain.TAG_SCAN_RATE_MILLISECONDS": 100,
+												"servermain.TAG_SCALING_TYPE": 0
+											}
+										]
+									},
+									{
+										"common.ALLTYPES_NAME": "room112",
+										"tags": [
+											{
+												"common.ALLTYPES_NAME": "对托台设备",
+												"servermain.TAG_ADDRESS": "V7.5",
+												"servermain.TAG_DATA_TYPE": 1,
+												"servermain.TAG_READ_WRITE_ACCESS": 1,
+												"servermain.TAG_SCAN_RATE_MILLISECONDS": 100,
+												"servermain.TAG_SCALING_TYPE": 0
+											},
+											{
+												"common.ALLTYPES_NAME": "故障停机",
+												"servermain.TAG_ADDRESS": "V7.4",
+												"servermain.TAG_DATA_TYPE": 1,
+												"servermain.TAG_READ_WRITE_ACCESS": 1,
+												"servermain.TAG_SCAN_RATE_MILLISECONDS": 100,
+												"servermain.TAG_SCALING_TYPE": 0
+											},
+											{
+												"common.ALLTYPES_NAME": "环境仓设备",
+												"servermain.TAG_ADDRESS": "V7.7",
+												"servermain.TAG_DATA_TYPE": 1,
+												"servermain.TAG_READ_WRITE_ACCESS": 1,
+												"servermain.TAG_SCAN_RATE_MILLISECONDS": 100,
+												"servermain.TAG_SCALING_TYPE": 0
+											},
+											{
+												"common.ALLTYPES_NAME": "试验占用",
+												"servermain.TAG_ADDRESS": "V7.3",
+												"servermain.TAG_DATA_TYPE": 1,
+												"servermain.TAG_READ_WRITE_ACCESS": 1,
+												"servermain.TAG_SCAN_RATE_MILLISECONDS": 100,
+												"servermain.TAG_SCALING_TYPE": 0
+											},
+											{
+												"common.ALLTYPES_NAME": "水冷机组设备",
+												"servermain.TAG_ADDRESS": "V7.6",
+												"servermain.TAG_DATA_TYPE": 1,
+												"servermain.TAG_READ_WRITE_ACCESS": 1,
+												"servermain.TAG_SCAN_RATE_MILLISECONDS": 100,
+												"servermain.TAG_SCALING_TYPE": 0
+											}
+										]
+									},
+									{
+										"common.ALLTYPES_NAME": "room113",
+										"tags": [
+											{
+												"common.ALLTYPES_NAME": "故障停机",
+												"servermain.TAG_ADDRESS": "V8.1",
+												"servermain.TAG_DATA_TYPE": 1,
+												"servermain.TAG_READ_WRITE_ACCESS": 1,
+												"servermain.TAG_SCAN_RATE_MILLISECONDS": 100,
+												"servermain.TAG_SCALING_TYPE": 0
+											},
+											{
+												"common.ALLTYPES_NAME": "三综合环境仓设备",
+												"servermain.TAG_ADDRESS": "V8.2",
+												"servermain.TAG_DATA_TYPE": 1,
+												"servermain.TAG_READ_WRITE_ACCESS": 1,
+												"servermain.TAG_SCAN_RATE_MILLISECONDS": 100,
+												"servermain.TAG_SCALING_TYPE": 0
+											},
+											{
+												"common.ALLTYPES_NAME": "试验占用",
+												"servermain.TAG_ADDRESS": "V8.0",
+												"servermain.TAG_DATA_TYPE": 1,
+												"servermain.TAG_READ_WRITE_ACCESS": 1,
+												"servermain.TAG_SCAN_RATE_MILLISECONDS": 100,
+												"servermain.TAG_SCALING_TYPE": 0
+											},
+											{
+												"common.ALLTYPES_NAME": "振动台设备",
+												"servermain.TAG_ADDRESS": "V8.3",
+												"servermain.TAG_DATA_TYPE": 1,
+												"servermain.TAG_READ_WRITE_ACCESS": 1,
+												"servermain.TAG_SCAN_RATE_MILLISECONDS": 100,
+												"servermain.TAG_SCALING_TYPE": 0
+											}
+										]
+									},
+									{
+										"common.ALLTYPES_NAME": "room114",
+										"tags": [
+											{
+												"common.ALLTYPES_NAME": "测功机系统设备",
+												"servermain.TAG_ADDRESS": "V8.6",
+												"servermain.TAG_DATA_TYPE": 1,
+												"servermain.TAG_READ_WRITE_ACCESS": 1,
+												"servermain.TAG_SCAN_RATE_MILLISECONDS": 100,
+												"servermain.TAG_SCALING_TYPE": 0
+											},
+											{
+												"common.ALLTYPES_NAME": "故障停机",
+												"servermain.TAG_ADDRESS": "V8.5",
+												"servermain.TAG_DATA_TYPE": 1,
+												"servermain.TAG_READ_WRITE_ACCESS": 1,
+												"servermain.TAG_SCAN_RATE_MILLISECONDS": 100,
+												"servermain.TAG_SCALING_TYPE": 0
+											},
+											{
+												"common.ALLTYPES_NAME": "试验占用",
+												"servermain.TAG_ADDRESS": "V8.4",
+												"servermain.TAG_DATA_TYPE": 1,
+												"servermain.TAG_READ_WRITE_ACCESS": 1,
+												"servermain.TAG_SCAN_RATE_MILLISECONDS": 100,
+												"servermain.TAG_SCALING_TYPE": 0
+											},
+											{
+												"common.ALLTYPES_NAME": "水冷机组设备",
+												"servermain.TAG_ADDRESS": "V8.7",
+												"servermain.TAG_DATA_TYPE": 1,
+												"servermain.TAG_READ_WRITE_ACCESS": 1,
+												"servermain.TAG_SCAN_RATE_MILLISECONDS": 100,
+												"servermain.TAG_SCALING_TYPE": 0
+											},
+											{
+												"common.ALLTYPES_NAME": "油冷温控设备",
+												"servermain.TAG_ADDRESS": "V9.0",
+												"servermain.TAG_DATA_TYPE": 1,
+												"servermain.TAG_READ_WRITE_ACCESS": 1,
+												"servermain.TAG_SCAN_RATE_MILLISECONDS": 100,
+												"servermain.TAG_SCALING_TYPE": 0
+											}
+										]
+									},
+									{
+										"common.ALLTYPES_NAME": "room115",
+										"tags": [
+											{
+												"common.ALLTYPES_NAME": "测功机系统/直流电源设备",
+												"servermain.TAG_ADDRESS": "V9.3",
+												"servermain.TAG_DATA_TYPE": 1,
+												"servermain.TAG_READ_WRITE_ACCESS": 1,
+												"servermain.TAG_SCAN_RATE_MILLISECONDS": 100,
+												"servermain.TAG_SCALING_TYPE": 0
+											},
+											{
+												"common.ALLTYPES_NAME": "故障停机",
+												"servermain.TAG_ADDRESS": "V9.2",
+												"servermain.TAG_DATA_TYPE": 1,
+												"servermain.TAG_READ_WRITE_ACCESS": 1,
+												"servermain.TAG_SCAN_RATE_MILLISECONDS": 100,
+												"servermain.TAG_SCALING_TYPE": 0
+											},
+											{
+												"common.ALLTYPES_NAME": "环境仓设备",
+												"servermain.TAG_ADDRESS": "V9.5",
+												"servermain.TAG_DATA_TYPE": 1,
+												"servermain.TAG_READ_WRITE_ACCESS": 1,
+												"servermain.TAG_SCAN_RATE_MILLISECONDS": 100,
+												"servermain.TAG_SCALING_TYPE": 0
+											},
+											{
+												"common.ALLTYPES_NAME": "试验占用",
+												"servermain.TAG_ADDRESS": "V9.1",
+												"servermain.TAG_DATA_TYPE": 1,
+												"servermain.TAG_READ_WRITE_ACCESS": 1,
+												"servermain.TAG_SCAN_RATE_MILLISECONDS": 100,
+												"servermain.TAG_SCALING_TYPE": 0
+											},
+											{
+												"common.ALLTYPES_NAME": "水冷机组设备",
+												"servermain.TAG_ADDRESS": "V9.4",
+												"servermain.TAG_DATA_TYPE": 1,
+												"servermain.TAG_READ_WRITE_ACCESS": 1,
+												"servermain.TAG_SCAN_RATE_MILLISECONDS": 100,
+												"servermain.TAG_SCALING_TYPE": 0
+											}
+										]
+									},
+									{
+										"common.ALLTYPES_NAME": "room116",
+										"tags": [
+											{
+												"common.ALLTYPES_NAME": "动力总成系统/直流电源设备",
+												"servermain.TAG_ADDRESS": "V10.0",
+												"servermain.TAG_DATA_TYPE": 1,
+												"servermain.TAG_READ_WRITE_ACCESS": 1,
+												"servermain.TAG_SCAN_RATE_MILLISECONDS": 100,
+												"servermain.TAG_SCALING_TYPE": 0
+											},
+											{
+												"common.ALLTYPES_NAME": "故障停机",
+												"servermain.TAG_ADDRESS": "V9.7",
+												"servermain.TAG_DATA_TYPE": 1,
+												"servermain.TAG_READ_WRITE_ACCESS": 1,
+												"servermain.TAG_SCAN_RATE_MILLISECONDS": 100,
+												"servermain.TAG_SCALING_TYPE": 0
+											},
+											{
+												"common.ALLTYPES_NAME": "环境仓设备",
+												"servermain.TAG_ADDRESS": "V10.2",
+												"servermain.TAG_DATA_TYPE": 1,
+												"servermain.TAG_READ_WRITE_ACCESS": 1,
+												"servermain.TAG_SCAN_RATE_MILLISECONDS": 100,
+												"servermain.TAG_SCALING_TYPE": 0
+											},
+											{
+												"common.ALLTYPES_NAME": "试验占用",
+												"servermain.TAG_ADDRESS": "V9.6",
+												"servermain.TAG_DATA_TYPE": 1,
+												"servermain.TAG_READ_WRITE_ACCESS": 1,
+												"servermain.TAG_SCAN_RATE_MILLISECONDS": 100,
+												"servermain.TAG_SCALING_TYPE": 0
+											},
+											{
+												"common.ALLTYPES_NAME": "水冷机组设备",
+												"servermain.TAG_ADDRESS": "V10.1",
+												"servermain.TAG_DATA_TYPE": 1,
+												"servermain.TAG_READ_WRITE_ACCESS": 1,
+												"servermain.TAG_SCAN_RATE_MILLISECONDS": 100,
+												"servermain.TAG_SCALING_TYPE": 0
+											}
+										]
+									},
+									{
+										"common.ALLTYPES_NAME": "room117",
+										"tags": [
+											{
+												"common.ALLTYPES_NAME": "故障停机",
+												"servermain.TAG_ADDRESS": "V10.4",
+												"servermain.TAG_DATA_TYPE": 1,
+												"servermain.TAG_READ_WRITE_ACCESS": 1,
+												"servermain.TAG_SCAN_RATE_MILLISECONDS": 100,
+												"servermain.TAG_SCALING_TYPE": 0
+											},
+											{
+												"common.ALLTYPES_NAME": "试验占用",
+												"servermain.TAG_ADDRESS": "V10.3",
+												"servermain.TAG_DATA_TYPE": 1,
+												"servermain.TAG_READ_WRITE_ACCESS": 1,
+												"servermain.TAG_SCAN_RATE_MILLISECONDS": 100,
+												"servermain.TAG_SCALING_TYPE": 0
+											},
+											{
+												"common.ALLTYPES_NAME": "温箱1设备",
+												"servermain.TAG_ADDRESS": "V10.5",
+												"servermain.TAG_DATA_TYPE": 1,
+												"servermain.TAG_READ_WRITE_ACCESS": 1,
+												"servermain.TAG_SCAN_RATE_MILLISECONDS": 100,
+												"servermain.TAG_SCALING_TYPE": 0
+											},
+											{
+												"common.ALLTYPES_NAME": "温箱2设备",
+												"servermain.TAG_ADDRESS": "V10.6",
+												"servermain.TAG_DATA_TYPE": 1,
+												"servermain.TAG_READ_WRITE_ACCESS": 1,
+												"servermain.TAG_SCAN_RATE_MILLISECONDS": 100,
+												"servermain.TAG_SCALING_TYPE": 0
+											},
+											{
+												"common.ALLTYPES_NAME": "温箱3设备",
+												"servermain.TAG_ADDRESS": "V10.7",
+												"servermain.TAG_DATA_TYPE": 1,
+												"servermain.TAG_READ_WRITE_ACCESS": 1,
+												"servermain.TAG_SCAN_RATE_MILLISECONDS": 100,
+												"servermain.TAG_SCALING_TYPE": 0
+											},
+											{
+												"common.ALLTYPES_NAME": "温箱4设备",
+												"servermain.TAG_ADDRESS": "V11.0",
+												"servermain.TAG_DATA_TYPE": 1,
+												"servermain.TAG_READ_WRITE_ACCESS": 1,
+												"servermain.TAG_SCAN_RATE_MILLISECONDS": 100,
+												"servermain.TAG_SCALING_TYPE": 0
+											},
+											{
+												"common.ALLTYPES_NAME": "预留设备",
+												"servermain.TAG_ADDRESS": "V11.1",
+												"servermain.TAG_DATA_TYPE": 1,
+												"servermain.TAG_READ_WRITE_ACCESS": 1,
+												"servermain.TAG_SCAN_RATE_MILLISECONDS": 100,
+												"servermain.TAG_SCALING_TYPE": 0
+											}
+										]
+									},
+									{
+										"common.ALLTYPES_NAME": "room118",
+										"tags": [
+											{
+												"common.ALLTYPES_NAME": "动力总成系统/直流电源设备",
+												"servermain.TAG_ADDRESS": "V11.4",
+												"servermain.TAG_DATA_TYPE": 1,
+												"servermain.TAG_READ_WRITE_ACCESS": 1,
+												"servermain.TAG_SCAN_RATE_MILLISECONDS": 100,
+												"servermain.TAG_SCALING_TYPE": 0
+											},
+											{
+												"common.ALLTYPES_NAME": "故障停机",
+												"servermain.TAG_ADDRESS": "V11.3",
+												"servermain.TAG_DATA_TYPE": 1,
+												"servermain.TAG_READ_WRITE_ACCESS": 1,
+												"servermain.TAG_SCAN_RATE_MILLISECONDS": 100,
+												"servermain.TAG_SCALING_TYPE": 0
+											},
+											{
+												"common.ALLTYPES_NAME": "环境仓设备",
+												"servermain.TAG_ADDRESS": "V11.6",
+												"servermain.TAG_DATA_TYPE": 1,
+												"servermain.TAG_READ_WRITE_ACCESS": 1,
+												"servermain.TAG_SCAN_RATE_MILLISECONDS": 100,
+												"servermain.TAG_SCALING_TYPE": 0
+											},
+											{
+												"common.ALLTYPES_NAME": "试验占用",
+												"servermain.TAG_ADDRESS": "V11.2",
+												"servermain.TAG_DATA_TYPE": 1,
+												"servermain.TAG_READ_WRITE_ACCESS": 1,
+												"servermain.TAG_SCAN_RATE_MILLISECONDS": 100,
+												"servermain.TAG_SCALING_TYPE": 0
+											},
+											{
+												"common.ALLTYPES_NAME": "水冷机组设备",
+												"servermain.TAG_ADDRESS": "V11.5",
+												"servermain.TAG_DATA_TYPE": 1,
+												"servermain.TAG_READ_WRITE_ACCESS": 1,
+												"servermain.TAG_SCAN_RATE_MILLISECONDS": 100,
+												"servermain.TAG_SCALING_TYPE": 0
+											}
+										]
+									},
+									{
+										"common.ALLTYPES_NAME": "room120",
+										"tags": [
+											{
+												"common.ALLTYPES_NAME": "故障停机",
+												"servermain.TAG_ADDRESS": "V12.1",
+												"servermain.TAG_DATA_TYPE": 1,
+												"servermain.TAG_READ_WRITE_ACCESS": 1,
+												"servermain.TAG_SCAN_RATE_MILLISECONDS": 100,
+												"servermain.TAG_SCALING_TYPE": 0
+											},
+											{
+												"common.ALLTYPES_NAME": "试验占用",
+												"servermain.TAG_ADDRESS": "V12.0",
+												"servermain.TAG_DATA_TYPE": 1,
+												"servermain.TAG_READ_WRITE_ACCESS": 1,
+												"servermain.TAG_SCAN_RATE_MILLISECONDS": 100,
+												"servermain.TAG_SCALING_TYPE": 0
+											},
+											{
+												"common.ALLTYPES_NAME": "温控箱1设备",
+												"servermain.TAG_ADDRESS": "V12.2",
+												"servermain.TAG_DATA_TYPE": 1,
+												"servermain.TAG_READ_WRITE_ACCESS": 1,
+												"servermain.TAG_SCAN_RATE_MILLISECONDS": 100,
+												"servermain.TAG_SCALING_TYPE": 0
+											},
+											{
+												"common.ALLTYPES_NAME": "温控箱2设备",
+												"servermain.TAG_ADDRESS": "V12.3",
+												"servermain.TAG_DATA_TYPE": 1,
+												"servermain.TAG_READ_WRITE_ACCESS": 1,
+												"servermain.TAG_SCAN_RATE_MILLISECONDS": 100,
+												"servermain.TAG_SCALING_TYPE": 0
+											}
+										]
+									},
+									{
+										"common.ALLTYPES_NAME": "room121",
+										"tags": [
+											{
+												"common.ALLTYPES_NAME": "电机模块设备",
+												"servermain.TAG_ADDRESS": "V12.6",
+												"servermain.TAG_DATA_TYPE": 1,
+												"servermain.TAG_READ_WRITE_ACCESS": 1,
+												"servermain.TAG_SCAN_RATE_MILLISECONDS": 100,
+												"servermain.TAG_SCALING_TYPE": 0
+											},
+											{
+												"common.ALLTYPES_NAME": "故障停机",
+												"servermain.TAG_ADDRESS": "V12.5",
+												"servermain.TAG_DATA_TYPE": 1,
+												"servermain.TAG_READ_WRITE_ACCESS": 1,
+												"servermain.TAG_SCAN_RATE_MILLISECONDS": 100,
+												"servermain.TAG_SCALING_TYPE": 0
+											},
+											{
+												"common.ALLTYPES_NAME": "试验占用",
+												"servermain.TAG_ADDRESS": "V12.4",
+												"servermain.TAG_DATA_TYPE": 1,
+												"servermain.TAG_READ_WRITE_ACCESS": 1,
+												"servermain.TAG_SCAN_RATE_MILLISECONDS": 100,
+												"servermain.TAG_SCALING_TYPE": 0
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		],
+		"client_interfaces": [
+			{
+				"common.ALLTYPES_NAME": "aeserverinterface",
+				"aeserverinterface.ENABLE_AE_SERVER": false,
+				"aeserverinterface.ENABLE_SIMPLE_EVENTS": true,
+				"aeserverinterface.MAX_SUBSCRIPTION_BUFFER_SIZE": 100,
+				"aeserverinterface.MIN_SUBSCRIPTION_BUFFER_TIME_MS": 1000,
+				"aeserverinterface.MIN_KEEP_ALIVE_TIME_MS": 1000
+			},
+			{
+				"common.ALLTYPES_NAME": "ddeserver",
+				"ddeserver.ENABLE": false,
+				"ddeserver.SERVICE_NAME": "kepdde",
+				"ddeserver.ADVANCED_DDE": true,
+				"ddeserver.XLTABLE": true,
+				"ddeserver.CF_TEXT": true,
+				"ddeserver.CLIENT_UPDATE_INTERVAL_MS": 100,
+				"ddeserver.REQUEST_TIMEOUT_SEC": 15
+			},
+			{
+				"common.ALLTYPES_NAME": "hdaserver",
+				"hdaserver.ENABLE": false,
+				"hdaserver.ENABLE_DIAGNOSTICS": false
+			},
+			{
+				"common.ALLTYPES_NAME": "opcdaserver",
+				"opcdaserver.PROJECT_OPC_DA_1_ENABLED": true,
+				"opcdaserver.PROJECT_OPC_DA_2_ENABLED": true,
+				"opcdaserver.PROJECT_OPC_DA_3_ENABLED": true,
+				"opcdaserver.PROJECT_OPC_SHOW_HINTS_ON_BROWSE": false,
+				"opcdaserver.PROJECT_OPC_SHOW_TAG_PROPERTIES_ON_BROWSE": false,
+				"opcdaserver.PROJECT_OPC_SHUTDOWN_WAIT_SEC": 15,
+				"opcdaserver.PROJECT_OPC_SYNC_REQUEST_WAIT_SEC": 15,
+				"opcdaserver.PROJECT_OPC_ENABLE_DIAGS": false,
+				"opcdaserver.PROJECT_OPC_REJECT_UNSUPPORTED_LANG_ID": true,
+				"opcdaserver.PROJECT_OPC_IGNORE_DEADBAND_ON_CACHE": false,
+				"opcdaserver.PROJECT_OPC_IGNORE_BROWSE_FILTER": false,
+				"opcdaserver.PROJECT_OPC_205A_DATA_TYPE_SUPPORT": true,
+				"opcdaserver.PROJECT_OPC_SYNC_READ_ERROR_ON_BAD_QUALITY": false,
+				"opcdaserver.PROJECT_OPC_RETURN_INITIAL_UPDATES_IN_SINGLE_CALLBACK": false,
+				"opcdaserver.PROJECT_OPC_RESPECT_CLIENT_LANG_ID": true,
+				"opcdaserver.PROJECT_OPC_COMPLIANT_DATA_CHANGE": true,
+				"opcdaserver.PROJECT_OPC_IGNORE_GROUP_UPDATE_RATE": false
+			},
+			{
+				"common.ALLTYPES_NAME": "thingworxinterface",
+				"thingworxinterface.ENABLED": false,
+				"thingworxinterface.LEGACY": false,
+				"thingworxinterface.HOSTNAME": "localhost",
+				"thingworxinterface.PORT": 443,
+				"thingworxinterface.RESOURCE": "/Thingworx/WS",
+				"thingworxinterface.APPKEY": "",
+				"thingworxinterface.ALLOW_SELF_SIGNED_CERTIFICATE": false,
+				"thingworxinterface.TRUST_ALL_CERTIFICATES": false,
+				"thingworxinterface.DISABLE_ENCRYPTION": false,
+				"thingworxinterface.THING_NAME": "KEPServerEX",
+				"thingworxinterface.SERVER_DESCRIPTION": "",
+				"thingworxinterface.SCAN_RATE_MSEC": 1000,
+				"thingworxinterface.SEND_EVERY_SCAN": false,
+				"thingworxinterface.PUBLISH_FLOOR_MSEC": 1000,
+				"thingworxinterface.LOGGING_ENABLED": false,
+				"thingworxinterface.LOG_LEVEL": 3,
+				"thingworxinterface.VERBOSE": false,
+				"thingworxinterface.STORE_AND_FORWARD_ENABLED": false,
+				"thingworxinterface.STORAGE_PATH": "C:\\ProgramData\\Kepware\\KEPServerEX\\V6",
+				"thingworxinterface.DATASTORE_MAXSIZE": 2048,
+				"thingworxinterface.FORWARD_MODE": 0,
+				"thingworxinterface.DATASTORE_ID": 171919396
+			},
+			{
+				"common.ALLTYPES_NAME": "uaserverinterface",
+				"uaserverinterface.PROJECT_OPC_UA_ENABLE": true,
+				"uaserverinterface.PROJECT_OPC_UA_DIAGNOSTICS": false,
+				"uaserverinterface.PROJECT_OPC_UA_ANONYMOUS_LOGIN": false,
+				"uaserverinterface.PROJECT_OPC_UA_MAX_CONNECTIONS": 128,
+				"uaserverinterface.PROJECT_OPC_UA_MIN_SESSION_TIMEOUT_SEC": 15,
+				"uaserverinterface.PROJECT_OPC_UA_MAX_SESSION_TIMEOUT_SEC": 60,
+				"uaserverinterface.PROJECT_OPC_UA_TAG_CACHE_TIMEOUT_SEC": 5,
+				"uaserverinterface.PROJECT_OPC_UA_BROWSE_TAG_PROPERTIES": false,
+				"uaserverinterface.PROJECT_OPC_UA_BROWSE_ADDRESS_HINTS": false,
+				"uaserverinterface.PROJECT_OPC_UA_MAX_DATA_QUEUE_SIZE": 2,
+				"uaserverinterface.PROJECT_OPC_UA_MAX_RETRANSMIT_QUEUE_SIZE": 10,
+				"uaserverinterface.PROJECT_OPC_UA_MAX_NOTIFICATION_PER_PUBLISH": 65536
+			},
+			{
+				"common.ALLTYPES_NAME": "xiserverinterface",
+				"xiserverinterface.ENABLE": false
+			}
+		]
+	}
+}

@@ -1,0 +1,15 @@
+﻿using RW.PMS.Common;
+using RW.PMS.Model.WorkStep;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace RW.PMS.IDAL
+{
+   public interface IDAL_WorkStep : IDependence
+    {
+        List<WorkStep> getWorkStep();
+    }
+}

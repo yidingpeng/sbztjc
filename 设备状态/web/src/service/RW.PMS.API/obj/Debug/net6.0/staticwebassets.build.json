@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "q6MOXpTH30eHzr+61fM/dYVDGmcoOT8USr/9/SQRPW4=",
+  "Source": "RW.PMS.API",
+  "BasePath": "_content/RW.PMS.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

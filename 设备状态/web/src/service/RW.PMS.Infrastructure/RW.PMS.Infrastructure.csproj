@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\RW.PMS.Domain\RW.PMS.Domain.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FreeSql.Provider.MySql" Version="3.2.662" />
+    <PackageReference Include="FreeSql.Provider.Sqlite" Version="3.2.662" />
+    <PackageReference Include="FreeSql.Provider.SqlServer" Version="3.2.662" />
+  </ItemGroup>
+
+</Project>

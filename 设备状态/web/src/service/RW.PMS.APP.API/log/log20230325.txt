@@ -1,0 +1,71 @@
+2023-03-25 10:17:30.027 (Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware) [ERR] An unhandled exception has occurred while executing the request.
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at Castle.DynamicProxy.Internal.InvocationHelper.ObtainMethod(MethodInfo proxiedMethod, Type type)
+   at Castle.Core.Internal.SynchronizedDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Castle.DynamicProxy.Internal.InvocationHelper.GetMethodOnType(Type type, MethodInfo proxiedMethod)
+   at RW.PMS.CrossCutting.AOP.Interceptors.DatabaseTransactionAsync.TryBegin(IInvocation invocation) in D:\Project\GJCX22006_车轴自动喷漆\src\service\RW.PMS.CrossCutting\AOP\Interceptors\DatabaseTransactionAsync.cs:line 118
+   at RW.PMS.CrossCutting.AOP.Interceptors.DatabaseTransactionAsync.InterceptSynchronous(IInvocation invocation) in D:\Project\GJCX22006_车轴自动喷漆\src\service\RW.PMS.CrossCutting\AOP\Interceptors\DatabaseTransactionAsync.cs:line 26
+   at RW.PMS.CrossCutting.AOP.Interceptors.DatabaseTransaction.Intercept(IInvocation invocation) in D:\Project\GJCX22006_车轴自动喷漆\src\service\RW.PMS.CrossCutting\AOP\Interceptors\DatabaseTransaction.cs:line 16
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.IApplicationServiceProxy_1.AddLog(LogInputDto input)
+   at RW.PMS.API.Middleware.ExceptionMiddleWare.HandleCommonException(HttpContext context, Exception e) in D:\Project\GJCX22006_车轴自动喷漆\src\service\RW.PMS.APP.API\Middleware\ExceptionMiddleWare.cs:line 63
+   at RW.PMS.API.Middleware.ExceptionMiddleWare.InvokeAsync(HttpContext context, RequestDelegate next) in D:\Project\GJCX22006_车轴自动喷漆\src\service\RW.PMS.APP.API\Middleware\ExceptionMiddleWare.cs:line 31
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.<>c__DisplayClass6_1.<<UseMiddlewareInterface>b__1>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-03-25 11:09:10.305 (Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware) [ERR] An unhandled exception has occurred while executing the request.
+System.Exception: FreeSql:The 主库 status is unavailable and cannot be used until the background checker is restored. Timeout expired.  The timeout period elapsed prior to completion of the operation or the server is not responding.
+ ---> System.Exception: FreeSql:The 主库 status is unavailable and cannot be used until the background checker is restored. Timeout expired.  The timeout period elapsed prior to completion of the operation or the server is not responding.
+ ---> MySql.Data.MySqlClient.MySqlException (0x80004005): Timeout expired.  The timeout period elapsed prior to completion of the operation or the server is not responding.
+ ---> System.TimeoutException: Timeout in IO operation
+   at MySql.Data.MySqlClient.TimedStream.StopTimer()
+   at MySql.Data.MySqlClient.TimedStream.Read(Byte[] buffer, Int32 offset, Int32 count)
+   at MySql.Data.MySqlClient.MySqlStream.ReadFully(Stream stream, Byte[] buffer, Int32 offset, Int32 count)
+   at MySql.Data.MySqlClient.MySqlStream.LoadPacket()
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.Interceptors.ExceptionInterceptor.Throw(Exception exception)
+   at MySql.Data.MySqlClient.MySqlConnection.HandleTimeoutOrThreadAbort(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteScalar()
+   at MySql.Data.MySqlClient.Driver.GetTimeZoneOffset(MySqlConnection con)
+   at MySql.Data.MySqlClient.Driver.LoadServerProperties(MySqlConnection connection)
+   at MySql.Data.MySqlClient.Driver.Configure(MySqlConnection connection)
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at FreeSql.MySql.MySqlConnectionPoolPolicy.OnGet(Object`1 obj)
+   --- End of inner exception stack trace ---
+   at FreeSql.Internal.ObjectPool.ObjectPool`1.GetFree(Boolean checkAvailable)
+   at FreeSql.Internal.ObjectPool.ObjectPool`1.Get(Nullable`1 timeout)
+   at FreeSql.Internal.CommonProvider.AdoProvider.ExecuteScalar(DbConnection connection, DbTransaction transaction, CommandType cmdType, String cmdText, Int32 cmdTimeout, DbParameter[] cmdParms)
+   --- End of inner exception stack trace ---
+   at FreeSql.Internal.CommonProvider.AdoProvider.LoggerException(IObjectPool`1 pool, PrepareCommandResult pc, Exception ex, DateTime dt, StringBuilder logtxt, Boolean isThrowException)
+   at FreeSql.Internal.CommonProvider.AdoProvider.ExecuteScalar(DbConnection connection, DbTransaction transaction, CommandType cmdType, String cmdText, Int32 cmdTimeout, DbParameter[] cmdParms)
+   at FreeSql.MySql.Curd.MySqlInsert`1.RawExecuteIdentity()
+   at FreeSql.Internal.CommonProvider.InsertProvider`1.SplitExecuteIdentity(Int32 valuesLimit, Int32 parameterLimit)
+   at FreeSql.MySql.Curd.MySqlInsert`1.ExecuteIdentity()
+   at FreeSql.DbSet`1.AddPriv(TEntity data, Boolean isCheck)
+   at FreeSql.DbSet`1.Add(TEntity data)
+   at FreeSql.BaseRepository`1.Insert(TEntity entity)
+   at RW.PMS.Infrastructure.Repositories.Repository`2.Insert(TEntity entity) in D:\Project\GJCX22006_车轴自动喷漆\src\service\RW.PMS.Infrastructure\Repositories\Repository.cs:line 40
+   at RW.PMS.Application.CrudApplicationService`3.Insert[TInput](TInput input) in D:\Project\GJCX22006_车轴自动喷漆\src\service\RW.PMS.Application\CrudApplicationService.cs:line 47
+   at RW.PMS.Application.System.LogService.AddLog(LogInputDto input) in D:\Project\GJCX22006_车轴自动喷漆\src\service\RW.PMS.Application\System\LogService.cs:line 46
+   at Castle.Proxies.Invocations.ILogService_AddLog.InvokeMethodOnTarget()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at RW.PMS.CrossCutting.AOP.Interceptors.DatabaseTransactionAsync.InterceptSynchronous(IInvocation invocation) in D:\Project\GJCX22006_车轴自动喷漆\src\service\RW.PMS.CrossCutting\AOP\Interceptors\DatabaseTransactionAsync.cs:line 42
+   at RW.PMS.CrossCutting.AOP.Interceptors.DatabaseTransaction.Intercept(IInvocation invocation) in D:\Project\GJCX22006_车轴自动喷漆\src\service\RW.PMS.CrossCutting\AOP\Interceptors\DatabaseTransaction.cs:line 16
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.IApplicationServiceProxy_1.AddLog(LogInputDto input)
+   at RW.PMS.API.Middleware.ExceptionMiddleWare.HandleCommonException(HttpContext context, Exception e) in D:\Project\GJCX22006_车轴自动喷漆\src\service\RW.PMS.APP.API\Middleware\ExceptionMiddleWare.cs:line 63
+   at RW.PMS.API.Middleware.ExceptionMiddleWare.InvokeAsync(HttpContext context, RequestDelegate next) in D:\Project\GJCX22006_车轴自动喷漆\src\service\RW.PMS.APP.API\Middleware\ExceptionMiddleWare.cs:line 31
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.<>c__DisplayClass6_1.<<UseMiddlewareInterface>b__1>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)

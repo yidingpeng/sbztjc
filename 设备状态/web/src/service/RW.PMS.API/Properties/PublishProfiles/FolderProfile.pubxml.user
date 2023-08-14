@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121.
+-->
+<Project>
+  <PropertyGroup>
+    <_PublishTargetUrl>D:\本地发布文件\SBJCpub</_PublishTargetUrl>
+    <History>True|2023-08-14T02:53:50.7810673Z;True|2023-08-07T14:19:41.9551887+08:00;True|2023-08-02T20:36:21.8404378+08:00;False|2023-08-02T20:34:05.0919490+08:00;True|2023-08-02T16:37:20.9640307+08:00;True|2023-07-31T17:42:44.2593453+08:00;True|2023-07-01T21:38:10.2951684+08:00;True|2023-03-01T15:27:44.2082515+08:00;True|2023-03-01T09:46:10.4942118+08:00;True|2023-02-24T16:32:01.8012245+08:00;True|2023-02-24T16:30:52.7715802+08:00;True|2023-02-24T10:49:32.1621153+08:00;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+</Project>

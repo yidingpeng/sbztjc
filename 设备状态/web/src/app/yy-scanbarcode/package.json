@@ -1,0 +1,31 @@
+{  
+    "name": "yy-scanbarcode",  
+    "id": "yy-scanbarcode",  
+    "version": "1.0",  
+    "description": "条形码持续扫描",  
+    "_dp_type":"nativeplugin",  
+    "_dp_nativeplugin":{   
+        "android": {  
+            "plugins": [  
+                {  
+                    "type": "module",
+                    "name":"yy-scanbarcode",  
+                    "class": "wms.jawasoft.com.yy_scanbarcode.SMSWXModule"  
+                } 
+            ],  
+            "hooksClass": "",  
+            "integrateType": "aar",  
+           
+            "abis": [  
+                "armeabi",
+				"armeabi-v7a",
+				"arm64-v8a",
+				"x86",
+				"x86_64"
+            ]
+          
+            
+           
+        }  
+    }  
+}  

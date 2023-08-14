@@ -1,0 +1,2837 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>RW.PMS.Domain</name>
+    </assembly>
+    <members>
+        <member name="T:RW.PMS.Domain.Entities.Base.Entity`1">
+            <summary>
+            实体基类
+            </summary>
+            <typeparam name="TKey">主键类型</typeparam>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Base.Entity`1.Id">
+            <summary>
+            主键
+            </summary>
+        </member>
+        <member name="T:RW.PMS.Domain.Entities.Base.FullEntity">
+            <summary>
+            完整实体
+            </summary>
+        </member>
+        <member name="T:RW.PMS.Domain.Entities.Base.FullEntity`1">
+            <summary>
+            完整实体
+            </summary>
+            <typeparam name="TKey"></typeparam>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Base.FullEntity`1.CreatedBy">
+            <summary>
+                创建人
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Base.FullEntity`1.CreatedAt">
+            <summary>
+                创建时间
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Base.FullEntity`1.LastModifiedBy">
+            <summary>
+                最后修改人
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Base.FullEntity`1.LastModifiedAt">
+            <summary>
+                最后修改时间
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Base.FullEntity`1.IsDeleted">
+            <summary>
+                是否删除
+            </summary>
+        </member>
+        <member name="T:RW.PMS.Domain.Entities.Base.IAuditable">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Base.IAuditable.CreatedBy">
+            <summary>
+            创建人
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Base.IAuditable.CreatedAt">
+            <summary>
+            创建时间
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Base.IAuditable.LastModifiedBy">
+            <summary>
+            最后修改人
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Base.IAuditable.LastModifiedAt">
+            <summary>
+            最后修改时间
+            </summary>
+        </member>
+        <member name="T:RW.PMS.Domain.Entities.Base.IEntity`1">
+            <summary>
+            实体接口
+            </summary>
+            <typeparam name="TKey"></typeparam>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Base.IEntity`1.Id">
+            <summary>
+            主键
+            </summary>
+        </member>
+        <member name="T:RW.PMS.Domain.Entities.Base.IFullEntity`1">
+            <summary>
+            完整实体接
+            </summary>
+            <typeparam name="TKey"></typeparam>
+        </member>
+        <member name="T:RW.PMS.Domain.Entities.Base.ISoftDelete">
+            <summary>
+                逻辑删除接口
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Base.ISoftDelete.IsDeleted">
+            <summary>
+                是否删除
+            </summary>
+        </member>
+        <member name="T:RW.PMS.Domain.Entities.Base.ITree`1">
+            <summary>
+                树结构表接口
+            </summary>
+            <typeparam name="T"></typeparam>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Base.ITree`1.ParentId">
+            <summary>
+                上级Id
+            </summary>
+        </member>
+        <member name="T:RW.PMS.Domain.Entities.Equipment.EqptAbnormalInfoEntity">
+            <summary>
+                设备异常信息
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Equipment.EqptAbnormalInfoEntity.EqptId">
+            <summary>
+                设备Id
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Equipment.EqptAbnormalInfoEntity.ReportTime">
+            <summary>
+                上报时间
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Equipment.EqptAbnormalInfoEntity.ReportId">
+            <summary>
+                上报人员
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Equipment.EqptAbnormalInfoEntity.TypeId">
+            <summary>
+                异常类型 关联数据字典
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Equipment.EqptAbnormalInfoEntity.Remark">
+            <summary>
+                备注
+            </summary>
+        </member>
+        <member name="T:RW.PMS.Domain.Entities.Equipment.EqptChangeEntity">
+            <summary>
+                设备变动
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Equipment.EqptChangeEntity.EquipmentId">
+            <summary>
+                设备Id
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Equipment.EqptChangeEntity.BeforeState">
+            <summary>
+                变更前状态
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Equipment.EqptChangeEntity.AfterState">
+            <summary>
+                变更后状态
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Equipment.EqptChangeEntity.Description">
+            <summary>
+                变更说明
+            </summary>
+        </member>
+        <member name="T:RW.PMS.Domain.Entities.Equipment.EqptCheckPlanEntity">
+            <summary>
+                设备点检计划
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Equipment.EqptCheckPlanEntity.StandardId">
+            <summary>
+                标准Id
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Equipment.EqptCheckPlanEntity.StartDate">
+            <summary>
+                计划开始时间
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Equipment.EqptCheckPlanEntity.EndDate">
+            <summary>
+                计划结束时间
+            </summary>
+        </member>
+        <member name="T:RW.PMS.Domain.Entities.Equipment.EqptCheckPlanItemEntity">
+            <summary>
+                设备点检计划项
+            </summary>
+        </member>
+        <member name="T:RW.PMS.Domain.Entities.Equipment.EqptCheckStandardEntity">
+            <summary>
+              设备点检标准项点主表
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Equipment.EqptCheckStandardEntity.DeviceID">
+            <summary>
+             设备id 关联
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Equipment.EqptCheckStandardEntity.SpotNo">
+            <summary>
+            序号
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Equipment.EqptCheckStandardEntity.StandardCategory">
+            <summary>
+            标准类别
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Equipment.EqptCheckStandardEntity.TypeID">
+            <summary>
+             点巡检类别 关联数据字典
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Equipment.EqptCheckStandardEntity.Place">
+            <summary>
+             点检部位
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Equipment.EqptCheckStandardEntity.SpecializedID">
+            <summary>
+             点巡检专业 关联数据字典
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Equipment.EqptCheckStandardEntity.Grade">
+            <summary>
+             等级
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Equipment.EqptCheckStandardEntity.Title">
+            <summary>
+             工单标题
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Equipment.EqptCheckStandardEntity.StandardWorkingHours">
+            <summary>
+             标准工时
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Equipment.EqptCheckStandardEntity.Version">
+            <summary>
+             版本号
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Equipment.EqptCheckStandardEntity.PublishStatusID">
+            <summary>
+             版本发布状态 关联数据字典
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Equipment.EqptCheckStandardEntity.RoleID">
+            <summary>
+             角色表id
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Equipment.EqptCheckStandardEntity.Remark">
+            <summary>
+             备注
+            </summary>
+        </member>
+        <member name="T:RW.PMS.Domain.Entities.Equipment.EqptChkStandardDetailsEntity">
+            <summary>
+             设备点检/保养标准项点明细表
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Equipment.EqptChkStandardDetailsEntity.StandardMainID">
+            <summary>
+             关联设备点检标准主表ID
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Equipment.EqptChkStandardDetailsEntity.Number">
+            <summary>
+             序号
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Equipment.EqptChkStandardDetailsEntity.ProjectName">
+            <summary>
+             点检项目名称
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Equipment.EqptChkStandardDetailsEntity.ExamineContent">
+            <summary>
+             检查内容
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Equipment.EqptChkStandardDetailsEntity.ToolsID">
+            <summary>
+             点巡检工具 关联数据字典
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Equipment.EqptChkStandardDetailsEntity.Function">
+            <summary>
+             点检方法
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Equipment.EqptChkStandardDetailsEntity.Standard">
+            <summary>
+             判定标准
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Equipment.EqptChkStandardDetailsEntity.StandardMax">
+            <summary>
+             标准值上限
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Equipment.EqptChkStandardDetailsEntity.StandardMin">
+            <summary>
+             标准值下限
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Equipment.EqptChkStandardDetailsEntity.Rate">
+            <summary>
+            点巡检周期 数量
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Equipment.EqptChkStandardDetailsEntity.RateUnitID">
+            <summary>
+             巡检周期 单位 关联数据字典
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Equipment.EqptChkStandardDetailsEntity.LiabilityID">
+            <summary>
+             责任人 引用用户表
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Equipment.EqptChkStandardDetailsEntity.ProblemHandling">
+            <summary>
+             问题处理方法
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Equipment.EqptChkStandardDetailsEntity.Remark">
+            <summary>
+             备注
+            </summary>
+        </member>
+        <member name="T:RW.PMS.Domain.Entities.Equipment.EqptComponentEntity">
+            <summary>
+                设备部件实体
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Equipment.EqptComponentEntity.EquipmentId">
+            <summary>
+                设备Id
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Equipment.EqptComponentEntity.ComponentCode">
+            <summary>
+                部件编码
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Equipment.EqptComponentEntity.ComponentName">
+            <summary>
+                部件名称
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Equipment.EqptComponentEntity.ComponentLevel">
+            <summary>
+                部件级别
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Equipment.EqptComponentEntity.Brand">
+            <summary>
+                品牌
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Equipment.EqptComponentEntity.Model">
+            <summary>
+                型号
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Equipment.EqptComponentEntity.Parameter">
+            <summary>
+                参数
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Equipment.EqptComponentEntity.SeriesNo">
+            <summary>
+                系列号
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Equipment.EqptComponentEntity.Quantity">
+            <summary>
+                数量
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Equipment.EqptComponentEntity.QuantityUnit">
+            <summary>
+                数量单位
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Equipment.EqptComponentEntity.PurchaseDate">
+            <summary>
+                采购日期
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Equipment.EqptComponentEntity.Manufacturer">
+            <summary>
+                厂家
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Equipment.EqptComponentEntity.GasCircuitDiagramCode">
+            <summary>
+                气路原理图代号
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Equipment.EqptComponentEntity.GasCircuitDiagram">
+            <summary>
+                气路原理图
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Equipment.EqptComponentEntity.ElectricalDiagramCode">
+            <summary>
+                电气原理图代号
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Equipment.EqptComponentEntity.ElectricalDiagram">
+            <summary>
+                电气原理图
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Equipment.EqptComponentEntity.ExpiryDate">
+            <summary>
+                有效期
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Equipment.EqptComponentEntity.Photo">
+            <summary>
+                部件照片
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Equipment.EqptComponentEntity.Remark">
+            <summary>
+                备注
+            </summary>
+        </member>
+        <member name="T:RW.PMS.Domain.Entities.Equipment.EqptFaultEvaluationEntity">
+            <summary>
+               维修评价表
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Equipment.EqptFaultEvaluationEntity.RepairNo">
+            <summary>
+            报修单号
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Equipment.EqptFaultEvaluationEntity.FaultServiceType">
+            <summary>
+            确认人员
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Equipment.EqptFaultEvaluationEntity.RepairTime">
+            <summary>
+            确认时间
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Equipment.EqptFaultEvaluationEntity.FaultDuration">
+            <summary>
+            故障时长
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Equipment.EqptFaultEvaluationEntity.MaintenanceDuration">
+            <summary>
+            维修时长
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Equipment.EqptFaultEvaluationEntity.FaultEvaluate">
+            <summary>
+            评价
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Equipment.EqptFaultEvaluationEntity.FaultStarRating">
+            <summary>
+            评分星级
+            </summary>
+        </member>
+        <member name="T:RW.PMS.Domain.Entities.Equipment.EqptFaultReportEntity">
+            <summary>
+                故障上报信息表
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Equipment.EqptFaultReportEntity.RepairNo">
+            <summary>
+            报修单号
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Equipment.EqptFaultReportEntity.FaultServiceType">
+            <summary>
+            故障业务类型ID 关联数据字典
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Equipment.EqptFaultReportEntity.EqptID">
+            <summary>
+            设备ID
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Equipment.EqptFaultReportEntity.FaultMajorID">
+            <summary>
+            故障专业ID 关联数据字典
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Equipment.EqptFaultReportEntity.RepairLevel">
+            <summary>
+            紧急程度
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Equipment.EqptFaultReportEntity.RepairType">
+            <summary>
+            报修类型 关联数据字典
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Equipment.EqptFaultReportEntity.RepairStatus">
+            <summary>
+            报修状态
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Equipment.EqptFaultReportEntity.RepairTime">
+            <summary>
+            报修时间
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Equipment.EqptFaultReportEntity.RepairPersonnel">
+            <summary>
+            报修人员
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Equipment.EqptFaultReportEntity.FaultDescription">
+            <summary>
+            故障描述
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Equipment.EqptFaultReportEntity.Remark">
+            <summary>
+            备注
+            </summary>
+        </member>
+        <member name="T:RW.PMS.Domain.Entities.Equipment.EqptFaultReportItemEntity">
+            <summary>
+                故障上报信息详情表
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Equipment.EqptFaultReportItemEntity.RepairNo">
+            <summary>
+            报修单号
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Equipment.EqptFaultReportItemEntity.ContentType">
+            <summary>
+                文件类型
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Equipment.EqptFaultReportItemEntity.FileName">
+            <summary>
+                文件名称
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Equipment.EqptFaultReportItemEntity.FileSize">
+            <summary>
+                文件大小
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Equipment.EqptFaultReportItemEntity.RootPath">
+            <summary>
+                文件根目录
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Equipment.EqptFaultReportItemEntity.RelativePath">
+            <summary>
+                文件相对路径
+            </summary>
+        </member>
+        <member name="T:RW.PMS.Domain.Entities.Equipment.EqptInspectionItemEntity">
+            <summary>
+                设备点检项目实体
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Equipment.EqptInspectionItemEntity.EqptId">
+            <summary>
+            设备ID
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Equipment.EqptInspectionItemEntity.SpotNo">
+            <summary>
+            点检序号
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Equipment.EqptInspectionItemEntity.CheckCategoryId">
+            <summary>
+            点检类别ID 关联数据字典
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Equipment.EqptInspectionItemEntity.CheckPosition">
+            <summary>
+            点检部位
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Equipment.EqptInspectionItemEntity.CheckItem">
+            <summary>
+            点检项
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Equipment.EqptInspectionItemEntity.CheckTool">
+            <summary>
+            所用工具/方法
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Equipment.EqptInspectionItemEntity.JudgingStandard">
+            <summary>
+            判定基准
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Equipment.EqptInspectionItemEntity.EqptStatus">
+            <summary>
+            设备状态 
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Equipment.EqptInspectionItemEntity.InspectionCycleId">
+            <summary>
+            点检周期 数据字典
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Equipment.EqptInspectionItemEntity.PersonLiableId">
+            <summary>
+            责任人ID
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Equipment.EqptInspectionItemEntity.ProcessingMethod">
+            <summary>
+            问题处理方法
+            </summary>
+        </member>
+        <member name="T:RW.PMS.Domain.Entities.Equipment.EqptMaintenanceStandardEntity">
+            <summary>
+              设备保养标准项点主表
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Equipment.EqptMaintenanceStandardEntity.DeviceID">
+            <summary>
+            设备id 关联
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Equipment.EqptMaintenanceStandardEntity.SpotNo">
+            <summary>
+            序号
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Equipment.EqptMaintenanceStandardEntity.StandardCategory">
+            <summary>
+            标准类别
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Equipment.EqptMaintenanceStandardEntity.TypeID">
+            <summary>
+            保养类别 关联数据字典
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Equipment.EqptMaintenanceStandardEntity.Place">
+            <summary>
+            保养部位
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Equipment.EqptMaintenanceStandardEntity.SpecializedID">
+            <summary>
+            保养专业 关联数据字典
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Equipment.EqptMaintenanceStandardEntity.Grade">
+            <summary>
+            等级
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Equipment.EqptMaintenanceStandardEntity.Title">
+            <summary>
+            工单标题
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Equipment.EqptMaintenanceStandardEntity.StandardWorkingHours">
+            <summary>
+            标准工时
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Equipment.EqptMaintenanceStandardEntity.Version">
+            <summary>
+            版本号
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Equipment.EqptMaintenanceStandardEntity.PublishStatusID">
+            <summary>
+            版本发布状态 关联数据字典
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Equipment.EqptMaintenanceStandardEntity.RoleID">
+            <summary>
+            角色表id
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Equipment.EqptMaintenanceStandardEntity.Remark">
+            <summary>
+            备注
+            </summary>
+        </member>
+        <member name="T:RW.PMS.Domain.Entities.Equipment.EqptMonRecordEntity">
+            <summary>
+                设备状态监测记录实体
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Equipment.EqptMonRecordEntity.StandardId">
+            <summary>
+                标准Id
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Equipment.EqptMonRecordEntity.Title">
+            <summary>
+                记录标题
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Equipment.EqptMonRecordEntity.StartTime">
+            <summary>
+                监测开始时间
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Equipment.EqptMonRecordEntity.EndTime">
+            <summary>
+                监测结束时间
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Equipment.EqptMonRecordEntity.Result">
+            <summary>
+                状态监测结果
+            </summary>
+        </member>
+        <member name="T:RW.PMS.Domain.Entities.Equipment.EqptMonRecordItemEntity">
+            <summary>
+                设备状态监测记录项实体
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Equipment.EqptMonRecordItemEntity.RecordId">
+            <summary>
+                记录Id
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Equipment.EqptMonRecordItemEntity.MonitoringPoint">
+            <summary>
+                测点名称
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Equipment.EqptMonRecordItemEntity.EquipmentPart">
+            <summary>
+                所属部位
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Equipment.EqptMonRecordItemEntity.SpecifiedValue">
+            <summary>
+                规定值
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Equipment.EqptMonRecordItemEntity.UpperLimit">
+            <summary>
+                上限
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Equipment.EqptMonRecordItemEntity.UltimateUpperLimit">
+            <summary>
+                上上限
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Equipment.EqptMonRecordItemEntity.LowerLimit">
+            <summary>
+                下限
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Equipment.EqptMonRecordItemEntity.UltimateLowerLimit">
+            <summary>
+                下下限
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Equipment.EqptMonRecordItemEntity.MonitoringValue">
+            <summary>
+                监测值
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Equipment.EqptMonRecordItemEntity.StartTime">
+            <summary>
+                监测开始时间
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Equipment.EqptMonRecordItemEntity.EndTime">
+            <summary>
+                监测结束时间
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Equipment.EqptMonRecordItemEntity.Result">
+            <summary>
+                状态监测结果
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Equipment.EqptMonRecordItemEntity.MonitoringStaff">
+            <summary>
+                监测人员
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Equipment.EqptMonRecordItemEntity.MonitoringOrg">
+            <summary>
+                监测部门
+            </summary>
+        </member>
+        <member name="T:RW.PMS.Domain.Entities.Equipment.EqptMonStdEntity">
+            <summary>
+                设备状态监测标准实体
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Equipment.EqptMonStdEntity.StandardNo">
+            <summary>
+                标准编号
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Equipment.EqptMonStdEntity.StandardType">
+            <summary>
+                标准类型（关联字典表-StandardTypeOfEqptMonitoring）
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Equipment.EqptMonStdEntity.EquipmentId">
+            <summary>
+                设备Id
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Equipment.EqptMonStdEntity.Remark">
+            <summary>
+                备注
+            </summary>
+        </member>
+        <member name="T:RW.PMS.Domain.Entities.Equipment.EqptMonStdItemEntity">
+            <summary>
+                设备状态监测标准项实体
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Equipment.EqptMonStdItemEntity.StandardId">
+            <summary>
+                标准Id
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Equipment.EqptMonStdItemEntity.MonitoringPoint">
+            <summary>
+                测点名称
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Equipment.EqptMonStdItemEntity.EquipmentPart">
+            <summary>
+                所属部位
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Equipment.EqptMonStdItemEntity.ToolId">
+            <summary>
+                计量器具Id
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Equipment.EqptMonStdItemEntity.ParamType">
+            <summary>
+                监测参数类型（关联字典表-ParamTypeOfEqptMonitoring）
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Equipment.EqptMonStdItemEntity.MeasuringUnit">
+            <summary>
+                计量单位（关联字典表-MeasuringUnitOfEqptMonitoring）
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Equipment.EqptMonStdItemEntity.SpecifiedValue">
+            <summary>
+                规定值
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Equipment.EqptMonStdItemEntity.UpperLimit">
+            <summary>
+                上限
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Equipment.EqptMonStdItemEntity.UltimateUpperLimit">
+            <summary>
+                上上限
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Equipment.EqptMonStdItemEntity.LowerLimit">
+            <summary>
+                下限
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Equipment.EqptMonStdItemEntity.UltimateLowerLimit">
+            <summary>
+                下下限
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Equipment.EqptMonStdItemEntity.SamplingFrequency">
+            <summary>
+                采样频率
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Equipment.EqptMonStdItemEntity.IsAlarm">
+            <summary>
+                是否超限报警
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Equipment.EqptMonStdItemEntity.IsManual">
+            <summary>
+                是否人工诊断
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Equipment.EqptMonStdItemEntity.Remark">
+            <summary>
+                备注
+            </summary>
+        </member>
+        <member name="T:RW.PMS.Domain.Entities.Equipment.EqptMtacExecutionEntity">
+            <summary>
+             设备保养执行主表
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Equipment.EqptMtacExecutionEntity.EqptID">
+            <summary>
+            设备ID
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Equipment.EqptMtacExecutionEntity.StandardID">
+            <summary>
+            保养标准项点主表ID
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Equipment.EqptMtacExecutionEntity.StandardCategory">
+            <summary>
+            标准类别
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Equipment.EqptMtacExecutionEntity.InspectionResult">
+            <summary>
+            检查结果
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Equipment.EqptMtacExecutionEntity.CheckerID">
+            <summary>
+            检查人ID
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Equipment.EqptMtacExecutionEntity.InspectionStartTime">
+            <summary>
+            检查开始时间 
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Equipment.EqptMtacExecutionEntity.InspectionEndTime">
+            <summary>
+            检查结束时间 
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Equipment.EqptMtacExecutionEntity.ExecutionStatus">
+            <summary>
+            执行状态 
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Equipment.EqptMtacExecutionEntity.Remark">
+            <summary>
+            备注
+            </summary>
+        </member>
+        <member name="T:RW.PMS.Domain.Entities.Equipment.EqptMtacExecutionItemEntity">
+            <summary>
+            设备保养执行明细表
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Equipment.EqptMtacExecutionItemEntity.SpotCheckId">
+            <summary>
+               保养执行主表ID 
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Equipment.EqptMtacExecutionItemEntity.MonitoringPointID">
+            <summary>
+                保养项目明细表id
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Equipment.EqptMtacExecutionItemEntity.PlannedStartTime">
+            <summary>
+                计划开始时间
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Equipment.EqptMtacExecutionItemEntity.PlannedEndTime">
+            <summary>
+                计划结束时间
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Equipment.EqptMtacExecutionItemEntity.PlanExecutiveID">
+            <summary>
+                计划执行人员ID
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Equipment.EqptMtacExecutionItemEntity.ActualStartTime">
+            <summary>
+                实际开始时间
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Equipment.EqptMtacExecutionItemEntity.ActualEndTime">
+            <summary>
+                实际结束时间
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Equipment.EqptMtacExecutionItemEntity.ActualExecutiveID">
+            <summary>
+                实际执行人员ID
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Equipment.EqptMtacExecutionItemEntity.SpotCheckResults">
+            <summary>
+                保养结果
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Equipment.EqptMtacExecutionItemEntity.Remark">
+            <summary>
+                备注
+            </summary>
+        </member>
+        <member name="T:RW.PMS.Domain.Entities.Equipment.EqptMtacMaintenanceContentEntity">
+            <summary>
+                设备保养内容维护表
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Equipment.EqptMtacMaintenanceContentEntity.TokenCode">
+            <summary>
+            记号代码
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Equipment.EqptMtacMaintenanceContentEntity.Outline">
+            <summary>
+            概要
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Equipment.EqptMtacMaintenanceContentEntity.MaintenanceInstructions">
+            <summary>
+            保养说明
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Equipment.EqptMtacMaintenanceContentEntity.Remark">
+            <summary>
+            备注
+            </summary>
+        </member>
+        <member name="T:RW.PMS.Domain.Entities.Equipment.EqptMtacStandardItemEntity">
+            <summary>
+              设备保养标准项点明细表
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Equipment.EqptMtacStandardItemEntity.StandardMainID">
+            <summary>
+            保养标准项点主表ID
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Equipment.EqptMtacStandardItemEntity.Number">
+            <summary>
+             序号
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Equipment.EqptMtacStandardItemEntity.ProjectName">
+            <summary>
+             保养项目名称
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Equipment.EqptMtacStandardItemEntity.ExamineContentID">
+            <summary>
+             保养内容（保养内容维护表ID）
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Equipment.EqptMtacStandardItemEntity.ToolsID">
+            <summary>
+             保养工具 关联数据字典
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Equipment.EqptMtacStandardItemEntity.Function">
+            <summary>
+             保养方法
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Equipment.EqptMtacStandardItemEntity.Standard">
+            <summary>
+             判定标准
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Equipment.EqptMtacStandardItemEntity.Rate">
+            <summary>
+             保养周期 数量
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Equipment.EqptMtacStandardItemEntity.RateUnitID">
+            <summary>
+             保养周期 单位 关联数据字典
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Equipment.EqptMtacStandardItemEntity.LiabilityID">
+            <summary>
+             责任人 引用用户表
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Equipment.EqptMtacStandardItemEntity.ProblemHandling">
+            <summary>
+             问题处理方法
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Equipment.EqptMtacStandardItemEntity.ValidityTerm">
+            <summary>
+             保养规程有效期 数量
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Equipment.EqptMtacStandardItemEntity.ValidityTermID">
+            <summary>
+             保养规程有效期 单位 关联数据字典
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Equipment.EqptMtacStandardItemEntity.Remark">
+            <summary>
+             备注
+            </summary>
+        </member>
+        <member name="T:RW.PMS.Domain.Entities.Equipment.EqptProblemDetailEntity">
+            <summary>
+                问题反馈详情表
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Equipment.EqptProblemDetailEntity.PID">
+            <summary>
+            问题反馈ID
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Equipment.EqptProblemDetailEntity.ContentType">
+            <summary>
+                文件类型
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Equipment.EqptProblemDetailEntity.FileName">
+            <summary>
+                文件名称
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Equipment.EqptProblemDetailEntity.FileSize">
+            <summary>
+                文件大小
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Equipment.EqptProblemDetailEntity.RootPath">
+            <summary>
+                文件根目录
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Equipment.EqptProblemDetailEntity.RelativePath">
+            <summary>
+                文件相对路径
+            </summary>
+        </member>
+        <member name="T:RW.PMS.Domain.Entities.Equipment.EqptProblemFeedbackEntity">
+            <summary>
+                问题反馈表
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Equipment.EqptProblemFeedbackEntity.EqptID">
+            <summary>
+            设备编号
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Equipment.EqptProblemFeedbackEntity.UserID">
+            <summary>
+            反馈人员 
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Equipment.EqptProblemFeedbackEntity.CreateTime">
+            <summary>
+            反馈时间
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Equipment.EqptProblemFeedbackEntity.FeedMemo">
+            <summary>
+            反馈内容
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Equipment.EqptProblemFeedbackEntity.Remark">
+            <summary>
+            备注
+            </summary>
+        </member>
+        <member name="T:RW.PMS.Domain.Entities.Equipment.EqptProdCalendarEntity">
+            <summary>
+                设备生产日历实体
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Equipment.EqptProdCalendarEntity.TargetId">
+            <summary>
+                目标Id
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Equipment.EqptProdCalendarEntity.TargetCategory">
+            <summary>
+                目标分类（设备、生产线、车间、工厂）
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Equipment.EqptProdCalendarEntity.StartTime">
+            <summary>
+                开始时间
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Equipment.EqptProdCalendarEntity.EndTime">
+            <summary>
+                结束时间
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Equipment.EqptProdCalendarEntity.WorkingState">
+            <summary>
+                工作状态
+            </summary>
+        </member>
+        <member name="T:RW.PMS.Domain.Entities.Equipment.EqptSpotCheckEntity">
+            <summary>
+            设备点检执行主表
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Equipment.EqptSpotCheckEntity.EqptID">
+            <summary>
+            设备ID
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Equipment.EqptSpotCheckEntity.StandardID">
+            <summary>
+            点检/保养标准项点主表ID
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Equipment.EqptSpotCheckEntity.StandardCategory">
+            <summary>
+            标准类别
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Equipment.EqptSpotCheckEntity.InspectionResult">
+            <summary>
+            检查结果
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Equipment.EqptSpotCheckEntity.CheckerID">
+            <summary>
+            检查人ID
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Equipment.EqptSpotCheckEntity.InspectionStartTime">
+            <summary>
+            检查开始时间
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Equipment.EqptSpotCheckEntity.InspectionEndTime">
+            <summary>
+            检查结束时间
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Equipment.EqptSpotCheckEntity.ExecutionStatus">
+            <summary>
+            执行状态
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Equipment.EqptSpotCheckEntity.Remark">
+            <summary>
+            备注
+            </summary>
+        </member>
+        <member name="T:RW.PMS.Domain.Entities.Equipment.EqptSpotCheckItemEntity">
+            <summary>
+                设备点检执行明细表
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Equipment.EqptSpotCheckItemEntity.SpotCheckId">
+            <summary>
+               点检/保养执行主表ID
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Equipment.EqptSpotCheckItemEntity.MonitoringPointID">
+            <summary>
+                点检项目明细表id
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Equipment.EqptSpotCheckItemEntity.PlannedStartTime">
+            <summary>
+                计划开始时间
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Equipment.EqptSpotCheckItemEntity.PlannedEndTime">
+            <summary>
+                计划结束时间
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Equipment.EqptSpotCheckItemEntity.PlanExecutiveID">
+            <summary>
+                计划执行人员ID
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Equipment.EqptSpotCheckItemEntity.ActualStartTime">
+            <summary>
+                实际开始时间
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Equipment.EqptSpotCheckItemEntity.ActualEndTime">
+            <summary>
+                实际结束时间
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Equipment.EqptSpotCheckItemEntity.ActualExecutiveID">
+            <summary>
+                实际执行人员ID
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Equipment.EqptSpotCheckItemEntity.SpotCheckResults">
+            <summary>
+                检查结果
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Equipment.EqptSpotCheckItemEntity.Remark">
+            <summary>
+                备注
+            </summary>
+        </member>
+        <member name="T:RW.PMS.Domain.Entities.Equipment.EqptTroubleshootInfoEntity">
+            <summary>
+                故障维修信息表
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Equipment.EqptTroubleshootInfoEntity.RepairNo">
+            <summary>
+            报修单号
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Equipment.EqptTroubleshootInfoEntity.FaultLevel">
+            <summary>
+            故障级别 关联数据字典
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Equipment.EqptTroubleshootInfoEntity.FaultCategoryType">
+            <summary>
+            故障类别ID 关联数据字典
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Equipment.EqptTroubleshootInfoEntity.CauseFailure">
+            <summary>
+            故障原因 
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Equipment.EqptTroubleshootInfoEntity.RepairMethod">
+            <summary>
+            解决方法 
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Equipment.EqptTroubleshootInfoEntity.RepairResults">
+            <summary>
+            维修结果
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Equipment.EqptTroubleshootInfoEntity.RepairerID">
+            <summary>
+            维修人员ID
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Equipment.EqptTroubleshootInfoEntity.RepairStartTime">
+            <summary>
+            维修开始时间
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Equipment.EqptTroubleshootInfoEntity.RepairEndTime">
+            <summary>
+            维修结束时间
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Equipment.EqptTroubleshootInfoEntity.Remark">
+            <summary>
+            备注
+            </summary>
+        </member>
+        <member name="T:RW.PMS.Domain.Entities.Equipment.EqptVerificationEntity">
+            <summary>
+                检定信息表
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Equipment.EqptVerificationEntity.VerificationType">
+            <summary>
+             检定类型
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Equipment.EqptVerificationEntity.VerificationID">
+            <summary>
+             检定器具/部件ID
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Equipment.EqptVerificationEntity.StandardWorkingHours">
+            <summary>
+             标准工时
+            </summary> 
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Equipment.EqptVerificationEntity.Cycle">
+            <summary>
+            检定周期 数量
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Equipment.EqptVerificationEntity.CycleUnitID">
+            <summary>
+             检定周期 单位 关联数据字典
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Equipment.EqptVerificationEntity.RoleID">
+            <summary>
+             用户表id
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Equipment.EqptVerificationEntity.LastVerificationDate">
+            <summary>
+            上次检定日期
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Equipment.EqptVerificationEntity.NextVerificationDate">
+            <summary>
+            下次检定日期
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Equipment.EqptVerificationEntity.Remark">
+            <summary>
+             备注
+            </summary>
+        </member>
+        <member name="T:RW.PMS.Domain.Entities.Equipment.EqptVerificationPlanEntity">
+            <summary>
+                检定计划表
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Equipment.EqptVerificationPlanEntity.TestID">
+            <summary>
+            检定信息表ID
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Equipment.EqptVerificationPlanEntity.PlanInspectionTime">
+            <summary>
+            计划送检时间
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Equipment.EqptVerificationPlanEntity.InspectionTime">
+            <summary>
+            实际送检时间
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Equipment.EqptVerificationPlanEntity.ReturnTime">
+            <summary>
+            归回时间
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Equipment.EqptVerificationPlanEntity.ActualExecutiveID">
+            <summary>
+            送检人员ID
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Equipment.EqptVerificationPlanEntity.Results">
+            <summary>
+            检定结果
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Equipment.EqptVerificationPlanEntity.CertificateNo">
+            <summary>
+            证书编号
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Equipment.EqptVerificationPlanEntity.PhotoID">
+            <summary>
+            证书照片ID
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Equipment.EqptVerificationPlanEntity.Remark">
+            <summary>
+            备注
+            </summary>
+        </member>
+        <member name="T:RW.PMS.Domain.Entities.Equipment.EqptWorkingPlanEntity">
+            <summary>
+                设备出勤模式实体
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Equipment.EqptWorkingPlanEntity.PlanName">
+            <summary>
+                模式名称
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Equipment.EqptWorkingPlanEntity.WorkingDay">
+            <summary>
+                工作日
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Equipment.EqptWorkingPlanEntity.WorkingTime">
+            <summary>
+                工作时间
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Equipment.EqptWorkingPlanEntity.WorkingPlanTarget">
+            <summary>
+                出勤模式目标
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Equipment.EqptWorkingPlanEntity.Color">
+            <summary>
+                显示颜色
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Equipment.EqptWorkingPlanEntity.Remark">
+            <summary>
+                备注
+            </summary>
+        </member>
+        <member name="T:RW.PMS.Domain.Entities.Equipment.EquipmentEntity">
+            <summary>
+            设备表
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Equipment.EquipmentEntity.Name">
+            <summary>
+            设备名称
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Equipment.EquipmentEntity.Encoding">
+            <summary>
+            设备编码
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Equipment.EquipmentEntity.Ip">
+            <summary>
+            设备ip
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Equipment.EquipmentEntity.Status">
+            <summary>
+            设备状态
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Equipment.EquipmentEntity.ICNo">
+            <summary>
+            设备IC卡号
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Equipment.EquipmentEntity.Remark">
+            <summary>
+            备注
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Equipment.EquipmentEntity.TypeId">
+            <summary>
+            设备类型 引用数据字典
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Equipment.EquipmentEntity.ModelId">
+            <summary>
+            设备机型 引用数据字典
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Equipment.EquipmentEntity.FactoryId">
+            <summary>
+            厂家Id 引用数据字典
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Equipment.EquipmentEntity.Originid">
+            <summary>
+            产地id 引用数据字典
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Equipment.EquipmentEntity.OutFactoryNo">
+            <summary>
+            出厂编号
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Equipment.EquipmentEntity.MachineNo">
+            <summary>
+            机器编号
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Equipment.EquipmentEntity.MachineUnitNo">
+            <summary>
+            机器组
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Equipment.EquipmentEntity.ProductSpecifications">
+            <summary>
+            产品规格
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Equipment.EquipmentEntity.BuyTime">
+            <summary>
+            购置时间
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Equipment.EquipmentEntity.ProductionTime">
+            <summary>
+            投产时间
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Equipment.EquipmentEntity.OriginalValue">
+            <summary>
+            原值
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Equipment.EquipmentEntity.NowValue">
+            <summary>
+            现值
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Equipment.EquipmentEntity.TheBusinessId">
+            <summary>
+            所在企业
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Equipment.EquipmentEntity.UseDepartmentId">
+            <summary>
+            使用部门
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Equipment.EquipmentEntity.UseProductionLineId">
+            <summary>
+            所在生产线
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Equipment.EquipmentEntity.AssetNumber">
+            <summary>
+            资产编号
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Equipment.EquipmentEntity.CustodyDepartmentid">
+            <summary>
+            保管部门  
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Equipment.EquipmentEntity.DeviceImage">
+            <summary>
+            设备图片地址
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Equipment.EquipmentEntity.GoodConditionId">
+            <summary>
+            良好状态 引用数据字典
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Equipment.EquipmentEntity.BelongStationid">
+            <summary>
+            所属工位
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Equipment.EquipmentEntity.ShiftId">
+            <summary>
+            班次id 引用数据字典
+            </summary>
+        </member>
+        <member name="T:RW.PMS.Domain.Entities.Message.MessageConfigEntity">
+            <summary>
+                消息配置
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Message.MessageConfigEntity.MessageCode">
+            <summary>
+                消息编码
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Message.MessageConfigEntity.MessageType">
+            <summary>
+                消息类型
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Message.MessageConfigEntity.Title">
+            <summary>
+                消息标题
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Message.MessageConfigEntity.MessageLevel">
+            <summary>
+                消息级别（关联字典表-MessageLevel）
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Message.MessageConfigEntity.RepeatInterval">
+            <summary>
+                提醒间隔
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Message.MessageConfigEntity.IntervalUnit">
+            <summary>
+                提醒间隔单位
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Message.MessageConfigEntity.AdvanceTime">
+            <summary>
+                提前预警时间
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Message.MessageConfigEntity.AdvanceUnit">
+            <summary>
+                提前预警时间单位
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Message.MessageConfigEntity.RepeatTimes">
+            <summary>
+                重复次数
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Message.MessageConfigEntity.Content">
+            <summary>
+                模板内容
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Message.MessageConfigEntity.MessageTarget">
+            <summary>
+                消息目标类型
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Message.MessageConfigEntity.Target">
+            <summary>
+                目标Id
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Message.MessageConfigEntity.RemindWay">
+            <summary>
+                提醒方式
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Message.MessageConfigEntity.Remark">
+            <summary>
+                备注
+            </summary>
+        </member>
+        <member name="T:RW.PMS.Domain.Entities.Message.MessageContentEntity">
+            <summary>
+                消息内容实体
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Message.MessageContentEntity.ConfigId">
+            <summary>
+                消息配置Id
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Message.MessageContentEntity.MessageLevel">
+            <summary>
+                消息级别
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Message.MessageContentEntity.Title">
+            <summary>
+                消息标题
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Message.MessageContentEntity.Content">
+            <summary>
+                消息内容
+            </summary>
+        </member>
+        <member name="T:RW.PMS.Domain.Entities.Message.MessageReceiverEntity">
+            <summary>
+                消息接收者实体
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Message.MessageReceiverEntity.ContentId">
+            <summary>
+                消息内容Id
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Message.MessageReceiverEntity.UserId">
+            <summary>
+                目标用户Id
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Message.MessageReceiverEntity.RemindTime">
+            <summary>
+                提醒时间
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Message.MessageReceiverEntity.IsRead">
+            <summary>
+                是否已读
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Message.MessageReceiverEntity.ReadTime">
+            <summary>
+                阅读时间
+            </summary>
+        </member>
+        <member name="T:RW.PMS.Domain.Entities.Spare.SparePartsInformationEntity">
+            <summary>
+                备品备件信息表
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Spare.SparePartsInformationEntity.SparePartsCode">
+            <summary>
+               备品编码
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Spare.SparePartsInformationEntity.SparePartsName">
+            <summary>
+               备品名称
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Spare.SparePartsInformationEntity.SpareClassificationID">
+            <summary>
+               备件分类
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Spare.SparePartsInformationEntity.SpecificationModel">
+            <summary>
+               规格型号
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Spare.SparePartsInformationEntity.SpareParameter">
+            <summary>
+               参数
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Spare.SparePartsInformationEntity.SpareBrand">
+            <summary>
+               品牌
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Spare.SparePartsInformationEntity.SpareSupplier">
+            <summary>
+               供货商
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Spare.SparePartsInformationEntity.TargetWarehouse">
+            <summary>
+               备品存放仓库
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Spare.SparePartsInformationEntity.SparePicture">
+            <summary>
+               图片
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Spare.SparePartsInformationEntity.SpareSafetyStock">
+            <summary>
+               安全库存
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Spare.SparePartsInformationEntity.PhysicalInventory">
+            <summary>
+               当前库存
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Spare.SparePartsInformationEntity.ProcurementCycle">
+            <summary>
+               采购周期数量
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Spare.SparePartsInformationEntity.ProcurementCycleID">
+            <summary>
+               采购周期 关联数据字典
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Spare.SparePartsInformationEntity.Remark">
+            <summary>
+               备注
+            </summary>
+        </member>
+        <member name="T:RW.PMS.Domain.Entities.Spare.SpareStockInOutEntity">
+            <summary>
+                备品备件出入库信息表
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Spare.SpareStockInOutEntity.ApplicationNumber">
+            <summary>
+               出入库单号
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Spare.SpareStockInOutEntity.ApplicationType">
+            <summary>
+               出入库类型
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Spare.SpareStockInOutEntity.TargetWarehouse">
+            <summary>
+               备品存放仓库
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Spare.SpareStockInOutEntity.ApplicantID">
+            <summary>
+               操作人
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Spare.SpareStockInOutEntity.ApplicationTime">
+            <summary>
+               出入库时间
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Spare.SpareStockInOutEntity.Remark">
+            <summary>
+               备注
+            </summary>
+        </member>
+        <member name="T:RW.PMS.Domain.Entities.Spare.SpareStockInOutItemEntity">
+            <summary>
+                备品出入库详细信息表
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Spare.SpareStockInOutItemEntity.ApplicationNumber">
+            <summary>
+               申请单号
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Spare.SpareStockInOutItemEntity.SparePartsID">
+            <summary>
+               备品备件ID
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Spare.SpareStockInOutItemEntity.InboundOutboundQuantity">
+            <summary>
+               数量
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Spare.SpareStockInOutItemEntity.Company">
+            <summary>
+               单位
+            </summary>
+        </member>
+        <member name="T:RW.PMS.Domain.Entities.System.ConfigEntity">
+            <summary>
+                系统参数
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.System.ConfigEntity.ConfigCode">
+            <summary>
+                参数编码
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.System.ConfigEntity.ConfigValue">
+            <summary>
+                参数值
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.System.ConfigEntity.Description">
+            <summary>
+                说明
+            </summary>
+        </member>
+        <member name="T:RW.PMS.Domain.Entities.System.DictionaryEntity">
+            <summary>
+                数据字典实体
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.System.DictionaryEntity.ParentId">
+            <summary>
+                父级Id
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.System.DictionaryEntity.DictionaryText">
+            <summary>
+                字典文本
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.System.DictionaryEntity.DictionaryValue">
+            <summary>
+                字典值
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.System.DictionaryEntity.Sort">
+            <summary>
+            排序
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.System.DictionaryEntity.Description">
+            <summary>
+            说明
+            </summary>
+        </member>
+        <member name="T:RW.PMS.Domain.Entities.System.FileEntity">
+            <summary>
+                附件实体
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.System.FileEntity.ContentType">
+            <summary>
+                文件类型
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.System.FileEntity.FileName">
+            <summary>
+                文件名称
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.System.FileEntity.FileSize">
+            <summary>
+                文件大小
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.System.FileEntity.RootPath">
+            <summary>
+                文件根目录
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.System.FileEntity.RelativePath">
+            <summary>
+                文件相对路径
+            </summary>
+        </member>
+        <member name="T:RW.PMS.Domain.Entities.System.ModuleEntity">
+            <summary>
+            菜单实体
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.System.ModuleEntity.ParentId">
+            <summary>
+            父级菜单Id
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.System.ModuleEntity.Title">
+            <summary>
+            标题
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.System.ModuleEntity.Icon">
+            <summary>
+            图标
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.System.ModuleEntity.Target">
+            <summary>
+            打开方式
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.System.ModuleEntity.Path">
+            <summary>
+            链接
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.System.ModuleEntity.ModuleType">
+            <summary>
+            模块类型
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.System.ModuleEntity.Sort">
+            <summary>
+            排序
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.System.ModuleEntity.Description">
+            <summary>
+            说明
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.System.ModuleEntity.ModuleCode">
+            <summary>
+            模块编码
+            </summary>
+        </member>
+        <member name="T:RW.PMS.Domain.Entities.System.OperationEntity">
+            <summary>
+                操作实体（权限）
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.System.OperationEntity.ModuleId">
+            <summary>
+                模块Id
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.System.OperationEntity.OperationCode">
+            <summary>
+                操作编码
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.System.OperationEntity.Title">
+            <summary>
+                说明
+            </summary>
+        </member>
+        <member name="T:RW.PMS.Domain.Entities.System.OrganizationEntity">
+            <summary>
+            机构实体
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.System.OrganizationEntity.ParentId">
+            <summary>
+            上级Id
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.System.OrganizationEntity.OrganizationName">
+            <summary>
+            机构名称
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.System.OrganizationEntity.OrganizationCode">
+            <summary>
+            机构编码
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.System.OrganizationEntity.OrganizationType">
+            <summary>
+            机构类型
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.System.OrganizationEntity.Sort">
+            <summary>
+            排序
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.System.OrganizationEntity.Description">
+            <summary>
+            说明
+            </summary>
+        </member>
+        <member name="T:RW.PMS.Domain.Entities.System.RoleEntity">
+            <summary>
+            角色实体
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.System.RoleEntity.RoleName">
+            <summary>
+            角色名称
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.System.RoleEntity.Description">
+            <summary>
+            角色说明
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.System.RoleEntity.IsActive">
+            <summary>
+            是否启用
+            </summary>
+        </member>
+        <member name="T:RW.PMS.Domain.Entities.System.RoleOperationEntity">
+            <summary>
+                角色操作表
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.System.RoleOperationEntity.roleId">
+            <summary>
+                角色Id
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.System.RoleOperationEntity.OperationId">
+            <summary>
+                操作Id
+            </summary>
+        </member>
+        <member name="T:RW.PMS.Domain.Entities.System.UserEntity">
+            <summary>
+                用户实体
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.System.UserEntity.Account">
+            <summary>
+                账号
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.System.UserEntity.Password">
+            <summary>
+                密码
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.System.UserEntity.RealName">
+            <summary>
+                真实姓名
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.System.UserEntity.OrgId">
+            <summary>
+                组织机构Id
+            </summary>
+        </member>
+        <member name="T:RW.PMS.Domain.Entities.System.UserRoleEntity">
+            <summary>
+                用户角色表
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.System.UserRoleEntity.UserId">
+            <summary>
+                用户Id
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.System.UserRoleEntity.roleId">
+            <summary>
+                角色Id
+            </summary>
+        </member>
+        <member name="T:RW.PMS.Domain.Entities.Tool.ToolEntity">
+            <summary>
+                工器具信息
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Tool.ToolEntity.Category">
+            <summary>
+                工器具分类<see cref="T:RW.PMS.Domain.ValueObject.ToolCategory" />
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Tool.ToolEntity.ToolName">
+            <summary>
+                工器具名称
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Tool.ToolEntity.ToolCode">
+            <summary>
+                工器具编码
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Tool.ToolEntity.AssetCode">
+            <summary>
+                资产编号
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Tool.ToolEntity.ToolType">
+            <summary>
+                工器具类型
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Tool.ToolEntity.Brand">
+            <summary>
+                品牌
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Tool.ToolEntity.Model">
+            <summary>
+                型号
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Tool.ToolEntity.CertificateNo">
+            <summary>
+                证书编号
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Tool.ToolEntity.PurchaseDate">
+            <summary>
+                采购日期
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Tool.ToolEntity.ProductionDate">
+            <summary>
+                投产日期
+            </summary>
+        </member>
+        <member name="P:RW.PMS.Domain.Entities.Tool.ToolEntity.Remark">
+            <summary>
+                备注
+            </summary>
+        </member>
+        <member name="T:RW.PMS.Domain.Repositories.IRepository`2">
+            <summary>
+                仓储基类
+            </summary>
+            <typeparam name="TEntity"></typeparam>
+            <typeparam name="TKey"></typeparam>
+        </member>
+        <member name="M:RW.PMS.Domain.Repositories.IRepository`2.Delete(`1[])">
+            <summary>
+                根据主键批量删除
+            </summary>
+            <param name="keys">主键数组</param>
+            <returns></returns>
+        </member>
+        <member name="M:RW.PMS.Domain.Repositories.IRepository`2.DeleteAsync(`1[],System.Threading.CancellationToken)">
+            <summary>
+                根据主键批量删除(异步)
+            </summary>
+            <param name="keys">主键数组</param>
+            <param name="cancellationToken"></param>
+            <returns></returns>
+        </member>
+        <member name="T:RW.PMS.Domain.Repositories.Message.IMessageReceiverRepository">
+            <summary>
+                消息接收者仓储基类
+            </summary>
+        </member>
+        <member name="M:RW.PMS.Domain.Repositories.Message.IMessageReceiverRepository.Read(System.Int32)">
+            <summary>
+                设为已读
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="T:RW.PMS.Domain.Repositories.System.IRoleOperationRepository">
+            <summary>
+                角色操作仓储基类
+            </summary>
+        </member>
+        <member name="T:RW.PMS.Domain.Repositories.System.IUserRoleRepository">
+            <summary>
+            用户角色仓储基类
+            </summary>
+        </member>
+        <member name="T:RW.PMS.Domain.ValueObject.DataOperationType">
+            <summary>
+                数据操作类型
+            </summary>
+        </member>
+        <member name="F:RW.PMS.Domain.ValueObject.DataOperationType.Add">
+            <summary>
+                新增
+            </summary>
+        </member>
+        <member name="F:RW.PMS.Domain.ValueObject.DataOperationType.Update">
+            <summary>
+                更新
+            </summary>
+        </member>
+        <member name="F:RW.PMS.Domain.ValueObject.DataOperationType.Delete">
+            <summary>
+                删除
+            </summary>
+        </member>
+        <member name="T:RW.PMS.Domain.ValueObject.DayOfWeek">
+            <summary>
+                星期
+            </summary>
+        </member>
+        <member name="F:RW.PMS.Domain.ValueObject.DayOfWeek.Monday">
+            <summary>
+                星期一
+            </summary>
+        </member>
+        <member name="F:RW.PMS.Domain.ValueObject.DayOfWeek.Tuesday">
+            <summary>
+                星期二
+            </summary>
+        </member>
+        <member name="F:RW.PMS.Domain.ValueObject.DayOfWeek.Wednesday">
+            <summary>
+                星期三
+            </summary>
+        </member>
+        <member name="F:RW.PMS.Domain.ValueObject.DayOfWeek.Thursday">
+            <summary>
+                星期四
+            </summary>
+        </member>
+        <member name="F:RW.PMS.Domain.ValueObject.DayOfWeek.Friday">
+            <summary>
+                星期五
+            </summary>
+        </member>
+        <member name="F:RW.PMS.Domain.ValueObject.DayOfWeek.Saturday">
+            <summary>
+                星期六
+            </summary>
+        </member>
+        <member name="F:RW.PMS.Domain.ValueObject.DayOfWeek.Sunday">
+            <summary>
+                星期日
+            </summary>
+        </member>
+        <member name="T:RW.PMS.Domain.ValueObject.DegreeUrgency">
+            <summary>
+            紧急程度
+            </summary>
+        </member>
+        <member name="F:RW.PMS.Domain.ValueObject.DegreeUrgency.一般">
+            <summary>
+                一般
+            </summary>
+        </member>
+        <member name="F:RW.PMS.Domain.ValueObject.DegreeUrgency.紧急">
+            <summary>
+                紧急
+            </summary>
+        </member>
+        <member name="T:RW.PMS.Domain.ValueObject.EqptCategory">
+            <summary>
+                设备出勤模式目标
+            </summary>
+        </member>
+        <member name="F:RW.PMS.Domain.ValueObject.EqptCategory.ProductionLine">
+            <summary>
+                生产线
+            </summary>
+        </member>
+        <member name="F:RW.PMS.Domain.ValueObject.EqptCategory.Equipment">
+            <summary>
+                设备
+            </summary>
+        </member>
+        <member name="T:RW.PMS.Domain.ValueObject.EqptCheckStandardType">
+            <summary>
+            点检标准状态
+            </summary>
+        </member>
+        <member name="F:RW.PMS.Domain.ValueObject.EqptCheckStandardType.未下发">
+            <summary>
+            未下发
+            </summary>
+        </member>
+        <member name="F:RW.PMS.Domain.ValueObject.EqptCheckStandardType.已下发">
+            <summary>
+            已下发
+            </summary>
+        </member>
+        <member name="T:RW.PMS.Domain.ValueObject.EqptMonResult">
+            <summary>
+                设备状态监测结果
+            </summary>
+        </member>
+        <member name="F:RW.PMS.Domain.ValueObject.EqptMonResult.Qualified">
+            <summary>
+                合格
+            </summary>
+        </member>
+        <member name="F:RW.PMS.Domain.ValueObject.EqptMonResult.Warning">
+            <summary>
+                预警
+            </summary>
+        </member>
+        <member name="F:RW.PMS.Domain.ValueObject.EqptMonResult.Failed">
+            <summary>
+                不合格
+            </summary>
+        </member>
+        <member name="T:RW.PMS.Domain.ValueObject.EqptStatus">
+            <summary>
+            设备状态
+            </summary>
+        </member>
+        <member name="F:RW.PMS.Domain.ValueObject.EqptStatus.良好">
+            <summary>
+            良好  
+            </summary>
+        </member>
+        <member name="F:RW.PMS.Domain.ValueObject.EqptStatus.损坏">
+            <summary>
+            损坏 
+            </summary>
+        </member>
+        <member name="T:RW.PMS.Domain.ValueObject.EqptWorkingState">
+            <summary>
+                设备工作状态
+            </summary>
+        </member>
+        <member name="F:RW.PMS.Domain.ValueObject.EqptWorkingState.Working">
+            <summary>
+                运行
+            </summary>
+        </member>
+        <member name="F:RW.PMS.Domain.ValueObject.EqptWorkingState.ShutDown">
+            <summary>
+                关闭
+            </summary>
+        </member>
+        <member name="F:RW.PMS.Domain.ValueObject.EqptWorkingState.Maintenance">
+            <summary>
+                保养
+            </summary>
+        </member>
+        <member name="F:RW.PMS.Domain.ValueObject.EqptWorkingState.Check">
+            <summary>
+                检定
+            </summary>
+        </member>
+        <member name="F:RW.PMS.Domain.ValueObject.EqptWorkingState.Calibration">
+            <summary>
+                校准
+            </summary>
+        </member>
+        <member name="T:RW.PMS.Domain.ValueObject.EquipmentState">
+            <summary>
+            设备状态
+            </summary>
+        </member>
+        <member name="F:RW.PMS.Domain.ValueObject.EquipmentState.启用">
+            <summary>
+            启用 Enable
+            </summary>
+        </member>
+        <member name="F:RW.PMS.Domain.ValueObject.EquipmentState.维保">
+            <summary>
+            维保 Maintenance
+            </summary>
+        </member>
+        <member name="F:RW.PMS.Domain.ValueObject.EquipmentState.损坏">
+            <summary>
+            损坏 Damage
+            </summary>
+        </member>
+        <member name="F:RW.PMS.Domain.ValueObject.EquipmentState.停用">
+            <summary>
+            停用 Deactivate
+            </summary>
+        </member>
+        <member name="F:RW.PMS.Domain.ValueObject.EquipmentState.报废">
+            <summary>
+            报废 Scrap
+            </summary>
+        </member>
+        <member name="T:RW.PMS.Domain.ValueObject.InspectionGrade">
+            <summary>
+            点检/保养等级
+            </summary>
+        </member>
+        <member name="F:RW.PMS.Domain.ValueObject.InspectionGrade.A">
+            <summary>
+            A级
+            </summary>
+        </member>
+        <member name="F:RW.PMS.Domain.ValueObject.InspectionGrade.B">
+            <summary>
+            B级
+            </summary>
+        </member>
+        <member name="T:RW.PMS.Domain.ValueObject.InspectionResults">
+            <summary>
+            检查结果
+            </summary>
+        </member>
+        <member name="F:RW.PMS.Domain.ValueObject.InspectionResults.合格">
+            <summary>
+            合格
+            </summary>
+        </member>
+        <member name="F:RW.PMS.Domain.ValueObject.InspectionResults.不合格">
+            <summary>
+            不合格
+            </summary>
+        </member>
+        <member name="T:RW.PMS.Domain.ValueObject.InspectionStatus">
+            <summary>
+            送检状态
+            </summary>
+        </member>
+        <member name="F:RW.PMS.Domain.ValueObject.InspectionStatus.待检">
+            <summary>
+            待检
+            </summary>
+        </member>
+        <member name="F:RW.PMS.Domain.ValueObject.InspectionStatus.超期">
+            <summary>
+            超期
+            </summary>
+        </member>
+        <member name="F:RW.PMS.Domain.ValueObject.InspectionStatus.正常">
+            <summary>
+            正常
+            </summary>
+        </member>
+        <member name="F:RW.PMS.Domain.ValueObject.InspectionStatus.已送检">
+            <summary>
+            送检
+            </summary>
+        </member>
+        <member name="T:RW.PMS.Domain.ValueObject.MessageRemindWay">
+            <summary>
+                消息提醒方式
+            </summary>
+        </member>
+        <member name="F:RW.PMS.Domain.ValueObject.MessageRemindWay.System">
+            <summary>
+                系统消息
+            </summary>
+        </member>
+        <member name="F:RW.PMS.Domain.ValueObject.MessageRemindWay.SMS">
+            <summary>
+                短信
+            </summary>
+        </member>
+        <member name="F:RW.PMS.Domain.ValueObject.MessageRemindWay.Email">
+            <summary>
+                邮件
+            </summary>
+        </member>
+        <member name="T:RW.PMS.Domain.ValueObject.MessageTarget">
+            <summary>
+                消息目标类型
+            </summary>
+        </member>
+        <member name="F:RW.PMS.Domain.ValueObject.MessageTarget.Default">
+            <summary>
+                缺省（由业务确认）
+            </summary>
+        </member>
+        <member name="F:RW.PMS.Domain.ValueObject.MessageTarget.Organization">
+            <summary>
+                组织机构
+            </summary>
+        </member>
+        <member name="F:RW.PMS.Domain.ValueObject.MessageTarget.Role">
+            <summary>
+                角色
+            </summary>
+        </member>
+        <member name="F:RW.PMS.Domain.ValueObject.MessageTarget.User">
+            <summary>
+                用户
+            </summary>
+        </member>
+        <member name="T:RW.PMS.Domain.ValueObject.MessageType">
+            <summary>
+                预警业务类型
+            </summary>
+        </member>
+        <member name="F:RW.PMS.Domain.ValueObject.MessageType.EqptMonitor">
+            <summary>
+                设备状态监测预警
+            </summary>
+        </member>
+        <member name="T:RW.PMS.Domain.ValueObject.ModuleType">
+            <summary>
+            模块类型
+            </summary>
+        </member>
+        <member name="F:RW.PMS.Domain.ValueObject.ModuleType.Group">
+            <summary>
+            分组
+            </summary>
+        </member>
+        <member name="F:RW.PMS.Domain.ValueObject.ModuleType.Menu">
+            <summary>
+            菜单
+            </summary>
+        </member>
+        <member name="F:RW.PMS.Domain.ValueObject.ModuleType.Point">
+            <summary>
+            功能点
+            </summary>
+        </member>
+        <member name="T:RW.PMS.Domain.ValueObject.OrganizationType">
+            <summary>
+                机构类型
+            </summary>
+        </member>
+        <member name="F:RW.PMS.Domain.ValueObject.OrganizationType.Group">
+            <summary>
+                集团
+            </summary>
+        </member>
+        <member name="F:RW.PMS.Domain.ValueObject.OrganizationType.Company">
+            <summary>
+                公司
+            </summary>
+        </member>
+        <member name="F:RW.PMS.Domain.ValueObject.OrganizationType.Branch">
+            <summary>
+                分公司
+            </summary>
+        </member>
+        <member name="F:RW.PMS.Domain.ValueObject.OrganizationType.Office">
+            <summary>
+                办事处
+            </summary>
+        </member>
+        <member name="F:RW.PMS.Domain.ValueObject.OrganizationType.Department">
+            <summary>
+                部门
+            </summary>
+        </member>
+        <member name="F:RW.PMS.Domain.ValueObject.OrganizationType.Team">
+            <summary>
+                小组
+            </summary>
+        </member>
+        <member name="T:RW.PMS.Domain.ValueObject.PlanStatus">
+            <summary>
+            计划状态
+            </summary>
+        </member>
+        <member name="F:RW.PMS.Domain.ValueObject.PlanStatus.待检">
+            <summary>
+            待检  
+            </summary>
+        </member>
+        <member name="F:RW.PMS.Domain.ValueObject.PlanStatus.已检">
+            <summary>
+            已检
+            </summary>
+        </member>
+        <member name="T:RW.PMS.Domain.ValueObject.ReceiveState">
+            <summary>
+                数据操作类型
+            </summary>
+        </member>
+        <member name="F:RW.PMS.Domain.ValueObject.ReceiveState.申请中">
+            <summary>
+                申请中
+            </summary>
+        </member>
+        <member name="F:RW.PMS.Domain.ValueObject.ReceiveState.退回">
+            <summary>
+                退回
+            </summary>
+        </member>
+        <member name="F:RW.PMS.Domain.ValueObject.ReceiveState.已通过">
+            <summary>
+                已通过
+            </summary>
+        </member>
+        <member name="F:RW.PMS.Domain.ValueObject.ReceiveState.已完成">
+            <summary>
+                已完成
+            </summary>
+        </member>
+        <member name="T:RW.PMS.Domain.ValueObject.RepairResults">
+            <summary>
+               维修状态
+            </summary>
+        </member>
+        <member name="F:RW.PMS.Domain.ValueObject.RepairResults.未解决">
+            <summary>
+                未解决
+            </summary>
+        </member>
+        <member name="F:RW.PMS.Domain.ValueObject.RepairResults.已解决">
+            <summary>
+                已解决
+            </summary>
+        </member>
+        <member name="T:RW.PMS.Domain.ValueObject.RepairStatus">
+            <summary>
+            报修状态
+            </summary>
+        </member>
+        <member name="F:RW.PMS.Domain.ValueObject.RepairStatus.新报修">
+            <summary>
+                新报修
+            </summary>
+        </member>
+        <member name="F:RW.PMS.Domain.ValueObject.RepairStatus.已解决">
+            <summary>
+                已解决
+            </summary>
+        </member>
+        <member name="T:RW.PMS.Domain.ValueObject.ResultsEnforcement">
+            <summary>
+            执行状态
+            </summary>
+        </member>
+        <member name="F:RW.PMS.Domain.ValueObject.ResultsEnforcement.未完成">
+            <summary>
+            未完成
+            </summary>
+        </member>
+        <member name="F:RW.PMS.Domain.ValueObject.ResultsEnforcement.已完成">
+            <summary>
+            已完成
+            </summary>
+        </member>
+        <member name="T:RW.PMS.Domain.ValueObject.StandardCategory">
+            <summary>
+            标准类别
+            </summary>
+        </member>
+        <member name="F:RW.PMS.Domain.ValueObject.StandardCategory.点检">
+            <summary>
+            点检
+            </summary>
+        </member>
+        <member name="F:RW.PMS.Domain.ValueObject.StandardCategory.保养">
+            <summary>
+            保养
+            </summary>
+        </member>
+        <member name="T:RW.PMS.Domain.ValueObject.StockInOut">
+            <summary>
+                备品操作类型
+            </summary>
+        </member>
+        <member name="F:RW.PMS.Domain.ValueObject.StockInOut.领料出库">
+            <summary>
+                领料出库
+            </summary>
+        </member>
+        <member name="F:RW.PMS.Domain.ValueObject.StockInOut.采购入库">
+            <summary>
+                采购入库
+            </summary>
+        </member>
+        <member name="F:RW.PMS.Domain.ValueObject.StockInOut.其他出库">
+            <summary>
+                其他出库
+            </summary>
+        </member>
+        <member name="F:RW.PMS.Domain.ValueObject.StockInOut.其他入库">
+            <summary>
+                其他入库
+            </summary>
+        </member>
+        <member name="T:RW.PMS.Domain.ValueObject.TimeType">
+            <summary>
+                时间类型
+            </summary>
+        </member>
+        <member name="F:RW.PMS.Domain.ValueObject.TimeType.Year">
+            <summary>
+                年
+            </summary>
+        </member>
+        <member name="F:RW.PMS.Domain.ValueObject.TimeType.Month">
+            <summary>
+                月
+            </summary>
+        </member>
+        <member name="F:RW.PMS.Domain.ValueObject.TimeType.Day">
+            <summary>
+                日
+            </summary>
+        </member>
+        <member name="F:RW.PMS.Domain.ValueObject.TimeType.Hour">
+            <summary>
+                小时
+            </summary>
+        </member>
+        <member name="F:RW.PMS.Domain.ValueObject.TimeType.Minute">
+            <summary>
+                分钟
+            </summary>
+        </member>
+        <member name="F:RW.PMS.Domain.ValueObject.TimeType.Second">
+            <summary>
+                秒
+            </summary>
+        </member>
+        <member name="T:RW.PMS.Domain.ValueObject.ToolCategory">
+            <summary>
+                工器具分类
+            </summary>
+        </member>
+        <member name="F:RW.PMS.Domain.ValueObject.ToolCategory.工具">
+            <summary>
+                工具
+            </summary>
+        </member>
+        <member name="F:RW.PMS.Domain.ValueObject.ToolCategory.量具">
+            <summary>
+                量具
+            </summary>
+        </member>
+        <member name="T:RW.PMS.Domain.ValueObject.VerificationType">
+            <summary>
+            检定类型
+            </summary>
+        </member>
+        <member name="F:RW.PMS.Domain.ValueObject.VerificationType.Appliances">
+            <summary>
+            计量器具检定
+            </summary>
+        </member>
+        <member name="F:RW.PMS.Domain.ValueObject.VerificationType.Component">
+            <summary>
+            设备部件校准检定
+            </summary>
+        </member>
+    </members>
+</doc>

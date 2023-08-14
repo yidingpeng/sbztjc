@@ -1,0 +1,292 @@
+2023-08-03 11:39:42.246 (Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware) [ERR] An unhandled exception has occurred while executing the request.
+System.Exception: 【主库】状态不可用，等待后台检查程序恢复方可使用。Timeout expired.  The timeout period elapsed prior to completion of the operation or the server is not responding.
+ ---> MySql.Data.MySqlClient.MySqlException (0x80004005): Timeout expired.  The timeout period elapsed prior to completion of the operation or the server is not responding.
+ ---> System.TimeoutException: Timeout in IO operation
+   at MySql.Data.MySqlClient.TimedStream.StopTimer()
+   at MySql.Data.MySqlClient.TimedStream.Read(Byte[] buffer, Int32 offset, Int32 count)
+   at MySql.Data.MySqlClient.MySqlStream.ReadFully(Stream stream, Byte[] buffer, Int32 offset, Int32 count)
+   at MySql.Data.MySqlClient.MySqlStream.LoadPacket()
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.Interceptors.ExceptionInterceptor.Throw(Exception exception)
+   at MySql.Data.MySqlClient.MySqlConnection.HandleTimeoutOrThreadAbort(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at FreeSql.Internal.CommonProvider.AdoProvider.ExecuteReaderMultiple(Int32 multipleResult, DbConnection connection, DbTransaction transaction, Action`2 fetchHandler, Action`2 schemaHandler, CommandType cmdType, String cmdText, Int32 cmdTimeout, DbParameter[] cmdParms)
+   --- End of inner exception stack trace ---
+   at FreeSql.Internal.ObjectPool.ObjectPool`1.GetFree(Boolean checkAvailable)
+   at FreeSql.Internal.ObjectPool.ObjectPool`1.Get(Nullable`1 timeout)
+   at FreeSql.MySql.MySqlCodeFirst.GetComparisonDDLStatements(TypeAndName[] objects)
+   at FreeSql.Internal.CommonProvider.CodeFirstProvider.SyncStructure(TypeAndName[] objects)
+   at FreeSql.Internal.CommonProvider.CodeFirstProvider.SyncStructure[TEntity]()
+   at FreeSql.Internal.CommonProvider.InsertProvider`1..ctor(IFreeSql orm, CommonUtils commonUtils, CommonExpression commonExpression)
+   at FreeSql.MySql.Curd.MySqlInsert`1..ctor(IFreeSql orm, CommonUtils commonUtils, CommonExpression commonExpression)
+   at FreeSql.MySql.MySqlProvider`1.CreateInsertProvider[T1]()
+   at FreeSql.Internal.CommonProvider.BaseDbProvider.Insert[T1]()
+   at FreeSql.DbSet`1.OrmInsert()
+   at FreeSql.DbSet`1.OrmInsert(IEnumerable`1 data)
+   at FreeSql.RepositoryDbSet`1.OrmInsert(IEnumerable`1 entitys)
+   at FreeSql.RepositoryDbSet`1.OrmInsert(TEntity entity)
+   at FreeSql.DbSet`1.AddPriv(TEntity data, Boolean isCheck)
+   at FreeSql.DbSet`1.Add(TEntity data)
+   at FreeSql.BaseRepository`1.Insert(TEntity entity)
+   at RW.PMS.Infrastructure.Repositories.Repository`2.Insert(TEntity entity) in D:\.net\XCY23014_设备状态监测系统\文件管理\service\RW.PMS.Infrastructure\Repositories\Repository.cs:line 40
+   at RW.PMS.Application.CrudApplicationService`3.Insert[TInput](TInput input) in D:\.net\XCY23014_设备状态监测系统\文件管理\service\RW.PMS.Application\CrudApplicationService.cs:line 47
+   at RW.PMS.Application.System.LogService.AddLog(LogInputDto input) in D:\.net\XCY23014_设备状态监测系统\文件管理\service\RW.PMS.Application\System\LogService.cs:line 46
+   at Castle.Proxies.Invocations.ILogService_AddLog.InvokeMethodOnTarget()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at RW.PMS.CrossCutting.AOP.Interceptors.DatabaseTransactionAsync.InterceptSynchronous(IInvocation invocation) in D:\.net\XCY23014_设备状态监测系统\文件管理\service\RW.PMS.CrossCutting\AOP\Interceptors\DatabaseTransactionAsync.cs:line 42
+   at RW.PMS.CrossCutting.AOP.Interceptors.DatabaseTransaction.Intercept(IInvocation invocation) in D:\.net\XCY23014_设备状态监测系统\文件管理\service\RW.PMS.CrossCutting\AOP\Interceptors\DatabaseTransaction.cs:line 16
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.IApplicationServiceProxy_1.AddLog(LogInputDto input)
+   at RW.PMS.API.Middleware.ExceptionMiddleWare.HandleCommonException(HttpContext context, Exception e) in D:\.net\XCY23014_设备状态监测系统\文件管理\service\RW.PMS.API\Middleware\ExceptionMiddleWare.cs:line 63
+   at RW.PMS.API.Middleware.ExceptionMiddleWare.InvokeAsync(HttpContext context, RequestDelegate next) in D:\.net\XCY23014_设备状态监测系统\文件管理\service\RW.PMS.API\Middleware\ExceptionMiddleWare.cs:line 31
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.<>c__DisplayClass6_1.<<UseMiddlewareInterface>b__1>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-08-03 17:23:55.512 (Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware) [ERR] An unhandled exception has occurred while executing the request.
+System.Exception: 【主库】状态不可用，等待后台检查程序恢复方可使用。Timeout expired.  The timeout period elapsed prior to completion of the operation or the server is not responding.
+ ---> System.TimeoutException: Timeout expired.  The timeout period elapsed prior to completion of the operation or the server is not responding.
+   at MySql.Data.Common.StreamCreator.GetTcpStream(MySqlConnectionStringBuilder settings, MyNetworkStream& networkStream)
+   at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at FreeSql.MySql.MySqlConnectionPoolPolicy.OnGet(Object`1 obj)
+   --- End of inner exception stack trace ---
+   at FreeSql.Internal.ObjectPool.ObjectPool`1.GetFree(Boolean checkAvailable)
+   at FreeSql.Internal.ObjectPool.ObjectPool`1.Get(Nullable`1 timeout)
+   at FreeSql.MySql.MySqlCodeFirst.GetComparisonDDLStatements(TypeAndName[] objects)
+   at FreeSql.Internal.CommonProvider.CodeFirstProvider.SyncStructure(TypeAndName[] objects)
+   at FreeSql.Internal.CommonProvider.CodeFirstProvider.SyncStructure[TEntity]()
+   at FreeSql.Internal.CommonProvider.InsertProvider`1..ctor(IFreeSql orm, CommonUtils commonUtils, CommonExpression commonExpression)
+   at FreeSql.MySql.Curd.MySqlInsert`1..ctor(IFreeSql orm, CommonUtils commonUtils, CommonExpression commonExpression)
+   at FreeSql.MySql.MySqlProvider`1.CreateInsertProvider[T1]()
+   at FreeSql.Internal.CommonProvider.BaseDbProvider.Insert[T1]()
+   at FreeSql.DbSet`1.OrmInsert()
+   at FreeSql.DbSet`1.OrmInsert(IEnumerable`1 data)
+   at FreeSql.RepositoryDbSet`1.OrmInsert(IEnumerable`1 entitys)
+   at FreeSql.RepositoryDbSet`1.OrmInsert(TEntity entity)
+   at FreeSql.DbSet`1.AddPriv(TEntity data, Boolean isCheck)
+   at FreeSql.DbSet`1.Add(TEntity data)
+   at FreeSql.BaseRepository`1.Insert(TEntity entity)
+   at RW.PMS.Infrastructure.Repositories.Repository`2.Insert(TEntity entity) in D:\.net\XCY23014_设备状态监测系统\文件管理\service\RW.PMS.Infrastructure\Repositories\Repository.cs:line 40
+   at RW.PMS.Application.CrudApplicationService`3.Insert[TInput](TInput input) in D:\.net\XCY23014_设备状态监测系统\文件管理\service\RW.PMS.Application\CrudApplicationService.cs:line 47
+   at RW.PMS.Application.System.LogService.AddLog(LogInputDto input) in D:\.net\XCY23014_设备状态监测系统\文件管理\service\RW.PMS.Application\System\LogService.cs:line 46
+   at Castle.Proxies.Invocations.ILogService_AddLog.InvokeMethodOnTarget()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at RW.PMS.CrossCutting.AOP.Interceptors.DatabaseTransactionAsync.InterceptSynchronous(IInvocation invocation) in D:\.net\XCY23014_设备状态监测系统\文件管理\service\RW.PMS.CrossCutting\AOP\Interceptors\DatabaseTransactionAsync.cs:line 42
+   at RW.PMS.CrossCutting.AOP.Interceptors.DatabaseTransaction.Intercept(IInvocation invocation) in D:\.net\XCY23014_设备状态监测系统\文件管理\service\RW.PMS.CrossCutting\AOP\Interceptors\DatabaseTransaction.cs:line 16
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.IApplicationServiceProxy_1.AddLog(LogInputDto input)
+   at RW.PMS.API.Middleware.ExceptionMiddleWare.HandleCommonException(HttpContext context, Exception e) in D:\.net\XCY23014_设备状态监测系统\文件管理\service\RW.PMS.API\Middleware\ExceptionMiddleWare.cs:line 63
+   at RW.PMS.API.Middleware.ExceptionMiddleWare.InvokeAsync(HttpContext context, RequestDelegate next) in D:\.net\XCY23014_设备状态监测系统\文件管理\service\RW.PMS.API\Middleware\ExceptionMiddleWare.cs:line 31
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.<>c__DisplayClass6_1.<<UseMiddlewareInterface>b__1>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-08-03 17:24:17.678 (Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware) [ERR] An unhandled exception has occurred while executing the request.
+System.Exception: 【主库】状态不可用，等待后台检查程序恢复方可使用。Timeout expired.  The timeout period elapsed prior to completion of the operation or the server is not responding.
+ ---> System.TimeoutException: Timeout expired.  The timeout period elapsed prior to completion of the operation or the server is not responding.
+   at MySql.Data.Common.StreamCreator.GetTcpStream(MySqlConnectionStringBuilder settings, MyNetworkStream& networkStream)
+   at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at FreeSql.MySql.MySqlConnectionPoolPolicy.OnGet(Object`1 obj)
+   --- End of inner exception stack trace ---
+   at FreeSql.Internal.ObjectPool.ObjectPool`1.GetFree(Boolean checkAvailable)
+   at FreeSql.Internal.ObjectPool.ObjectPool`1.Get(Nullable`1 timeout)
+   at FreeSql.MySql.MySqlCodeFirst.GetComparisonDDLStatements(TypeAndName[] objects)
+   at FreeSql.Internal.CommonProvider.CodeFirstProvider.SyncStructure(TypeAndName[] objects)
+   at FreeSql.Internal.CommonProvider.CodeFirstProvider.SyncStructure[TEntity]()
+   at FreeSql.Internal.CommonProvider.InsertProvider`1..ctor(IFreeSql orm, CommonUtils commonUtils, CommonExpression commonExpression)
+   at FreeSql.MySql.Curd.MySqlInsert`1..ctor(IFreeSql orm, CommonUtils commonUtils, CommonExpression commonExpression)
+   at FreeSql.MySql.MySqlProvider`1.CreateInsertProvider[T1]()
+   at FreeSql.Internal.CommonProvider.BaseDbProvider.Insert[T1]()
+   at FreeSql.DbSet`1.OrmInsert()
+   at FreeSql.DbSet`1.OrmInsert(IEnumerable`1 data)
+   at FreeSql.RepositoryDbSet`1.OrmInsert(IEnumerable`1 entitys)
+   at FreeSql.RepositoryDbSet`1.OrmInsert(TEntity entity)
+   at FreeSql.DbSet`1.AddPriv(TEntity data, Boolean isCheck)
+   at FreeSql.DbSet`1.Add(TEntity data)
+   at FreeSql.BaseRepository`1.Insert(TEntity entity)
+   at RW.PMS.Infrastructure.Repositories.Repository`2.Insert(TEntity entity) in D:\.net\XCY23014_设备状态监测系统\文件管理\service\RW.PMS.Infrastructure\Repositories\Repository.cs:line 40
+   at RW.PMS.Application.CrudApplicationService`3.Insert[TInput](TInput input) in D:\.net\XCY23014_设备状态监测系统\文件管理\service\RW.PMS.Application\CrudApplicationService.cs:line 47
+   at RW.PMS.Application.System.LogService.AddLog(LogInputDto input) in D:\.net\XCY23014_设备状态监测系统\文件管理\service\RW.PMS.Application\System\LogService.cs:line 46
+   at Castle.Proxies.Invocations.ILogService_AddLog.InvokeMethodOnTarget()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at RW.PMS.CrossCutting.AOP.Interceptors.DatabaseTransactionAsync.InterceptSynchronous(IInvocation invocation) in D:\.net\XCY23014_设备状态监测系统\文件管理\service\RW.PMS.CrossCutting\AOP\Interceptors\DatabaseTransactionAsync.cs:line 42
+   at RW.PMS.CrossCutting.AOP.Interceptors.DatabaseTransaction.Intercept(IInvocation invocation) in D:\.net\XCY23014_设备状态监测系统\文件管理\service\RW.PMS.CrossCutting\AOP\Interceptors\DatabaseTransaction.cs:line 16
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.IApplicationServiceProxy_1.AddLog(LogInputDto input)
+   at RW.PMS.API.Middleware.ExceptionMiddleWare.HandleCommonException(HttpContext context, Exception e) in D:\.net\XCY23014_设备状态监测系统\文件管理\service\RW.PMS.API\Middleware\ExceptionMiddleWare.cs:line 63
+   at RW.PMS.API.Middleware.ExceptionMiddleWare.InvokeAsync(HttpContext context, RequestDelegate next) in D:\.net\XCY23014_设备状态监测系统\文件管理\service\RW.PMS.API\Middleware\ExceptionMiddleWare.cs:line 31
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.<>c__DisplayClass6_1.<<UseMiddlewareInterface>b__1>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-08-03 18:38:48.584 (Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware) [ERR] An unhandled exception has occurred while executing the request.
+System.Exception: 【主库】状态不可用，等待后台检查程序恢复方可使用。Unable to connect to any of the specified MySQL hosts.
+ ---> System.Exception: 【主库】状态不可用，等待后台检查程序恢复方可使用。Unable to connect to any of the specified MySQL hosts.
+ ---> MySql.Data.MySqlClient.MySqlException (0x80004005): Unable to connect to any of the specified MySQL hosts.
+ ---> System.Net.Sockets.SocketException (10065): 套接字操作尝试一个无法连接的主机。
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Threading.Tasks.ValueTask.ValueTaskSourceAsTask.<>c.<.cctor>b__4_0(Object state)
+--- End of stack trace from previous location ---
+   at System.Net.Sockets.TcpClient.CompleteConnectAsync(Task task)
+   at MySql.Data.MySqlClient.NativeDriver.<>c.<Open>b__40_0(Exception ex)
+   at System.AggregateException.Handle(Func`2 predicate)
+   at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at FreeSql.MySql.MySqlConnectionPoolPolicy.OnGet(Object`1 obj)
+   --- End of inner exception stack trace ---
+   at FreeSql.Internal.ObjectPool.ObjectPool`1.GetFree(Boolean checkAvailable)
+   at FreeSql.Internal.ObjectPool.ObjectPool`1.Get(Nullable`1 timeout)
+   at FreeSql.Internal.CommonProvider.AdoProvider.ExecuteScalar(DbConnection connection, DbTransaction transaction, CommandType cmdType, String cmdText, Int32 cmdTimeout, DbParameter[] cmdParms)
+   --- End of inner exception stack trace ---
+   at FreeSql.Internal.CommonProvider.AdoProvider.LoggerException(IObjectPool`1 pool, PrepareCommandResult pc, Exception ex, DateTime dt, StringBuilder logtxt, Boolean isThrowException)
+   at FreeSql.Internal.CommonProvider.AdoProvider.ExecuteScalar(DbConnection connection, DbTransaction transaction, CommandType cmdType, String cmdText, Int32 cmdTimeout, DbParameter[] cmdParms)
+   at FreeSql.MySql.Curd.MySqlInsert`1.RawExecuteIdentity()
+   at FreeSql.Internal.CommonProvider.InsertProvider`1.SplitExecuteIdentity(Int32 valuesLimit, Int32 parameterLimit)
+   at FreeSql.MySql.Curd.MySqlInsert`1.ExecuteIdentity()
+   at FreeSql.DbSet`1.AddPriv(TEntity data, Boolean isCheck)
+   at FreeSql.DbSet`1.Add(TEntity data)
+   at FreeSql.BaseRepository`1.Insert(TEntity entity)
+   at RW.PMS.Infrastructure.Repositories.Repository`2.Insert(TEntity entity) in D:\.net\XCY23014_设备状态监测系统\文件管理\service\RW.PMS.Infrastructure\Repositories\Repository.cs:line 40
+   at RW.PMS.Application.CrudApplicationService`3.Insert[TInput](TInput input) in D:\.net\XCY23014_设备状态监测系统\文件管理\service\RW.PMS.Application\CrudApplicationService.cs:line 47
+   at RW.PMS.Application.System.LogService.AddLog(LogInputDto input) in D:\.net\XCY23014_设备状态监测系统\文件管理\service\RW.PMS.Application\System\LogService.cs:line 46
+   at Castle.Proxies.Invocations.ILogService_AddLog.InvokeMethodOnTarget()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at RW.PMS.CrossCutting.AOP.Interceptors.DatabaseTransactionAsync.InterceptSynchronous(IInvocation invocation) in D:\.net\XCY23014_设备状态监测系统\文件管理\service\RW.PMS.CrossCutting\AOP\Interceptors\DatabaseTransactionAsync.cs:line 42
+   at RW.PMS.CrossCutting.AOP.Interceptors.DatabaseTransaction.Intercept(IInvocation invocation) in D:\.net\XCY23014_设备状态监测系统\文件管理\service\RW.PMS.CrossCutting\AOP\Interceptors\DatabaseTransaction.cs:line 16
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.IApplicationServiceProxy_1.AddLog(LogInputDto input)
+   at RW.PMS.API.Middleware.ExceptionMiddleWare.HandleCommonException(HttpContext context, Exception e) in D:\.net\XCY23014_设备状态监测系统\文件管理\service\RW.PMS.API\Middleware\ExceptionMiddleWare.cs:line 63
+   at RW.PMS.API.Middleware.ExceptionMiddleWare.InvokeAsync(HttpContext context, RequestDelegate next) in D:\.net\XCY23014_设备状态监测系统\文件管理\service\RW.PMS.API\Middleware\ExceptionMiddleWare.cs:line 31
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.<>c__DisplayClass6_1.<<UseMiddlewareInterface>b__1>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-08-03 18:38:48.643 (Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware) [ERR] An unhandled exception has occurred while executing the request.
+System.Exception: 【主库】状态不可用，等待后台检查程序恢复方可使用。Unable to connect to any of the specified MySQL hosts.
+ ---> System.Exception: 【主库】状态不可用，等待后台检查程序恢复方可使用。Unable to connect to any of the specified MySQL hosts.
+ ---> MySql.Data.MySqlClient.MySqlException (0x80004005): Unable to connect to any of the specified MySQL hosts.
+ ---> System.Net.Sockets.SocketException (10065): 套接字操作尝试一个无法连接的主机。
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Threading.Tasks.ValueTask.ValueTaskSourceAsTask.<>c.<.cctor>b__4_0(Object state)
+--- End of stack trace from previous location ---
+   at System.Net.Sockets.TcpClient.CompleteConnectAsync(Task task)
+   at MySql.Data.MySqlClient.NativeDriver.<>c.<Open>b__40_0(Exception ex)
+   at System.AggregateException.Handle(Func`2 predicate)
+   at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at FreeSql.MySql.MySqlConnectionPoolPolicy.OnGet(Object`1 obj)
+   --- End of inner exception stack trace ---
+   at FreeSql.Internal.ObjectPool.ObjectPool`1.GetFree(Boolean checkAvailable)
+   at FreeSql.Internal.ObjectPool.ObjectPool`1.Get(Nullable`1 timeout)
+   at FreeSql.Internal.CommonProvider.AdoProvider.ExecuteScalar(DbConnection connection, DbTransaction transaction, CommandType cmdType, String cmdText, Int32 cmdTimeout, DbParameter[] cmdParms)
+   --- End of inner exception stack trace ---
+   at FreeSql.Internal.CommonProvider.AdoProvider.LoggerException(IObjectPool`1 pool, PrepareCommandResult pc, Exception ex, DateTime dt, StringBuilder logtxt, Boolean isThrowException)
+   at FreeSql.Internal.CommonProvider.AdoProvider.ExecuteScalar(DbConnection connection, DbTransaction transaction, CommandType cmdType, String cmdText, Int32 cmdTimeout, DbParameter[] cmdParms)
+   at FreeSql.MySql.Curd.MySqlInsert`1.RawExecuteIdentity()
+   at FreeSql.Internal.CommonProvider.InsertProvider`1.SplitExecuteIdentity(Int32 valuesLimit, Int32 parameterLimit)
+   at FreeSql.MySql.Curd.MySqlInsert`1.ExecuteIdentity()
+   at FreeSql.DbSet`1.AddPriv(TEntity data, Boolean isCheck)
+   at FreeSql.DbSet`1.Add(TEntity data)
+   at FreeSql.BaseRepository`1.Insert(TEntity entity)
+   at RW.PMS.Infrastructure.Repositories.Repository`2.Insert(TEntity entity) in D:\.net\XCY23014_设备状态监测系统\文件管理\service\RW.PMS.Infrastructure\Repositories\Repository.cs:line 40
+   at RW.PMS.Application.CrudApplicationService`3.Insert[TInput](TInput input) in D:\.net\XCY23014_设备状态监测系统\文件管理\service\RW.PMS.Application\CrudApplicationService.cs:line 47
+   at RW.PMS.Application.System.LogService.AddLog(LogInputDto input) in D:\.net\XCY23014_设备状态监测系统\文件管理\service\RW.PMS.Application\System\LogService.cs:line 46
+   at Castle.Proxies.Invocations.ILogService_AddLog.InvokeMethodOnTarget()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at RW.PMS.CrossCutting.AOP.Interceptors.DatabaseTransactionAsync.InterceptSynchronous(IInvocation invocation) in D:\.net\XCY23014_设备状态监测系统\文件管理\service\RW.PMS.CrossCutting\AOP\Interceptors\DatabaseTransactionAsync.cs:line 42
+   at RW.PMS.CrossCutting.AOP.Interceptors.DatabaseTransaction.Intercept(IInvocation invocation) in D:\.net\XCY23014_设备状态监测系统\文件管理\service\RW.PMS.CrossCutting\AOP\Interceptors\DatabaseTransaction.cs:line 16
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.IApplicationServiceProxy_1.AddLog(LogInputDto input)
+   at RW.PMS.API.Middleware.ExceptionMiddleWare.HandleCommonException(HttpContext context, Exception e) in D:\.net\XCY23014_设备状态监测系统\文件管理\service\RW.PMS.API\Middleware\ExceptionMiddleWare.cs:line 63
+   at RW.PMS.API.Middleware.ExceptionMiddleWare.InvokeAsync(HttpContext context, RequestDelegate next) in D:\.net\XCY23014_设备状态监测系统\文件管理\service\RW.PMS.API\Middleware\ExceptionMiddleWare.cs:line 31
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.<>c__DisplayClass6_1.<<UseMiddlewareInterface>b__1>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-08-03 19:07:02.438 (Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware) [ERR] An unhandled exception has occurred while executing the request.
+System.Exception: 【主库】状态不可用，等待后台检查程序恢复方可使用。Timeout expired.  The timeout period elapsed prior to completion of the operation or the server is not responding.
+ ---> System.Exception: 【主库】状态不可用，等待后台检查程序恢复方可使用。Timeout expired.  The timeout period elapsed prior to completion of the operation or the server is not responding.
+ ---> System.TimeoutException: Timeout expired.  The timeout period elapsed prior to completion of the operation or the server is not responding.
+   at MySql.Data.Common.StreamCreator.GetTcpStream(MySqlConnectionStringBuilder settings, MyNetworkStream& networkStream)
+   at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at FreeSql.MySql.MySqlConnectionPoolPolicy.OnGet(Object`1 obj)
+   --- End of inner exception stack trace ---
+   at FreeSql.Internal.ObjectPool.ObjectPool`1.GetFree(Boolean checkAvailable)
+   at FreeSql.Internal.ObjectPool.ObjectPool`1.Get(Nullable`1 timeout)
+   at FreeSql.Internal.CommonProvider.AdoProvider.ExecuteScalar(DbConnection connection, DbTransaction transaction, CommandType cmdType, String cmdText, Int32 cmdTimeout, DbParameter[] cmdParms)
+   --- End of inner exception stack trace ---
+   at FreeSql.Internal.CommonProvider.AdoProvider.LoggerException(IObjectPool`1 pool, PrepareCommandResult pc, Exception ex, DateTime dt, StringBuilder logtxt, Boolean isThrowException)
+   at FreeSql.Internal.CommonProvider.AdoProvider.ExecuteScalar(DbConnection connection, DbTransaction transaction, CommandType cmdType, String cmdText, Int32 cmdTimeout, DbParameter[] cmdParms)
+   at FreeSql.MySql.Curd.MySqlInsert`1.RawExecuteIdentity()
+   at FreeSql.Internal.CommonProvider.InsertProvider`1.SplitExecuteIdentity(Int32 valuesLimit, Int32 parameterLimit)
+   at FreeSql.MySql.Curd.MySqlInsert`1.ExecuteIdentity()
+   at FreeSql.DbSet`1.AddPriv(TEntity data, Boolean isCheck)
+   at FreeSql.DbSet`1.Add(TEntity data)
+   at FreeSql.BaseRepository`1.Insert(TEntity entity)
+   at RW.PMS.Infrastructure.Repositories.Repository`2.Insert(TEntity entity) in D:\.net\XCY23014_设备状态监测系统\文件管理\service\RW.PMS.Infrastructure\Repositories\Repository.cs:line 40
+   at RW.PMS.Application.CrudApplicationService`3.Insert[TInput](TInput input) in D:\.net\XCY23014_设备状态监测系统\文件管理\service\RW.PMS.Application\CrudApplicationService.cs:line 47
+   at RW.PMS.Application.System.LogService.AddLog(LogInputDto input) in D:\.net\XCY23014_设备状态监测系统\文件管理\service\RW.PMS.Application\System\LogService.cs:line 46
+   at Castle.Proxies.Invocations.ILogService_AddLog.InvokeMethodOnTarget()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at RW.PMS.CrossCutting.AOP.Interceptors.DatabaseTransactionAsync.InterceptSynchronous(IInvocation invocation) in D:\.net\XCY23014_设备状态监测系统\文件管理\service\RW.PMS.CrossCutting\AOP\Interceptors\DatabaseTransactionAsync.cs:line 42
+   at RW.PMS.CrossCutting.AOP.Interceptors.DatabaseTransaction.Intercept(IInvocation invocation) in D:\.net\XCY23014_设备状态监测系统\文件管理\service\RW.PMS.CrossCutting\AOP\Interceptors\DatabaseTransaction.cs:line 16
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.IApplicationServiceProxy_1.AddLog(LogInputDto input)
+   at RW.PMS.API.Middleware.ExceptionMiddleWare.HandleCommonException(HttpContext context, Exception e) in D:\.net\XCY23014_设备状态监测系统\文件管理\service\RW.PMS.API\Middleware\ExceptionMiddleWare.cs:line 63
+   at RW.PMS.API.Middleware.ExceptionMiddleWare.InvokeAsync(HttpContext context, RequestDelegate next) in D:\.net\XCY23014_设备状态监测系统\文件管理\service\RW.PMS.API\Middleware\ExceptionMiddleWare.cs:line 31
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.<>c__DisplayClass6_1.<<UseMiddlewareInterface>b__1>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)

@@ -1,0 +1,456 @@
+2023-07-29 11:41:40.144 (Quartz.Impl.StdSchedulerFactory) [INF] Default Quartz.NET properties loaded from embedded resource file
+2023-07-29 11:41:40.178 (Quartz.Simpl.TaskSchedulingThreadPool) [DBG] TaskSchedulingThreadPool configured with max concurrency of 10 and TaskScheduler ThreadPoolTaskScheduler.
+2023-07-29 11:41:40.188 (Quartz.Core.SchedulerSignalerImpl) [INF] Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2023-07-29 11:41:40.188 (Quartz.Core.QuartzScheduler) [INF] Quartz Scheduler created
+2023-07-29 11:41:40.189 (Quartz.Simpl.RAMJobStore) [INF] RAMJobStore initialized.
+2023-07-29 11:41:40.189 (Quartz.Impl.StdSchedulerFactory) [INF] Quartz Scheduler 3.6.3.0 - 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED' initialized
+2023-07-29 11:41:40.189 (Quartz.Impl.StdSchedulerFactory) [INF] Using thread pool 'Quartz.Simpl.DefaultThreadPool', size: 10
+2023-07-29 11:41:40.189 (Quartz.Impl.StdSchedulerFactory) [INF] Using job store 'Quartz.Simpl.RAMJobStore', supports persistence: False, clustered: False
+2023-07-29 11:41:40.232 (Quartz.Core.QuartzScheduler) [INF] Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2023-07-29 11:41:40.244 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 1 triggers
+2023-07-29 11:42:00.013 (Quartz.Simpl.SimpleJobFactory) [DBG] Producing instance of Job 'group1.job1', class=RW.PMS.API.QuartzService.TestJob
+2023-07-29 11:42:00.018 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-07-29 11:42:00.036 (Quartz.Core.JobRunShell) [DBG] Calling Execute on job group1.job1
+2023-07-29 11:42:14.633 (Quartz.Core.JobRunShell) [DBG] Trigger instruction : NoInstruction
+2023-07-29 11:42:24.871 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-07-29 15:15:31.836 (Quartz.Impl.StdSchedulerFactory) [INF] Default Quartz.NET properties loaded from embedded resource file
+2023-07-29 15:15:31.952 (Quartz.Simpl.TaskSchedulingThreadPool) [DBG] TaskSchedulingThreadPool configured with max concurrency of 10 and TaskScheduler ThreadPoolTaskScheduler.
+2023-07-29 15:15:31.982 (Quartz.Core.SchedulerSignalerImpl) [INF] Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2023-07-29 15:15:31.982 (Quartz.Core.QuartzScheduler) [INF] Quartz Scheduler created
+2023-07-29 15:15:31.982 (Quartz.Simpl.RAMJobStore) [INF] RAMJobStore initialized.
+2023-07-29 15:15:31.984 (Quartz.Impl.StdSchedulerFactory) [INF] Quartz Scheduler 3.6.3.0 - 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED' initialized
+2023-07-29 15:15:31.984 (Quartz.Impl.StdSchedulerFactory) [INF] Using thread pool 'Quartz.Simpl.DefaultThreadPool', size: 10
+2023-07-29 15:15:31.985 (Quartz.Impl.StdSchedulerFactory) [INF] Using job store 'Quartz.Simpl.RAMJobStore', supports persistence: False, clustered: False
+2023-07-29 15:15:32.051 (Quartz.Core.QuartzScheduler) [INF] Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2023-07-29 15:15:32.061 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-07-29 15:15:55.715 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-07-29 15:16:19.320 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-07-29 15:16:47.272 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-07-29 15:17:16.960 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-07-29 15:17:40.051 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-07-29 15:18:06.320 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-07-29 15:18:30.383 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-07-29 15:18:55.113 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-07-29 15:19:20.653 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-07-29 15:19:47.362 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-07-29 15:20:14.957 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-07-29 15:20:43.971 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-07-29 15:21:07.359 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-07-29 15:21:31.813 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-07-29 15:22:00.676 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-07-29 15:22:30.318 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-07-29 15:22:54.817 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-07-29 15:23:23.532 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-07-29 15:23:50.313 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-07-29 15:24:15.963 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-07-29 15:24:45.366 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-07-29 15:25:13.467 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-07-29 15:25:43.058 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-07-29 15:26:10.447 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-07-29 15:26:39.734 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-07-29 15:27:04.871 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-07-29 15:27:33.369 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-07-29 15:27:58.819 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-07-29 15:28:27.035 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-07-29 15:28:50.926 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-07-29 15:29:14.555 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-07-29 15:29:40.177 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-07-29 15:30:05.264 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-07-29 15:30:28.508 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-07-29 15:30:57.914 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-07-29 15:31:24.273 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-07-29 15:31:47.506 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-07-29 15:32:17.472 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-07-29 15:32:43.035 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-07-29 15:33:11.789 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-07-29 15:33:40.543 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-07-29 15:34:03.761 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-07-29 15:34:32.723 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-07-29 15:34:56.207 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-07-29 15:35:20.101 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-07-29 15:35:49.342 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-07-29 15:36:14.811 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-07-29 15:36:42.244 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-07-29 15:37:06.775 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-07-29 15:37:34.081 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-07-29 15:37:58.049 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-07-29 15:38:26.788 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-07-29 15:38:55.244 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-07-29 15:39:24.152 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-07-29 15:39:50.822 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-07-29 15:40:17.402 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-07-29 15:40:42.056 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-07-29 15:41:07.173 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-07-29 15:41:34.180 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-07-29 15:41:59.915 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-07-29 15:42:24.937 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-07-29 15:42:52.122 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-07-29 15:43:16.932 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-07-29 16:20:55.898 (Quartz.Impl.StdSchedulerFactory) [INF] Default Quartz.NET properties loaded from embedded resource file
+2023-07-29 16:20:55.932 (Quartz.Simpl.TaskSchedulingThreadPool) [DBG] TaskSchedulingThreadPool configured with max concurrency of 10 and TaskScheduler ThreadPoolTaskScheduler.
+2023-07-29 16:20:55.942 (Quartz.Core.SchedulerSignalerImpl) [INF] Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2023-07-29 16:20:55.942 (Quartz.Core.QuartzScheduler) [INF] Quartz Scheduler created
+2023-07-29 16:20:55.942 (Quartz.Simpl.RAMJobStore) [INF] RAMJobStore initialized.
+2023-07-29 16:20:55.943 (Quartz.Impl.StdSchedulerFactory) [INF] Quartz Scheduler 3.6.3.0 - 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED' initialized
+2023-07-29 16:20:55.943 (Quartz.Impl.StdSchedulerFactory) [INF] Using thread pool 'Quartz.Simpl.DefaultThreadPool', size: 10
+2023-07-29 16:20:55.943 (Quartz.Impl.StdSchedulerFactory) [INF] Using job store 'Quartz.Simpl.RAMJobStore', supports persistence: False, clustered: False
+2023-07-29 16:20:55.984 (Quartz.Core.QuartzScheduler) [INF] Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2023-07-29 16:20:55.996 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 1 triggers
+2023-07-29 16:21:00.030 (Quartz.Simpl.SimpleJobFactory) [DBG] Producing instance of Job 'group1.job1', class=RW.PMS.API.QuartzService.TestJob
+2023-07-29 16:21:00.034 (Quartz.Core.ErrorLogger) [ERR] An error occurred instantiating job to be executed. job= 'group1.job1'
+Quartz.SchedulerException: Problem instantiating class 'RW.PMS.API.QuartzService.TestJob: Cannot instantiate type which has no empty constructor (Parameter 'TestJob')'
+ ---> System.ArgumentException: Cannot instantiate type which has no empty constructor (Parameter 'TestJob')
+   at Quartz.ExceptionHelper.ThrowArgumentException(String message, String paramName)
+   at Quartz.Util.ObjectUtils.InstantiateType[T](Type type)
+   at Quartz.Simpl.SimpleJobFactory.NewJob(TriggerFiredBundle bundle, IScheduler scheduler)
+   --- End of inner exception stack trace ---
+   at Quartz.Simpl.SimpleJobFactory.NewJob(TriggerFiredBundle bundle, IScheduler scheduler)
+   at Quartz.Simpl.PropertySettingJobFactory.NewJob(TriggerFiredBundle bundle, IScheduler scheduler)
+   at Quartz.Core.JobRunShell.Initialize(QuartzScheduler sched, CancellationToken cancellationToken)
+   at Quartz.Core.JobRunShell.Initialize(QuartzScheduler sched, CancellationToken cancellationToken)
+   at Quartz.Core.QuartzSchedulerThread.Run() [See nested exception: System.ArgumentException: Cannot instantiate type which has no empty constructor (Parameter 'TestJob')
+   at Quartz.ExceptionHelper.ThrowArgumentException(String message, String paramName)
+   at Quartz.Util.ObjectUtils.InstantiateType[T](Type type)
+   at Quartz.Simpl.SimpleJobFactory.NewJob(TriggerFiredBundle bundle, IScheduler scheduler)]
+2023-07-29 16:21:00.036 (Quartz.Simpl.RAMJobStore) [INF] All triggers of Job group1.job1 set to ERROR state.
+2023-07-29 16:21:00.037 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-07-29 16:21:51.449 (Quartz.Impl.StdSchedulerFactory) [INF] Default Quartz.NET properties loaded from embedded resource file
+2023-07-29 16:21:51.483 (Quartz.Simpl.TaskSchedulingThreadPool) [DBG] TaskSchedulingThreadPool configured with max concurrency of 10 and TaskScheduler ThreadPoolTaskScheduler.
+2023-07-29 16:21:51.531 (Quartz.Core.SchedulerSignalerImpl) [INF] Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2023-07-29 16:21:51.532 (Quartz.Core.QuartzScheduler) [INF] Quartz Scheduler created
+2023-07-29 16:21:51.532 (Quartz.Simpl.RAMJobStore) [INF] RAMJobStore initialized.
+2023-07-29 16:21:51.533 (Quartz.Impl.StdSchedulerFactory) [INF] Quartz Scheduler 3.6.3.0 - 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED' initialized
+2023-07-29 16:21:51.533 (Quartz.Impl.StdSchedulerFactory) [INF] Using thread pool 'Quartz.Simpl.DefaultThreadPool', size: 10
+2023-07-29 16:21:51.533 (Quartz.Impl.StdSchedulerFactory) [INF] Using job store 'Quartz.Simpl.RAMJobStore', supports persistence: False, clustered: False
+2023-07-29 16:21:51.579 (Quartz.Core.QuartzScheduler) [INF] Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2023-07-29 16:21:51.591 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 1 triggers
+2023-07-29 16:22:00.017 (Quartz.Simpl.SimpleJobFactory) [DBG] Producing instance of Job 'group1.job1', class=RW.PMS.API.QuartzService.TestJob
+2023-07-29 16:22:00.020 (Quartz.Core.ErrorLogger) [ERR] An error occurred instantiating job to be executed. job= 'group1.job1'
+Quartz.SchedulerException: Problem instantiating class 'RW.PMS.API.QuartzService.TestJob: Cannot instantiate type which has no empty constructor (Parameter 'TestJob')'
+ ---> System.ArgumentException: Cannot instantiate type which has no empty constructor (Parameter 'TestJob')
+   at Quartz.ExceptionHelper.ThrowArgumentException(String message, String paramName)
+   at Quartz.Util.ObjectUtils.InstantiateType[T](Type type)
+   at Quartz.Simpl.SimpleJobFactory.NewJob(TriggerFiredBundle bundle, IScheduler scheduler)
+   --- End of inner exception stack trace ---
+   at Quartz.Simpl.SimpleJobFactory.NewJob(TriggerFiredBundle bundle, IScheduler scheduler)
+   at Quartz.Simpl.PropertySettingJobFactory.NewJob(TriggerFiredBundle bundle, IScheduler scheduler)
+   at Quartz.Core.JobRunShell.Initialize(QuartzScheduler sched, CancellationToken cancellationToken)
+   at Quartz.Core.JobRunShell.Initialize(QuartzScheduler sched, CancellationToken cancellationToken)
+   at Quartz.Core.QuartzSchedulerThread.Run() [See nested exception: System.ArgumentException: Cannot instantiate type which has no empty constructor (Parameter 'TestJob')
+   at Quartz.ExceptionHelper.ThrowArgumentException(String message, String paramName)
+   at Quartz.Util.ObjectUtils.InstantiateType[T](Type type)
+   at Quartz.Simpl.SimpleJobFactory.NewJob(TriggerFiredBundle bundle, IScheduler scheduler)]
+2023-07-29 16:22:00.023 (Quartz.Simpl.RAMJobStore) [INF] All triggers of Job group1.job1 set to ERROR state.
+2023-07-29 16:22:00.028 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-07-29 16:22:24.508 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-07-29 16:22:49.318 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-07-29 16:23:19.183 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-07-29 16:23:51.049 (Quartz.Impl.StdSchedulerFactory) [INF] Default Quartz.NET properties loaded from embedded resource file
+2023-07-29 16:23:51.086 (Quartz.Simpl.TaskSchedulingThreadPool) [DBG] TaskSchedulingThreadPool configured with max concurrency of 10 and TaskScheduler ThreadPoolTaskScheduler.
+2023-07-29 16:23:51.096 (Quartz.Core.SchedulerSignalerImpl) [INF] Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2023-07-29 16:23:51.096 (Quartz.Core.QuartzScheduler) [INF] Quartz Scheduler created
+2023-07-29 16:23:51.097 (Quartz.Simpl.RAMJobStore) [INF] RAMJobStore initialized.
+2023-07-29 16:23:51.097 (Quartz.Impl.StdSchedulerFactory) [INF] Quartz Scheduler 3.6.3.0 - 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED' initialized
+2023-07-29 16:23:51.097 (Quartz.Impl.StdSchedulerFactory) [INF] Using thread pool 'Quartz.Simpl.DefaultThreadPool', size: 10
+2023-07-29 16:23:51.098 (Quartz.Impl.StdSchedulerFactory) [INF] Using job store 'Quartz.Simpl.RAMJobStore', supports persistence: False, clustered: False
+2023-07-29 16:23:51.145 (Quartz.Core.QuartzScheduler) [INF] Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2023-07-29 16:23:51.232 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 1 triggers
+2023-07-29 16:24:00.024 (Quartz.Simpl.SimpleJobFactory) [DBG] Producing instance of Job 'group1.job1', class=RW.PMS.API.QuartzService.TestJob
+2023-07-29 16:24:00.028 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-07-29 16:24:00.060 (Quartz.Core.JobRunShell) [DBG] Calling Execute on job group1.job1
+2023-07-29 16:25:19.345 (Quartz.Impl.StdSchedulerFactory) [INF] Default Quartz.NET properties loaded from embedded resource file
+2023-07-29 16:25:19.383 (Quartz.Simpl.TaskSchedulingThreadPool) [DBG] TaskSchedulingThreadPool configured with max concurrency of 10 and TaskScheduler ThreadPoolTaskScheduler.
+2023-07-29 16:25:19.394 (Quartz.Core.SchedulerSignalerImpl) [INF] Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2023-07-29 16:25:19.394 (Quartz.Core.QuartzScheduler) [INF] Quartz Scheduler created
+2023-07-29 16:25:19.394 (Quartz.Simpl.RAMJobStore) [INF] RAMJobStore initialized.
+2023-07-29 16:25:19.394 (Quartz.Impl.StdSchedulerFactory) [INF] Quartz Scheduler 3.6.3.0 - 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED' initialized
+2023-07-29 16:25:19.395 (Quartz.Impl.StdSchedulerFactory) [INF] Using thread pool 'Quartz.Simpl.DefaultThreadPool', size: 10
+2023-07-29 16:25:19.395 (Quartz.Impl.StdSchedulerFactory) [INF] Using job store 'Quartz.Simpl.RAMJobStore', supports persistence: False, clustered: False
+2023-07-29 16:25:19.445 (Quartz.Core.QuartzScheduler) [INF] Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2023-07-29 16:25:19.458 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-07-29 16:25:49.294 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 1 triggers
+2023-07-29 16:26:00.026 (Quartz.Simpl.SimpleJobFactory) [DBG] Producing instance of Job 'group1.job1', class=RW.PMS.API.QuartzService.TestJob
+2023-07-29 16:26:00.029 (Quartz.Core.ErrorLogger) [ERR] An error occurred instantiating job to be executed. job= 'group1.job1'
+Quartz.SchedulerException: Problem instantiating class 'RW.PMS.API.QuartzService.TestJob: Cannot instantiate type which has no empty constructor (Parameter 'TestJob')'
+ ---> System.ArgumentException: Cannot instantiate type which has no empty constructor (Parameter 'TestJob')
+   at Quartz.ExceptionHelper.ThrowArgumentException(String message, String paramName)
+   at Quartz.Util.ObjectUtils.InstantiateType[T](Type type)
+   at Quartz.Simpl.SimpleJobFactory.NewJob(TriggerFiredBundle bundle, IScheduler scheduler)
+   --- End of inner exception stack trace ---
+   at Quartz.Simpl.SimpleJobFactory.NewJob(TriggerFiredBundle bundle, IScheduler scheduler)
+   at Quartz.Simpl.PropertySettingJobFactory.NewJob(TriggerFiredBundle bundle, IScheduler scheduler)
+   at Quartz.Core.JobRunShell.Initialize(QuartzScheduler sched, CancellationToken cancellationToken)
+   at Quartz.Core.JobRunShell.Initialize(QuartzScheduler sched, CancellationToken cancellationToken)
+   at Quartz.Core.QuartzSchedulerThread.Run() [See nested exception: System.ArgumentException: Cannot instantiate type which has no empty constructor (Parameter 'TestJob')
+   at Quartz.ExceptionHelper.ThrowArgumentException(String message, String paramName)
+   at Quartz.Util.ObjectUtils.InstantiateType[T](Type type)
+   at Quartz.Simpl.SimpleJobFactory.NewJob(TriggerFiredBundle bundle, IScheduler scheduler)]
+2023-07-29 16:26:00.031 (Quartz.Simpl.RAMJobStore) [INF] All triggers of Job group1.job1 set to ERROR state.
+2023-07-29 16:26:00.037 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-07-29 16:26:28.497 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-07-29 16:26:55.980 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-07-29 16:27:22.241 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-07-29 16:27:46.287 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-07-29 16:28:15.189 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-07-29 16:28:38.347 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-07-29 16:29:07.750 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-07-29 16:29:29.976 (Quartz.Impl.StdSchedulerFactory) [INF] Default Quartz.NET properties loaded from embedded resource file
+2023-07-29 16:29:30.009 (Quartz.Simpl.TaskSchedulingThreadPool) [DBG] TaskSchedulingThreadPool configured with max concurrency of 10 and TaskScheduler ThreadPoolTaskScheduler.
+2023-07-29 16:29:30.019 (Quartz.Core.SchedulerSignalerImpl) [INF] Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2023-07-29 16:29:30.019 (Quartz.Core.QuartzScheduler) [INF] Quartz Scheduler created
+2023-07-29 16:29:30.019 (Quartz.Simpl.RAMJobStore) [INF] RAMJobStore initialized.
+2023-07-29 16:29:30.019 (Quartz.Impl.StdSchedulerFactory) [INF] Quartz Scheduler 3.6.3.0 - 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED' initialized
+2023-07-29 16:29:30.020 (Quartz.Impl.StdSchedulerFactory) [INF] Using thread pool 'Quartz.Simpl.DefaultThreadPool', size: 10
+2023-07-29 16:29:30.020 (Quartz.Impl.StdSchedulerFactory) [INF] Using job store 'Quartz.Simpl.RAMJobStore', supports persistence: False, clustered: False
+2023-07-29 16:29:30.060 (Quartz.Core.QuartzScheduler) [INF] Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2023-07-29 16:29:30.071 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 1 triggers
+2023-07-29 16:30:00.017 (Quartz.Simpl.SimpleJobFactory) [DBG] Producing instance of Job 'group1.job1', class=RW.PMS.API.QuartzService.TestJob
+2023-07-29 16:30:00.021 (Quartz.Core.ErrorLogger) [ERR] An error occurred instantiating job to be executed. job= 'group1.job1'
+Quartz.SchedulerException: Problem instantiating class 'RW.PMS.API.QuartzService.TestJob: Cannot instantiate type which has no empty constructor (Parameter 'TestJob')'
+ ---> System.ArgumentException: Cannot instantiate type which has no empty constructor (Parameter 'TestJob')
+   at Quartz.ExceptionHelper.ThrowArgumentException(String message, String paramName)
+   at Quartz.Util.ObjectUtils.InstantiateType[T](Type type)
+   at Quartz.Simpl.SimpleJobFactory.NewJob(TriggerFiredBundle bundle, IScheduler scheduler)
+   --- End of inner exception stack trace ---
+   at Quartz.Simpl.SimpleJobFactory.NewJob(TriggerFiredBundle bundle, IScheduler scheduler)
+   at Quartz.Simpl.PropertySettingJobFactory.NewJob(TriggerFiredBundle bundle, IScheduler scheduler)
+   at Quartz.Core.JobRunShell.Initialize(QuartzScheduler sched, CancellationToken cancellationToken)
+   at Quartz.Core.JobRunShell.Initialize(QuartzScheduler sched, CancellationToken cancellationToken)
+   at Quartz.Core.QuartzSchedulerThread.Run() [See nested exception: System.ArgumentException: Cannot instantiate type which has no empty constructor (Parameter 'TestJob')
+   at Quartz.ExceptionHelper.ThrowArgumentException(String message, String paramName)
+   at Quartz.Util.ObjectUtils.InstantiateType[T](Type type)
+   at Quartz.Simpl.SimpleJobFactory.NewJob(TriggerFiredBundle bundle, IScheduler scheduler)]
+2023-07-29 16:30:00.025 (Quartz.Simpl.RAMJobStore) [INF] All triggers of Job group1.job1 set to ERROR state.
+2023-07-29 16:30:00.029 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-07-29 16:30:23.270 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-07-29 16:30:47.896 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-07-29 16:31:15.877 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-07-29 16:31:44.340 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-07-29 16:32:10.512 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-07-29 16:32:35.213 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-07-29 16:33:02.950 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-07-29 16:33:12.859 (Quartz.Impl.StdSchedulerFactory) [INF] Default Quartz.NET properties loaded from embedded resource file
+2023-07-29 16:33:12.901 (Quartz.Simpl.TaskSchedulingThreadPool) [DBG] TaskSchedulingThreadPool configured with max concurrency of 10 and TaskScheduler ThreadPoolTaskScheduler.
+2023-07-29 16:33:12.912 (Quartz.Core.SchedulerSignalerImpl) [INF] Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2023-07-29 16:33:12.912 (Quartz.Core.QuartzScheduler) [INF] Quartz Scheduler created
+2023-07-29 16:33:12.912 (Quartz.Simpl.RAMJobStore) [INF] RAMJobStore initialized.
+2023-07-29 16:33:12.913 (Quartz.Impl.StdSchedulerFactory) [INF] Quartz Scheduler 3.6.3.0 - 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED' initialized
+2023-07-29 16:33:12.913 (Quartz.Impl.StdSchedulerFactory) [INF] Using thread pool 'Quartz.Simpl.DefaultThreadPool', size: 10
+2023-07-29 16:33:12.913 (Quartz.Impl.StdSchedulerFactory) [INF] Using job store 'Quartz.Simpl.RAMJobStore', supports persistence: False, clustered: False
+2023-07-29 16:33:12.959 (Quartz.Core.QuartzScheduler) [INF] Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2023-07-29 16:33:13.034 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-07-29 16:33:38.409 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-07-29 16:33:57.398 (Quartz.Impl.StdSchedulerFactory) [INF] Default Quartz.NET properties loaded from embedded resource file
+2023-07-29 16:33:57.440 (Quartz.Simpl.TaskSchedulingThreadPool) [DBG] TaskSchedulingThreadPool configured with max concurrency of 10 and TaskScheduler ThreadPoolTaskScheduler.
+2023-07-29 16:33:57.449 (Quartz.Core.SchedulerSignalerImpl) [INF] Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2023-07-29 16:33:57.449 (Quartz.Core.QuartzScheduler) [INF] Quartz Scheduler created
+2023-07-29 16:33:57.449 (Quartz.Simpl.RAMJobStore) [INF] RAMJobStore initialized.
+2023-07-29 16:33:57.449 (Quartz.Impl.StdSchedulerFactory) [INF] Quartz Scheduler 3.6.3.0 - 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED' initialized
+2023-07-29 16:33:57.450 (Quartz.Impl.StdSchedulerFactory) [INF] Using thread pool 'Quartz.Simpl.DefaultThreadPool', size: 10
+2023-07-29 16:33:57.450 (Quartz.Impl.StdSchedulerFactory) [INF] Using job store 'Quartz.Simpl.RAMJobStore', supports persistence: False, clustered: False
+2023-07-29 16:33:57.494 (Quartz.Core.QuartzScheduler) [INF] Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2023-07-29 16:33:57.506 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 1 triggers
+2023-07-29 16:34:00.018 (Quartz.Simpl.SimpleJobFactory) [DBG] Producing instance of Job 'group1.job1', class=RW.PMS.API.QuartzService.TestJob
+2023-07-29 16:34:00.021 (Quartz.Core.ErrorLogger) [ERR] An error occurred instantiating job to be executed. job= 'group1.job1'
+Quartz.SchedulerException: Problem instantiating class 'RW.PMS.API.QuartzService.TestJob: Cannot instantiate type which has no empty constructor (Parameter 'TestJob')'
+ ---> System.ArgumentException: Cannot instantiate type which has no empty constructor (Parameter 'TestJob')
+   at Quartz.ExceptionHelper.ThrowArgumentException(String message, String paramName)
+   at Quartz.Util.ObjectUtils.InstantiateType[T](Type type)
+   at Quartz.Simpl.SimpleJobFactory.NewJob(TriggerFiredBundle bundle, IScheduler scheduler)
+   --- End of inner exception stack trace ---
+   at Quartz.Simpl.SimpleJobFactory.NewJob(TriggerFiredBundle bundle, IScheduler scheduler)
+   at Quartz.Simpl.PropertySettingJobFactory.NewJob(TriggerFiredBundle bundle, IScheduler scheduler)
+   at Quartz.Core.JobRunShell.Initialize(QuartzScheduler sched, CancellationToken cancellationToken)
+   at Quartz.Core.JobRunShell.Initialize(QuartzScheduler sched, CancellationToken cancellationToken)
+   at Quartz.Core.QuartzSchedulerThread.Run() [See nested exception: System.ArgumentException: Cannot instantiate type which has no empty constructor (Parameter 'TestJob')
+   at Quartz.ExceptionHelper.ThrowArgumentException(String message, String paramName)
+   at Quartz.Util.ObjectUtils.InstantiateType[T](Type type)
+   at Quartz.Simpl.SimpleJobFactory.NewJob(TriggerFiredBundle bundle, IScheduler scheduler)]
+2023-07-29 16:34:00.025 (Quartz.Simpl.RAMJobStore) [INF] All triggers of Job group1.job1 set to ERROR state.
+2023-07-29 16:34:00.027 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-07-29 16:34:21.404 (Quartz.Impl.StdSchedulerFactory) [INF] Default Quartz.NET properties loaded from embedded resource file
+2023-07-29 16:34:21.439 (Quartz.Simpl.TaskSchedulingThreadPool) [DBG] TaskSchedulingThreadPool configured with max concurrency of 10 and TaskScheduler ThreadPoolTaskScheduler.
+2023-07-29 16:34:21.448 (Quartz.Core.SchedulerSignalerImpl) [INF] Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2023-07-29 16:34:21.448 (Quartz.Core.QuartzScheduler) [INF] Quartz Scheduler created
+2023-07-29 16:34:21.448 (Quartz.Simpl.RAMJobStore) [INF] RAMJobStore initialized.
+2023-07-29 16:34:21.449 (Quartz.Impl.StdSchedulerFactory) [INF] Quartz Scheduler 3.6.3.0 - 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED' initialized
+2023-07-29 16:34:21.449 (Quartz.Impl.StdSchedulerFactory) [INF] Using thread pool 'Quartz.Simpl.DefaultThreadPool', size: 10
+2023-07-29 16:34:21.449 (Quartz.Impl.StdSchedulerFactory) [INF] Using job store 'Quartz.Simpl.RAMJobStore', supports persistence: False, clustered: False
+2023-07-29 16:34:21.493 (Quartz.Core.QuartzScheduler) [INF] Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2023-07-29 16:34:21.504 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 1 triggers
+2023-07-29 16:34:50.010 (Quartz.Simpl.SimpleJobFactory) [DBG] Producing instance of Job 'group1.job1', class=RW.PMS.API.QuartzService.TestJob
+2023-07-29 16:34:50.013 (Quartz.Core.ErrorLogger) [ERR] An error occurred instantiating job to be executed. job= 'group1.job1'
+Quartz.SchedulerException: Problem instantiating class 'RW.PMS.API.QuartzService.TestJob: Cannot instantiate type which has no empty constructor (Parameter 'TestJob')'
+ ---> System.ArgumentException: Cannot instantiate type which has no empty constructor (Parameter 'TestJob')
+   at Quartz.ExceptionHelper.ThrowArgumentException(String message, String paramName)
+   at Quartz.Util.ObjectUtils.InstantiateType[T](Type type)
+   at Quartz.Simpl.SimpleJobFactory.NewJob(TriggerFiredBundle bundle, IScheduler scheduler)
+   --- End of inner exception stack trace ---
+   at Quartz.Simpl.SimpleJobFactory.NewJob(TriggerFiredBundle bundle, IScheduler scheduler)
+   at Quartz.Simpl.PropertySettingJobFactory.NewJob(TriggerFiredBundle bundle, IScheduler scheduler)
+   at Quartz.Core.JobRunShell.Initialize(QuartzScheduler sched, CancellationToken cancellationToken)
+   at Quartz.Core.JobRunShell.Initialize(QuartzScheduler sched, CancellationToken cancellationToken)
+   at Quartz.Core.QuartzSchedulerThread.Run() [See nested exception: System.ArgumentException: Cannot instantiate type which has no empty constructor (Parameter 'TestJob')
+   at Quartz.ExceptionHelper.ThrowArgumentException(String message, String paramName)
+   at Quartz.Util.ObjectUtils.InstantiateType[T](Type type)
+   at Quartz.Simpl.SimpleJobFactory.NewJob(TriggerFiredBundle bundle, IScheduler scheduler)]
+2023-07-29 16:34:50.015 (Quartz.Simpl.RAMJobStore) [INF] All triggers of Job group1.job1 set to ERROR state.
+2023-07-29 16:34:50.021 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-07-29 16:35:15.780 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-07-29 16:35:43.526 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-07-29 16:36:10.603 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-07-29 16:36:34.325 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-07-29 16:37:02.120 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-07-29 16:37:30.238 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-07-29 16:37:55.138 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-07-29 16:38:23.878 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-07-29 16:38:53.266 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-07-29 16:39:19.629 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-07-29 16:39:44.075 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-07-29 16:40:13.915 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-07-29 16:40:37.743 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-07-29 16:41:05.219 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-07-29 16:41:32.671 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-07-29 16:41:57.035 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-07-29 16:42:22.071 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-07-29 16:44:28.841 (Quartz.Impl.StdSchedulerFactory) [INF] Default Quartz.NET properties loaded from embedded resource file
+2023-07-29 16:44:28.880 (Quartz.Simpl.TaskSchedulingThreadPool) [DBG] TaskSchedulingThreadPool configured with max concurrency of 10 and TaskScheduler ThreadPoolTaskScheduler.
+2023-07-29 16:44:28.891 (Quartz.Core.SchedulerSignalerImpl) [INF] Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2023-07-29 16:44:28.891 (Quartz.Core.QuartzScheduler) [INF] Quartz Scheduler created
+2023-07-29 16:44:28.891 (Quartz.Simpl.RAMJobStore) [INF] RAMJobStore initialized.
+2023-07-29 16:44:28.892 (Quartz.Impl.StdSchedulerFactory) [INF] Quartz Scheduler 3.6.3.0 - 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED' initialized
+2023-07-29 16:44:28.892 (Quartz.Impl.StdSchedulerFactory) [INF] Using thread pool 'Quartz.Simpl.DefaultThreadPool', size: 10
+2023-07-29 16:44:28.893 (Quartz.Impl.StdSchedulerFactory) [INF] Using job store 'Quartz.Simpl.RAMJobStore', supports persistence: False, clustered: False
+2023-07-29 16:44:28.944 (Quartz.Core.QuartzScheduler) [INF] Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2023-07-29 16:44:28.953 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-07-29 16:44:49.738 (Quartz.Impl.StdSchedulerFactory) [INF] Default Quartz.NET properties loaded from embedded resource file
+2023-07-29 16:44:49.778 (Quartz.Simpl.TaskSchedulingThreadPool) [DBG] TaskSchedulingThreadPool configured with max concurrency of 10 and TaskScheduler ThreadPoolTaskScheduler.
+2023-07-29 16:44:49.789 (Quartz.Core.SchedulerSignalerImpl) [INF] Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2023-07-29 16:44:49.789 (Quartz.Core.QuartzScheduler) [INF] Quartz Scheduler created
+2023-07-29 16:44:49.790 (Quartz.Simpl.RAMJobStore) [INF] RAMJobStore initialized.
+2023-07-29 16:44:49.790 (Quartz.Impl.StdSchedulerFactory) [INF] Quartz Scheduler 3.6.3.0 - 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED' initialized
+2023-07-29 16:44:49.790 (Quartz.Impl.StdSchedulerFactory) [INF] Using thread pool 'Quartz.Simpl.DefaultThreadPool', size: 10
+2023-07-29 16:44:49.790 (Quartz.Impl.StdSchedulerFactory) [INF] Using job store 'Quartz.Simpl.RAMJobStore', supports persistence: False, clustered: False
+2023-07-29 16:44:49.838 (Quartz.Core.QuartzScheduler) [INF] Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2023-07-29 16:44:49.846 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 1 triggers
+2023-07-29 16:45:00.018 (Quartz.Simpl.SimpleJobFactory) [DBG] Producing instance of Job 'group1.job1', class=RW.PMS.API.QuartzService.TestJob
+2023-07-29 16:45:00.022 (Quartz.Core.ErrorLogger) [ERR] An error occurred instantiating job to be executed. job= 'group1.job1'
+Quartz.SchedulerException: Problem instantiating class 'RW.PMS.API.QuartzService.TestJob: Cannot instantiate type which has no empty constructor (Parameter 'TestJob')'
+ ---> System.ArgumentException: Cannot instantiate type which has no empty constructor (Parameter 'TestJob')
+   at Quartz.ExceptionHelper.ThrowArgumentException(String message, String paramName)
+   at Quartz.Util.ObjectUtils.InstantiateType[T](Type type)
+   at Quartz.Simpl.SimpleJobFactory.NewJob(TriggerFiredBundle bundle, IScheduler scheduler)
+   --- End of inner exception stack trace ---
+   at Quartz.Simpl.SimpleJobFactory.NewJob(TriggerFiredBundle bundle, IScheduler scheduler)
+   at Quartz.Simpl.PropertySettingJobFactory.NewJob(TriggerFiredBundle bundle, IScheduler scheduler)
+   at Quartz.Core.JobRunShell.Initialize(QuartzScheduler sched, CancellationToken cancellationToken)
+   at Quartz.Core.JobRunShell.Initialize(QuartzScheduler sched, CancellationToken cancellationToken)
+   at Quartz.Core.QuartzSchedulerThread.Run() [See nested exception: System.ArgumentException: Cannot instantiate type which has no empty constructor (Parameter 'TestJob')
+   at Quartz.ExceptionHelper.ThrowArgumentException(String message, String paramName)
+   at Quartz.Util.ObjectUtils.InstantiateType[T](Type type)
+   at Quartz.Simpl.SimpleJobFactory.NewJob(TriggerFiredBundle bundle, IScheduler scheduler)]
+2023-07-29 16:45:00.026 (Quartz.Simpl.RAMJobStore) [INF] All triggers of Job group1.job1 set to ERROR state.
+2023-07-29 16:45:00.031 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-07-29 16:45:21.384 (Quartz.Impl.StdSchedulerFactory) [INF] Default Quartz.NET properties loaded from embedded resource file
+2023-07-29 16:45:21.423 (Quartz.Simpl.TaskSchedulingThreadPool) [DBG] TaskSchedulingThreadPool configured with max concurrency of 10 and TaskScheduler ThreadPoolTaskScheduler.
+2023-07-29 16:45:21.432 (Quartz.Core.SchedulerSignalerImpl) [INF] Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2023-07-29 16:45:21.432 (Quartz.Core.QuartzScheduler) [INF] Quartz Scheduler created
+2023-07-29 16:45:21.433 (Quartz.Simpl.RAMJobStore) [INF] RAMJobStore initialized.
+2023-07-29 16:45:21.433 (Quartz.Impl.StdSchedulerFactory) [INF] Quartz Scheduler 3.6.3.0 - 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED' initialized
+2023-07-29 16:45:21.433 (Quartz.Impl.StdSchedulerFactory) [INF] Using thread pool 'Quartz.Simpl.DefaultThreadPool', size: 10
+2023-07-29 16:45:21.434 (Quartz.Impl.StdSchedulerFactory) [INF] Using job store 'Quartz.Simpl.RAMJobStore', supports persistence: False, clustered: False
+2023-07-29 16:45:21.482 (Quartz.Core.QuartzScheduler) [INF] Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2023-07-29 16:45:21.493 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-07-29 16:45:50.615 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 1 triggers
+2023-07-29 16:46:00.024 (Quartz.Simpl.SimpleJobFactory) [DBG] Producing instance of Job 'group1.job1', class=RW.PMS.API.QuartzService.TestJob
+2023-07-29 16:46:00.029 (Quartz.Core.ErrorLogger) [ERR] An error occurred instantiating job to be executed. job= 'group1.job1'
+Quartz.SchedulerException: Problem instantiating class 'RW.PMS.API.QuartzService.TestJob: Cannot instantiate type which has no empty constructor (Parameter 'TestJob')'
+ ---> System.ArgumentException: Cannot instantiate type which has no empty constructor (Parameter 'TestJob')
+   at Quartz.ExceptionHelper.ThrowArgumentException(String message, String paramName)
+   at Quartz.Util.ObjectUtils.InstantiateType[T](Type type)
+   at Quartz.Simpl.SimpleJobFactory.NewJob(TriggerFiredBundle bundle, IScheduler scheduler)
+   --- End of inner exception stack trace ---
+   at Quartz.Simpl.SimpleJobFactory.NewJob(TriggerFiredBundle bundle, IScheduler scheduler)
+   at Quartz.Simpl.PropertySettingJobFactory.NewJob(TriggerFiredBundle bundle, IScheduler scheduler)
+   at Quartz.Core.JobRunShell.Initialize(QuartzScheduler sched, CancellationToken cancellationToken)
+   at Quartz.Core.JobRunShell.Initialize(QuartzScheduler sched, CancellationToken cancellationToken)
+   at Quartz.Core.QuartzSchedulerThread.Run() [See nested exception: System.ArgumentException: Cannot instantiate type which has no empty constructor (Parameter 'TestJob')
+   at Quartz.ExceptionHelper.ThrowArgumentException(String message, String paramName)
+   at Quartz.Util.ObjectUtils.InstantiateType[T](Type type)
+   at Quartz.Simpl.SimpleJobFactory.NewJob(TriggerFiredBundle bundle, IScheduler scheduler)]
+2023-07-29 16:46:00.033 (Quartz.Simpl.RAMJobStore) [INF] All triggers of Job group1.job1 set to ERROR state.
+2023-07-29 16:46:00.038 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-07-29 16:46:23.906 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-07-29 16:46:48.193 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-07-29 16:47:15.368 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-07-29 16:47:41.734 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-07-29 16:48:07.106 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-07-29 16:48:33.608 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-07-29 16:48:58.588 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-07-29 16:49:22.313 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-07-29 16:49:49.590 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-07-29 16:50:13.776 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-07-29 16:50:23.408 (Quartz.Impl.StdSchedulerFactory) [INF] Default Quartz.NET properties loaded from embedded resource file
+2023-07-29 16:50:23.442 (Quartz.Simpl.TaskSchedulingThreadPool) [DBG] TaskSchedulingThreadPool configured with max concurrency of 10 and TaskScheduler ThreadPoolTaskScheduler.
+2023-07-29 16:50:23.451 (Quartz.Core.SchedulerSignalerImpl) [INF] Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2023-07-29 16:50:23.451 (Quartz.Core.QuartzScheduler) [INF] Quartz Scheduler created
+2023-07-29 16:50:23.451 (Quartz.Simpl.RAMJobStore) [INF] RAMJobStore initialized.
+2023-07-29 16:50:23.452 (Quartz.Impl.StdSchedulerFactory) [INF] Quartz Scheduler 3.6.3.0 - 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED' initialized
+2023-07-29 16:50:23.452 (Quartz.Impl.StdSchedulerFactory) [INF] Using thread pool 'Quartz.Simpl.DefaultThreadPool', size: 10
+2023-07-29 16:50:23.452 (Quartz.Impl.StdSchedulerFactory) [INF] Using job store 'Quartz.Simpl.RAMJobStore', supports persistence: False, clustered: False
+2023-07-29 16:50:23.497 (Quartz.Core.QuartzScheduler) [INF] Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2023-07-29 16:50:23.508 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-07-29 16:50:53.045 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 1 triggers
+2023-07-29 16:51:00.018 (Quartz.Simpl.SimpleJobFactory) [DBG] Producing instance of Job 'group1.job1', class=RW.PMS.API.QuartzService.TestJob
+2023-07-29 16:51:00.021 (Quartz.Core.ErrorLogger) [ERR] An error occurred instantiating job to be executed. job= 'group1.job1'
+Quartz.SchedulerException: Problem instantiating class 'RW.PMS.API.QuartzService.TestJob: Cannot instantiate type which has no empty constructor (Parameter 'TestJob')'
+ ---> System.ArgumentException: Cannot instantiate type which has no empty constructor (Parameter 'TestJob')
+   at Quartz.ExceptionHelper.ThrowArgumentException(String message, String paramName)
+   at Quartz.Util.ObjectUtils.InstantiateType[T](Type type)
+   at Quartz.Simpl.SimpleJobFactory.NewJob(TriggerFiredBundle bundle, IScheduler scheduler)
+   --- End of inner exception stack trace ---
+   at Quartz.Simpl.SimpleJobFactory.NewJob(TriggerFiredBundle bundle, IScheduler scheduler)
+   at Quartz.Simpl.PropertySettingJobFactory.NewJob(TriggerFiredBundle bundle, IScheduler scheduler)
+   at Quartz.Core.JobRunShell.Initialize(QuartzScheduler sched, CancellationToken cancellationToken)
+   at Quartz.Core.JobRunShell.Initialize(QuartzScheduler sched, CancellationToken cancellationToken)
+   at Quartz.Core.QuartzSchedulerThread.Run() [See nested exception: System.ArgumentException: Cannot instantiate type which has no empty constructor (Parameter 'TestJob')
+   at Quartz.ExceptionHelper.ThrowArgumentException(String message, String paramName)
+   at Quartz.Util.ObjectUtils.InstantiateType[T](Type type)
+   at Quartz.Simpl.SimpleJobFactory.NewJob(TriggerFiredBundle bundle, IScheduler scheduler)]
+2023-07-29 16:51:00.024 (Quartz.Simpl.RAMJobStore) [INF] All triggers of Job group1.job1 set to ERROR state.
+2023-07-29 16:51:00.029 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-07-29 17:09:38.743 (Quartz.Impl.StdSchedulerFactory) [INF] Default Quartz.NET properties loaded from embedded resource file
+2023-07-29 17:09:38.792 (Quartz.Simpl.TaskSchedulingThreadPool) [DBG] TaskSchedulingThreadPool configured with max concurrency of 10 and TaskScheduler ThreadPoolTaskScheduler.
+2023-07-29 17:09:38.811 (Quartz.Core.SchedulerSignalerImpl) [INF] Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2023-07-29 17:09:38.811 (Quartz.Core.QuartzScheduler) [INF] Quartz Scheduler created
+2023-07-29 17:09:38.812 (Quartz.Core.QuartzScheduler) [INF] JobFactory set to: Autofac.Extras.Quartz.AutofacJobFactory
+2023-07-29 17:09:38.812 (Quartz.Simpl.RAMJobStore) [INF] RAMJobStore initialized.
+2023-07-29 17:09:38.812 (Quartz.Impl.StdSchedulerFactory) [INF] Quartz Scheduler 3.6.3.0 - 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED' initialized
+2023-07-29 17:09:38.812 (Quartz.Impl.StdSchedulerFactory) [INF] Using thread pool 'Quartz.Simpl.DefaultThreadPool', size: 10
+2023-07-29 17:09:38.813 (Quartz.Impl.StdSchedulerFactory) [INF] Using job store 'Quartz.Simpl.RAMJobStore', supports persistence: False, clustered: False
+2023-07-29 17:09:38.824 (Quartz.Core.QuartzScheduler) [INF] Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2023-07-29 17:09:38.828 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-07-29 17:09:38.840 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 1 triggers
+2023-07-29 17:09:48.299 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 1 triggers
+2023-07-29 17:09:50.255 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 1 triggers
+2023-07-29 17:09:51.287 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 1 triggers
+2023-07-29 17:09:51.304 (Quartz.Core.JobRunShell) [DBG] Calling Execute on job DEFAULT.3e9b60a7-f0e7-4c99-8d3f-9651cc2f31df
+2023-07-29 17:09:51.304 (Quartz.Core.JobRunShell) [DBG] Calling Execute on job DEFAULT.3e9b60a7-f0e7-4c99-8d3f-9651cc2f31df
+2023-07-29 17:09:51.304 (Quartz.Core.JobRunShell) [DBG] Calling Execute on job DEFAULT.3e9b60a7-f0e7-4c99-8d3f-9651cc2f31df
+2023-07-29 17:09:56.014 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 1 triggers
+2023-07-29 17:09:56.015 (Quartz.Core.JobRunShell) [DBG] Calling Execute on job DEFAULT.3e9b60a7-f0e7-4c99-8d3f-9651cc2f31df
+2023-07-29 17:13:27.490 (Quartz.Impl.StdSchedulerFactory) [INF] Default Quartz.NET properties loaded from embedded resource file
+2023-07-29 17:13:27.529 (Quartz.Simpl.TaskSchedulingThreadPool) [DBG] TaskSchedulingThreadPool configured with max concurrency of 10 and TaskScheduler ThreadPoolTaskScheduler.
+2023-07-29 17:13:27.540 (Quartz.Core.SchedulerSignalerImpl) [INF] Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2023-07-29 17:13:27.540 (Quartz.Core.QuartzScheduler) [INF] Quartz Scheduler created
+2023-07-29 17:13:27.540 (Quartz.Core.QuartzScheduler) [INF] JobFactory set to: Autofac.Extras.Quartz.AutofacJobFactory
+2023-07-29 17:13:27.541 (Quartz.Simpl.RAMJobStore) [INF] RAMJobStore initialized.
+2023-07-29 17:13:27.541 (Quartz.Impl.StdSchedulerFactory) [INF] Quartz Scheduler 3.6.3.0 - 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED' initialized
+2023-07-29 17:13:27.541 (Quartz.Impl.StdSchedulerFactory) [INF] Using thread pool 'Quartz.Simpl.DefaultThreadPool', size: 10
+2023-07-29 17:13:27.542 (Quartz.Impl.StdSchedulerFactory) [INF] Using job store 'Quartz.Simpl.RAMJobStore', supports persistence: False, clustered: False
+2023-07-29 17:13:27.551 (Quartz.Core.QuartzScheduler) [INF] Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2023-07-29 17:13:27.556 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-07-29 17:13:27.594 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-07-29 17:13:55.605 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 1 triggers
+2023-07-29 17:14:05.915 (Quartz.Core.QuartzSchedulerThread) [DBG] Batch acquisition of 0 triggers
+2023-07-29 17:14:05.929 (Quartz.Core.JobRunShell) [DBG] Calling Execute on job DEFAULT.4a59e633-b7f3-4260-9dba-2094efeca0c1

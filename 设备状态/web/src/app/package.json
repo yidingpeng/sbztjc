@@ -1,0 +1,15 @@
+{
+    "id": "e-select",
+    "displayName": "e-select下拉选择器",
+    "version": "0.1.8",
+    "description": "下拉选择器，默认开启搜索过滤，内置插槽，可以搭配分页器进行大数据量的使用",
+    "keywords": [
+        "下拉选择框"
+    ],
+    "dcloudext": {
+        "category": [
+            "前端组件",
+            "通用组件"
+        ]
+    }
+}

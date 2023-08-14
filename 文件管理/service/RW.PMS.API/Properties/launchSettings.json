@@ -1,0 +1,13 @@
+{
+  "profiles": {
+    "RW.PMS.API": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "launchUrl": "swagger",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "https://localhost:7242;http://localhost:7241"
+    }
+  }
+}
